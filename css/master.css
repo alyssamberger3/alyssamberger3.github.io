@@ -1,0 +1,654 @@
+/* When width greater than 600px */
+@media (min-width: 600px) {
+body{
+  font-family: Helvetica, sans-serif; 
+}
+
+img {
+ width: 90%;
+ height: 350 px;
+    padding-top: 30px; 
+}
+
+#bannerimage {
+    width: 100%;
+    background-image: url("../images/eateasy.png");
+    background-repeat: no-repeat;
+    height: 205px;
+    background-color: #5c84ab;
+    background-position: center;
+    background-size: 700px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-family: Helvetica, sans-serif; 
+  }
+  #column1 {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding-top: 5px;
+    font-family: Helvetica, sans-serif; 
+  }
+  #column2 {
+    text-align: center;
+    float: center;
+    width: 33.33%;
+    padding-top: 5px;
+    font-family: Helvetica, sans-serif; 
+  }
+  #column3 {
+    text-align: center;
+    float: right;
+    width: 33.33%;
+    padding-top: 5px;
+    font-family: Helvetica, sans-serif; 
+  }
+  #column4 {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: Helvetica, sans-serif; 
+  }
+  #column5 {
+    text-align: center;
+    float: center;
+    width: 33.33%;
+    padding-top: 30px;
+    font-family: Helvetica, sans-serif; 
+  }
+  #column6 {
+    text-align: center;
+    float: right;
+    width: 33.33%;
+    padding-top: 30px;
+    font-family: Helvetica, sans-serif; 
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #A5B584;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5c84ab;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: Helvetica, sans-serif; 
+    color:#5c84ab;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-family: Helvetica, sans-serif; 
+    color:#5c84ab;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    font-family: Helvetica, sans-serif; 
+    color:#5c84ab;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    color:#5c84ab;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .button1 {
+    background-color: #A5B584;
+    color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; 
+  }
+  
+  .button1:hover {
+    color: white;
+    background-color: #5c84ab;
+  }
+  .button2 {
+    background-color: #A5B584;
+    color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    font-family: Helvetica, sans-serif; 
+    font-weight: bold; 
+  }
+  
+  .button2:hover {
+    color: white;
+    background-color: #5c84ab;
+  }
+  .button3 {
+    background-color: #A5B584;
+    color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    font-family: Helvetica, sans-serif; 
+    font-weight: bold; 
+  }
+  
+  .button3:hover {
+    color: white;
+    background-color: #5c84ab;
+  }
+  .button4 {
+    background-color: #A5B584;
+    color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    font-family: Helvetica, sans-serif; 
+    font-weight: bold; 
+  }
+  
+  .button4:hover {
+    color: white;
+    background-color: #5c84ab
+  }
+  .button5 {
+    background-color: #A5B584;
+    color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    font-family: Helvetica, sans-serif; 
+    font-weight: bold; 
+  }
+  
+  .button5:hover {
+    color: white;
+    background-color: #5c84ab;
+  }
+  .button6 {
+    background-color: #A5B584;
+    color: white;
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    font-family: Helvetica, sans-serif; 
+    font-weight: bold; 
+  }
+  
+  .button6:hover {
+    color: white;
+    background-color: #5c84ab;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #405E52;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: Helvetica, sans-serif; 
+  }
+  
+  .sidenav a:hover {
+    color:#5c84ab;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif; 
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  span {
+    color: #A5B584;  
+    padding: 15px;
+    font-weight: bold; 
+  }
+
+  .fade {
+    opacity: 1;
+  }
+  .health{
+    padding-bottom: 100%;
+  }
+  #blurb{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #405E52;
+    font-weight: medium;
+    border-radius: 10%;
+    border-color: #A5B584;
+  }
+  #header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+    
+    
+    
+}
+
+#top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    translate: -400px;
+    position: relative;
+    
+}
+
+#About {
+    background-color:#A5B584;
+    width:780px;
+    height:200px;
+    margin:auto;
+    translate:150px;
+    margin-top:-215px;
+    position: relative;
+
+}
+
+#popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+    translate:-400px;
+    margin-top:50px;
+
+}
+
+#Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:780px;
+    margin:auto;
+    translate:150px;
+    margin-top:-365px;
+
+}
+
+.Recipe{
+    width:225px;
+    margin:auto;
+    margin-top:50px;
+
+}
+
+#recipe1{
+    background-color: #5c84ab;
+    height:200px;
+    translate:-400px;
+}
+
+#recipe2{
+    background-color: #A5B584;
+    height:200px;
+    translate:-128px;
+    margin-top:-223px;
+
+}
+
+#recipe3{
+    background-color: #5c84ab;
+    height:200px;
+    translate:145px;
+    margin-top:-224px;
+
+}
+
+#recipe4{
+    background-color: #A5B584;
+    height:200px;
+    translate:420px;
+    margin-top:-224px;
+
+}
+
+
+}
+  @media only screen and (max-width: 600px) {
+    body{
+      font-family: Helvetica, sans-serif; 
+    }
+    
+    img {
+     width: 90%;
+     height: 350 px;
+        padding-top: 30px; 
+    }
+    
+    #bannerimage {
+        width: 100%;
+        background-image: url("../images/eateasy.png");
+        background-repeat: no-repeat;
+        height: 205px;
+        background-color: #5c84ab;
+        background-position: center;
+        background-size: 600px;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        font-family: Helvetica, sans-serif; 
+      }
+      #column1 {
+        text-align: right;
+        float: center;
+        width: 75%;
+        padding-top: 5px;
+        font-family: Helvetica, sans-serif; 
+      }
+      #column2 {
+        text-align: right;
+        float: center;
+        width: 75%;
+        padding-top: 5px;
+        font-family: Helvetica, sans-serif; 
+      }
+      #column3 {
+        text-align: right;
+        float: center;
+        width: 75%;
+        padding-top: 5px;
+        font-family: Helvetica, sans-serif; 
+      }
+      #column4 {
+        text-align: right;
+        float: center;
+        width: 75%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        font-family: Helvetica, sans-serif; 
+      }
+      #column5 {
+        text-align: right;
+        float: center;
+        width: 75%;
+        padding-top: 30px;
+        font-family: Helvetica, sans-serif; 
+      }
+      #column6 {
+        text-align: right;
+        float: center;
+        width: 75%;
+        padding-top: 30px;
+        font-family: Helvetica, sans-serif; 
+        padding-bottom: 10%;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #A5B584;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #5c84ab;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        font-family: Helvetica, sans-serif; 
+        color:#5c84ab;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+        font-family: Helvetica, sans-serif; 
+        color:#5c84ab;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+        font-family: Helvetica, sans-serif; 
+        color:#5c84ab;
+      }
+      
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        color:#5c84ab;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+      .button1 {
+        background-color: #A5B584;
+        color: white;
+        border: 1px solid black;
+        width: 90%;
+        height: 40px;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold; 
+      }
+      
+      .button1:hover {
+        color: white;
+        background-color: #5c84ab;
+      }
+      .button2 {
+        background-color: #A5B584;
+        color: white;
+        border: 1px solid black;
+        width: 90%;
+        height: 40px;
+        font-family: Helvetica, sans-serif; 
+        font-weight: bold; 
+      }
+      
+      .button2:hover {
+        color: white;
+        background-color: #5c84ab;
+      }
+      .button3 {
+        background-color: #A5B584;
+        color: white;
+        border: 1px solid black;
+        width: 90%;
+        height: 40px;
+        font-family: Helvetica, sans-serif; 
+        font-weight: bold; 
+      }
+      
+      .button3:hover {
+        color: white;
+        background-color: #5c84ab;
+      }
+      .button4 {
+        background-color: #A5B584;
+        color: white;
+        border: 1px solid black;
+        width: 90%;
+        height: 40px;
+        font-family: Helvetica, sans-serif; 
+        font-weight: bold; 
+      }
+      
+      .button4:hover {
+        color: white;
+        background-color: #5c84ab
+      }
+      .button5 {
+        background-color: #A5B584;
+        color: white;
+        border: 1px solid black;
+        width: 90%;
+        height: 40px;
+        font-family: Helvetica, sans-serif; 
+        font-weight: bold; 
+      }
+      
+      .button5:hover {
+        color: white;
+        background-color: #5c84ab;
+      }
+      .button6 {
+        background-color: #A5B584;
+        color: white;
+        border: 1px solid black;
+        width: 90%;
+        height: 40px;
+        font-family: Helvetica, sans-serif; 
+        font-weight: bold; 
+      }
+      
+      .button6:hover {
+        color: white;
+        background-color: #5c84ab;
+      }
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #405E52;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: Helvetica, sans-serif; 
+      }
+      
+      .sidenav a:hover {
+        color:#5c84ab;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        font-family: Helvetica, sans-serif; 
+      }
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      span {
+        color: #A5B584;  
+        padding: 15px;
+        font-weight: bold; 
+      }
+    
+      .fade {
+        opacity: 1;
+      }
+      .health{
+        padding-bottom: 100%;
+      }
+    }
+    
+  
