@@ -389,12 +389,13 @@ img {
     
     #bannerimage {
         width: 100%;
-        background-image: url("../images/eateasy.png");
+        background-image: url("../images/eateasier.png");
         background-repeat: no-repeat;
         height: 205px;
+        width:100%;
         background-color: #5c84ab;
         background-position: center;
-        background-size: 600px;
+        background-size: 400px;
     }
     .topnav a:hover {
         background-color: #ddd;
