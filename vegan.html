@@ -5,13 +5,110 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/master.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    
+  
+    <style>
+        img{
+          height: 180px;
+          width:205px;
+          text-align: center;
+          float: center;
+          padding: 10px;
+        }
+        p{
+            font-weight: 550;
+            text-align: center;
+        }
+        #cotton{
+            translate:0px;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate:10px;
+            font-weight: 550;
+        }
+        #fizz{
+            translate:10px;
+            font-weight: 550;
+        }
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.top {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+      
+      </style>  
 </head>
 
 <body>
     <h1>
         <div id="header">
-            <p>Header</p>
+            <p>Veganism</p>
         </div> <!--end header-->
     </h1>
 
@@ -36,43 +133,79 @@
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
-
+    <div class="top">
     <div id="top_image">
-        <p>image here</p>
+        <img src="veganism.png" alt="Veganism">
     </div> <!--end top_image-->
 
-    <div id="About">
-        <p>About here</p>
+    <div id="About" style="padding-top:3px;">
+        <p>Veganism is a compassionate and sustainable lifestyle that embraces a plant-based diet and a deep commitment to animal welfare and environmental preservation. It goes beyond what's on your plate, extending to all aspects of life. By abstaining from animal products like meat, dairy, and eggs, vegans not only enjoy a wide array of delicious and nutritious plant-based foods but also make a profound impact on the world. With a focus on kindness, ethics, and responsibility, veganism stands as a powerful movement that seeks to reduce animal suffering, combat climate change, and promote a healthier, more harmonious planet for all living creatures. It's a journey toward a brighter, more compassionate future, where choices align with a vision of sustainability and ethical consciousness.</p>
     </div> <!--end About-->
-
+</div>
+<div class="middle">
     <div id="popular_foods">
-        <p>Popular Foods Here</p>
+       <img src="vegansnacks.png" alt="Veganism">
+       <p><a href="https://eatbobos.com/pages/about-us">Bobo's</a></p>
+       <p><a href="https://hippeas.com/">Hippeas</a></p>
+       <p><a href="https://nowheychocolate.com/great-candy/chocolate-no-nos/">No Whey!</a></p>
+       <p><a href="https://plantsnacks.com/">Plant Snacks</a></p>
     </div><!--end popular_foods-->
 
     <div id="Influencers">
-        <p>Influencers Here</p>
+        <img src="cotton.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <img src="niomi.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <img src="fizz.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <div id="cotton">
+            <p>
+                <a
+                  href="https://www.instagram.com/fearnecotton/"
+                  title="FearneCotton Instagram Page">
+                  FearneCotton</a>
+                  is a devoted mother, broadcaster, and writier dedicating to spreading positivity. 
+              </p>
+              </div>
+              <div id="niomi">
+              <a
+              href="https://www.instagram.com/niomismart/"
+              title="Niomi Smart Instagram Page">
+              Niomi Smart</a>
+              is a word travler and fitness influencer sharing a broader message of body positivity. 
+          </p>
+          </div>
+          <div id="fizz">
+            <a
+            href="https://www.instagram.com/familyfizz/"
+            title="FamilyFizz Instagram Page">
+            FamilyFizz</a>
+            is family of influencers sharing details as their life as they provide insites on Veganism. 
+        </p>
+          </div>
+        </div>
     </div><!--end Influencers-->
-
+</div>
     <h2 class="Recipe">
 
         <div id="recipe1">
-                <p>recipe 1</p>
-
+                <img src="fajita.png" alt="Vegan Fajitas">
+                <a href="https://www.loveandlemons.com/fajita-veggies/">Vegan Fajitas</a>
         </div><!--end recipe1-->
 
         <div id="recipe2">
-                <p>recipe 2</p>
+            <img src="burger.png" alt="Vegan Burger">
+            <a href="https://www.loveandlemons.com/best-veggie-burger-recipe/">Vegan Burgers</a>
 
         </div><!--end recipe2-->
 
         <div id="recipe3">
-                <p>recipe 3</p>
+            <img src="falafel.png" alt="Vegan Falafel">
+            <a href="https://www.loveandlemons.com/falafel/">Vegan Falafel</a>
 
         </div><!--end recipe3-->
 
         <div id="recipe4">
-                <p>recipe 4</p>
-                
+            <img src="meatball.png" alt="Vegan Meatballs">
+            <a href="https://www.loveandlemons.com/vegan-meatballs/">Vegan Meatballs</a>
+
         </div><!--end recipe4-->
 
     </h2><!--end Recipe Class-->
