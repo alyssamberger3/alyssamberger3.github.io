@@ -1,0 +1,220 @@
+#header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-50px;
+    
+    
+}
+
+#top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    translate: -400px;
+    
+}
+
+#About {
+    background-color:#A5B584;
+    width:780px;
+    height:200px;
+    margin:auto;
+    translate:150px;
+    margin-top:-215px;
+
+}
+
+#popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+    translate:-400px;
+    margin-top:50px;
+
+}
+
+#Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:780px;
+    margin:auto;
+    translate:150px;
+    margin-top:-365px;
+
+}
+
+.Recipe{
+    width:225px;
+    margin:auto;
+    margin-top:50px;
+
+}
+
+#recipe1{
+    background-color: #5c84ab;
+    height:200px;
+    translate:-400px;
+}
+
+#recipe2{
+    background-color: #A5B584;
+    height:200px;
+    translate:-128px;
+    margin-top:-223px;
+
+}
+
+#recipe3{
+    background-color: #5c84ab;
+    height:200px;
+    translate:145px;
+    margin-top:-224px;
+
+}
+
+#recipe4{
+    background-color: #A5B584;
+    height:200px;
+    translate:420px;
+    margin-top:-224px;
+
+}
+
+img{
+    height: 180px;
+    width:205px;
+    text-align: center;
+    float: center;
+    padding: 10px;
+  }
+  p{
+      font-weight: 550;
+      text-align: center;
+  }
+  #cotton{
+      translate:0px;
+  }
+  #popular_foods{
+      text-align: center;
+  }
+  #about{
+      text-align: center;
+  }
+  #niomi{
+      translate:8%;
+      font-weight: 550;
+  }
+  #fizz{
+      translate:13%;
+      font-weight: 550;
+  }
+.Recipe {
+display: flex;
+justify-content: center;
+width: 80%;
+padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+background-color: #5c84ab ;
+width: 250px;
+height: 200px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+background-color: #A5B584 ;
+width: 250px;
+height: 200px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+}
+.top {
+display: flex;
+justify-content: center;
+width: 80%;
+padding-left: 10%;
+padding-top: 1%;
+}
+
+.top > #top_image {
+background-color: #5c84ab;
+width: 225px;
+height: 200px;
+margin:auto;
+position: relative;
+}  
+.top > #About{
+background-color:#A5B584;
+width:820px;
+height:200px;
+margin:auto;
+position: relative;
+font-size: 18px;
+}  
+.middle {
+display: flex;
+justify-content: center;
+width: 80%;
+padding-left: 10%;
+padding-top: 3%;
+}
+.middle > #popular_foods {
+background-color: #A5B584;
+width: 225px;
+height: 350px;
+margin:auto;
+
+}  
+.middle > #Influencers{
+background-color:#5c84ab;
+height:350px;
+width:820px;
+margin:auto;
+}  
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #405E52;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: Helvetica, sans-serif; 
+  }
+  
+  .sidenav a:hover {
+    color:#5c84ab;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif; 
+  }
