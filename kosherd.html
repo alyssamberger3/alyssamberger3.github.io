@@ -1,22 +1,237 @@
-<<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="icon" type="image/x-icon" href="../apple.png">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/master.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-    img{
-      height: 50px;
-    }
+  
+    <style>
+        @media (min-width: 1100px) {
+        img{
+          height: 180px;
+          width:205px;
+          text-align: center;
+          float: center;
+          padding: 10px;
+        }
+        p{
+            font-weight: 550;
+            text-align: center;
+        }
+        #cotton{
+            translate:0px;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate:8%;
+            font-weight: 550;
+        }
+        #fizz{
+            translate:13%;
+            font-weight: 550;
+        }
+        #header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        }
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
 
-  </style>  
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.top {
+display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        @media (max-width: 1100px) {
+    
+img{
+          height: 180px;
+          width:205px;
+          text-align: center;
+          float: center;
+          padding: 10px;
+        }
+        p{
+            font-weight: 550;
+            text-align: center;
+        }
+        #cotton{
+            translate:0px;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate: 2%;
+            font-weight: 550;
+        }
+        #fizz{
+            translate:2%;
+            font-weight: 550;
+
+        }   
+        #header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.top {
+display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        }
+      </style>  
 </head>
 
 <body>
     <h1>
         <div id="header">
-            <p>Header</p>
+            <p>Gluten Free</p>
         </div> <!--end header-->
     </h1>
 
@@ -41,43 +256,79 @@
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
-
+    <div class="top">
     <div id="top_image">
-        <p>image here</p>
+        <img src="glutenfree.png" alt="Gluten Free">
     </div> <!--end top_image-->
 
-    <div id="About">
-        <p>About here</p>
+    <div id="About" style="padding-top:3px;">
+        <p>Gluten-free living has become a lifestyle choice embraced by millions around the world. Whether due to celiac disease, gluten sensitivity, or a desire for a healthier diet, going gluten-free means avoiding wheat, barley, rye, and their derivatives. This dietary shift opens up a world of delicious possibilities, from naturally gluten-free grains like rice and quinoa to an array of gluten-free products and recipes. Discover a thriving community dedicated to enjoying gluten-free living, where flavor and health come together in a way that's inclusive and satisfying for all.</p>
     </div> <!--end About-->
-
+</div>
+<div class="middle">
     <div id="popular_foods">
-        <p>Popular Foods Here</p>
+       <img src="glutensnacks.png" alt="Veganism">
+       <p><a href="https://kodiakcakes.com/">Kodiak Cakes</a></p>
+       <p><a href="https://www.backtonaturefoods.com/">Back to Nature</a></p>
+       <p><a href="https://highkey.com/">High Key</a></p>
+       <p><a href="https://www.kindsnacks.com/">Kind Bars</a></p>
     </div><!--end popular_foods-->
 
     <div id="Influencers">
-        <p>Influencers Here</p>
+        <img src="pantry.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <img src="chick.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <img src="bean.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <div id="cotton">
+            <p>
+                <a
+                  href="https://www.instagram.com/elanaspantry/"
+                  title="Elanaspantry's Instagram Page">
+                  Elanaspantry</a>
+                  is a New York Times Bestselling author and the founder of Elana’s Pantry. 
+              </p>
+              </div>
+              <div id="niomi">
+              <a
+              href="https://www.instagram.com/celiacchicks/"
+              title="Celiacchick Instagram Page">
+              Celiacchick</a>
+              is based in New Jersey and has been sharing her gluten-free finds since 2003!
+          </p>
+          </div>
+          <div id="fizz">
+            <a
+            href="https://www.instagram.com/im.emily.bean/"
+            title="im.emily.bean Instagram Page">
+            Im.emily.bean</a>
+            is a 100% gluten-free foodie from the New England area. 
+        </p>
+          </div>
+        </div>
     </div><!--end Influencers-->
-
+</div>
     <h2 class="Recipe">
 
         <div id="recipe1">
-                <p>recipe 1</p>
-
+                <img src="pizza.png" alt="Gluten Free Pancakes">
+                <a href="https://www.tasteofhome.com/recipes/gluten-free-pizza-crust/">GF Pizza</a>
         </div><!--end recipe1-->
 
         <div id="recipe2">
-                <p>recipe 2</p>
+            <img src="pancake.png" alt="Gluten Free Pancakes">
+            <a href="https://www.tasteofhome.com/recipes/gluten-free-pancakes/">GF Pancakes</a>
 
         </div><!--end recipe2-->
 
         <div id="recipe3">
-                <p>recipe 3</p>
+            <img src="pumpkinpie.png" alt="Gluten Free Pumpkin Pie">
+            <a href="https://www.tasteofhome.com/article/how-to-make-gluten-free-pumpkin-pie/">GF Pumpkin Pie</a>
 
         </div><!--end recipe3-->
 
         <div id="recipe4">
-                <p>recipe 4</p>
-                
+            <img src="mashedpotatoes.png" alt="Gluten Free Mashed Potatoes">
+            <a href="https://www.tasteofhome.com/recipes/loaded-mashed-potatoes/">GF Mashed Potatoes</a>
+
         </div><!--end recipe4-->
 
     </h2><!--end Recipe Class-->
