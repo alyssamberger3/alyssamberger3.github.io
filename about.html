@@ -38,6 +38,7 @@
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Return Home</a>
       <a href="health.html">Health/Lifestyle Based</a>
       <a href="faith.html">Faith Based</a>
       <a href="index.html">Return Home</a>
@@ -62,5 +63,42 @@
         
     <p>Whether you're a seasoned health enthusiast or a newbie on the wellness path, EatEasy's user-friendly platform ensures you find exactly what you need to thrive. So, take the first step towards your healthiest self and dive into a world of culinary discovery with EatEasy. Nourish your body, excite your taste buds, and let your transformation begin.</p>
     </div>
+    <div style="text-align:center"> 
+      <button onclick="playPause()">Play/Pause</button> 
+      <button onclick="makeBig()">Big</button>
+      <button onclick="makeSmall()">Small</button>
+      <button onclick="makeNormal()">Normal</button>
+      <br><br>
+      <video id="video1" width="420">
+        <source src="diet.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>
+    </div> 
+    
+    <script> 
+    var myVideo = document.getElementById("video1"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+    
+    function makeBig() { 
+        myVideo.width = 560; 
+    } 
+    
+    function makeSmall() { 
+        myVideo.width = 320; 
+    } 
+    
+    function makeNormal() { 
+        myVideo.width = 420; 
+    } 
+    </script> 
+    
+    <p></p>
+    
     </body>
     </html>

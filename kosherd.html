@@ -20,7 +20,7 @@
             text-align: center;
         }
         #cotton{
-            translate:0px;
+            translate:-7%;
         }
         #popular_foods{
             text-align: center;
@@ -115,20 +115,15 @@ display: flex;
 }  
         }
         @media (max-width: 1100px) {
-    
-img{
-          height: 180px;
-          width:205px;
-          text-align: center;
-          float: center;
-          padding: 10px;
+        body{
+          font-size: 20px;
         }
         p{
-            font-weight: 550;
+            
             text-align: center;
         }
         #cotton{
-            translate:0px;
+            translate:-55;
         }
         #popular_foods{
             text-align: center;
@@ -138,11 +133,11 @@ img{
         }
         #niomi{
             translate: 2%;
-            font-weight: 550;
+          
         }
         #fizz{
             translate:2%;
-            font-weight: 550;
+            
 
         }   
         #header {
@@ -178,13 +173,6 @@ img{
   margin: 10px;
   text-align: center;
   line-height: 75px;
-}
-.top {
-display: flex;
-  justify-content: center;
-  width: 80%;
-  padding-left: 10%;
-  padding-top: 1%;
 }
 
 .top > #top_image {
@@ -224,6 +212,41 @@ display: flex;
     margin:auto;
 }  
         }
+        .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #405E52;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: Helvetica, sans-serif; 
+      }
+      
+      .sidenav a:hover {
+        color:#5c84ab;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        font-family: Helvetica, sans-serif; 
+      }
         }
       </style>  
 </head>
@@ -231,7 +254,7 @@ display: flex;
 <body>
     <h1>
         <div id="header">
-            <p>Gluten Free</p>
+            <p>Kosher</p>
         </div> <!--end header-->
     </h1>
 
@@ -258,49 +281,49 @@ display: flex;
       </script>
     <div class="top">
     <div id="top_image">
-        <img src="glutenfree.png" alt="Gluten Free">
+        <img src="dairy.png" alt="Kosher Dairy">
     </div> <!--end top_image-->
 
     <div id="About" style="padding-top:3px;">
-        <p>Gluten-free living has become a lifestyle choice embraced by millions around the world. Whether due to celiac disease, gluten sensitivity, or a desire for a healthier diet, going gluten-free means avoiding wheat, barley, rye, and their derivatives. This dietary shift opens up a world of delicious possibilities, from naturally gluten-free grains like rice and quinoa to an array of gluten-free products and recipes. Discover a thriving community dedicated to enjoying gluten-free living, where flavor and health come together in a way that's inclusive and satisfying for all.</p>
+        <p>Kosher dairy products adhere to the dietary laws and traditions of the Jewish faith, ensuring that they meet specific criteria for consumption. These products are produced under strict supervision, following a set of guidelines that govern the entire production process—from sourcing ingredients to equipment used in processing. To be certified kosher, dairy products must be free from mixing meat and dairy ingredients, and the entire production facility must be rigorously inspected. This commitment to kosher standards not only caters to the dietary needs of the Jewish community but also reflects a dedication to maintaining the highest levels of quality and integrity in the production of dairy goods.</p>
     </div> <!--end About-->
 </div>
 <div class="middle">
     <div id="popular_foods">
-       <img src="glutensnacks.png" alt="Veganism">
-       <p><a href="https://kodiakcakes.com/">Kodiak Cakes</a></p>
-       <p><a href="https://www.backtonaturefoods.com/">Back to Nature</a></p>
-       <p><a href="https://highkey.com/">High Key</a></p>
-       <p><a href="https://www.kindsnacks.com/">Kind Bars</a></p>
+       <img src="koshersnacks.png" alt="Kosher Dairy Snacks">
+       <p><a href="https://kazecheese.com/">Käze Cheese Bites</a></p>
+       <p><a href="https://www.popcorners.com/">Pop Corners</a></p>
+       <p><a href="https://www.lennylarry.com/">Lenny and Larry's</a></p>
+       <p><a href="https://shop.marysgonecrackers.com/kookies/c/marysgonecrackers@kookies">Mary's Gone Kookies</a></p>
     </div><!--end popular_foods-->
 
     <div id="Influencers">
-        <img src="pantry.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
-        <img src="chick.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
-        <img src="bean.png"style="padding-top:20px; translate: 48px;" alt="Veganism">
+        <img src="molly.png"style="padding-top:20px; translate: 48px;" alt="Kosher">
+        <img src="jake.png"style="padding-top:20px; translate: 48px;" alt="Kosher">
+        <img src="amy.png"style="padding-top:20px; translate: 48px;" alt="Kosher">
         <div id="cotton">
             <p>
                 <a
-                  href="https://www.instagram.com/elanaspantry/"
-                  title="Elanaspantry's Instagram Page">
-                  Elanaspantry</a>
-                  is a New York Times Bestselling author and the founder of Elana’s Pantry. 
+                  href="https://www.instagram.com/mollyyeh/?utm_source=ig_embed&ig_rid=50899ed1-3c9a-4997-ac0e-c9d63e65a7dc"
+                  title="Molly Yeh's Instagram Page">
+                  Molly Yeh</a>
+                  is a Food Network host, mother, and author. 
               </p>
               </div>
               <div id="niomi">
               <a
-              href="https://www.instagram.com/celiacchicks/"
-              title="Celiacchick Instagram Page">
-              Celiacchick</a>
-              is based in New Jersey and has been sharing her gluten-free finds since 2003!
+              href="https://www.instagram.com/jakecohen/tagged/"
+              title="Jake Cohen's Instagram Page">
+              Jake Cohen</a>
+              is is a two time NYT Best Selling Author and runs a nationwide bakery
           </p>
           </div>
           <div id="fizz">
             <a
-            href="https://www.instagram.com/im.emily.bean/"
-            title="im.emily.bean Instagram Page">
-            Im.emily.bean</a>
-            is a 100% gluten-free foodie from the New England area. 
+            href="https://www.instagram.com/whatjewwannaeat/?utm_source=ig_embed&ig_rid=e5f249c6-02a3-46ec-a0be-36e132bd3939"
+            title="Whatjewwannaeat Instagram Page">
+            Whatjewwannaeat</a>
+            is an author and food network contributor. 
         </p>
           </div>
         </div>
@@ -309,25 +332,25 @@ display: flex;
     <h2 class="Recipe">
 
         <div id="recipe1">
-                <img src="pizza.png" alt="Gluten Free Pancakes">
-                <a href="https://www.tasteofhome.com/recipes/gluten-free-pizza-crust/">GF Pizza</a>
+                <img src="blintz.png" alt="Blintzes">
+                <a href="https://www.kosherinthekitch.com/passover-cheese-blintzes/">Blintzes</a>
         </div><!--end recipe1-->
 
         <div id="recipe2">
-            <img src="pancake.png" alt="Gluten Free Pancakes">
-            <a href="https://www.tasteofhome.com/recipes/gluten-free-pancakes/">GF Pancakes</a>
+            <img src="kosherpancake.png" alt="Kosher Pancakes">
+            <a href="https://www.kosherinthekitch.com/strawberry-peach-pancakes/">Pancakes</a>
 
         </div><!--end recipe2-->
 
         <div id="recipe3">
-            <img src="pumpkinpie.png" alt="Gluten Free Pumpkin Pie">
-            <a href="https://www.tasteofhome.com/article/how-to-make-gluten-free-pumpkin-pie/">GF Pumpkin Pie</a>
+            <img src="koshernachos.png" alt="Kosher Nachos">
+            <a href="https://www.kosherinthekitch.com/nacho-hamantaschen/">Nachos</a>
 
         </div><!--end recipe3-->
 
         <div id="recipe4">
-            <img src="mashedpotatoes.png" alt="Gluten Free Mashed Potatoes">
-            <a href="https://www.tasteofhome.com/recipes/loaded-mashed-potatoes/">GF Mashed Potatoes</a>
+            <img src="spaghetti.png" alt="Kosher Spaghetti">
+            <a href="https://www.kosherinthekitch.com/baked-spaghetti-with-meat-sauce/">Kosher Spaghetti/a>
 
         </div><!--end recipe4-->
 
