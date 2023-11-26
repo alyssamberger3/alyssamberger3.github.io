@@ -5,13 +5,256 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/master.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <style>
+        @media (min-width: 1100px) {
+        img{
+          height: 180px;
+          width:205px;
+          text-align: center;
+          float: center;
+          padding: 10px;
+        }
+        p{
+            font-weight: 550;
+            text-align: center;
+        }
+        #cotton{
+            translate:-7%;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate:8%;
+            font-weight: 550;
+        }
+        #fizz{
+            translate:8%;
+            font-weight: 550;
+        }
+        #header {
+    background-color: #5c84ab;
     
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        }
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.top {
+display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        @media (max-width: 1100px) {
+        body{
+          font-size: 20px;
+        }
+        p{
+            
+            text-align: center;
+        }
+        #cotton{
+            translate:-9%;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate: 2%;
+          
+        }
+        #fizz{
+            translate:2%;
+            
+
+        }   
+        #header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #405E52;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: Helvetica, sans-serif; 
+      }
+      
+      .sidenav a:hover {
+        color:#5c84ab;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        font-family: Helvetica, sans-serif; 
+      }
+        }
+      </style>  
 </head>
 
 <body>
     <h1>
         <div id="header">
-            <p>Header</p>
+            <p>Vegetarianism</p>
         </div> <!--end header-->
     </h1>
 
@@ -36,43 +279,79 @@
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
-
+    <div class="top">
     <div id="top_image">
-        <p>image here</p>
+        <img src="veg.png" alt="Vegetarianism">
     </div> <!--end top_image-->
 
-    <div id="About">
-        <p>About here</p>
+    <div id="About" style="padding-top:3px;">
+        <p>Vegetarianism is a mindful dietary choice that emphasizes a plant-centric lifestyle while excluding meat and, in some cases, other animal products. Rooted in a commitment to compassionate living, vegetarians navigate a culinary landscape rich in fruits, vegetables, grains, and legumes, eschewing the consumption of meat for ethical, environmental, and health reasons. By forgoing meat, vegetarians contribute to the reduction of environmental impact associated with animal agriculture and align with principles that prioritize the welfare of animals. This dietary philosophy not only fosters personal well-being but also serves as a positive step towards a more sustainable and compassionate global food system. </p>
     </div> <!--end About-->
-
+</div>
+<div class="middle">
     <div id="popular_foods">
-        <p>Popular Foods Here</p>
+       <img src="vegsnacks.png" alt="Vegetarian Snacks">
+       <p><a href="https://noevilfoods.com/">No Evil Snacks</a></p>
+       <p><a href="https://www.eatalphafoods.com/">Alpha Foods</a></p>
+       <p><a href="https://daring.com/">Daring Food</a></p>
+       <p><a href="https://www.tasteofhome.com/collection/vegetarian-brand-names/">Moku Foods</a></p>
     </div><!--end popular_foods-->
 
     <div id="Influencers">
-        <p>Influencers Here</p>
+        <img src="serena.png"style="padding-top:20px; translate: 48px;" alt="Vegetarian">
+        <img src="madonna.png"style="padding-top:20px; translate: 48px;" alt="Vegetarian">
+        <img src="justine.png"style="padding-top:20px; translate: 48px;" alt="Vegetarian">
+        <div id="cotton">
+            <p>
+                <a
+                  href="https://www.instagram.com/serenawilliams/"
+                  title="Serena William's Instagram Page">
+                  Serena William's</a>
+                  is a tennis player follows a vegetarian and vegan diet. 
+              </p>
+              </div>
+              <div id="niomi">
+              <a
+              href="https://www.instagram.com/madonna/"
+              title="Madonna's Instagram Page">
+              Madonna</a>
+              is a popstar who follows a vegetarian and often vegan diet.
+          </p>
+          </div>
+          <div id="fizz">
+            <a
+            href="https://www.instagram.com/justine_snacks/"
+            title="Justine Doiron's Instagram Page">
+            Justine Doiron</a>
+            is a TikTok influencer that shares vegetarian recipes. 
+        </p>
+          </div>
+        </div>
     </div><!--end Influencers-->
-
+</div>
     <h2 class="Recipe">
 
         <div id="recipe1">
-                <p>recipe 1</p>
-
+                <img src="vfajita.png" alt="Fajitas">
+                <a href="https://www.acouplecooks.com/vegetarian-fajitas/">Fajitas</a>
         </div><!--end recipe1-->
 
         <div id="recipe2">
-                <p>recipe 2</p>
+            <img src="vpizza.png" alt="Pizza">
+            <a href="https://www.acouplecooks.com/margherita-pizza-recipe/">Pizza</a>
 
         </div><!--end recipe2-->
 
         <div id="recipe3">
-                <p>recipe 3</p>
+            <img src="soup.png" alt="Soup">
+            <a href="https://www.acouplecooks.com/vegetarian-tortilla-soup/">Tortilla Soup</a>
 
         </div><!--end recipe3-->
 
         <div id="recipe4">
-                <p>recipe 4</p>
-                
+            <img src="tacos.png" alt="Tacos">
+            <a href="https://www.acouplecooks.com/mushroom-tacos/">Tacos</a>
+
         </div><!--end recipe4-->
 
     </h2><!--end Recipe Class-->

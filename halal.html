@@ -5,13 +5,256 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/master.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <style>
+        @media (min-width: 1100px) {
+        img{
+          height: 180px;
+          width:205px;
+          text-align: center;
+          float: center;
+          padding: 10px;
+        }
+        p{
+            font-weight: 550;
+            text-align: center;
+        }
+        #cotton{
+            translate:-7%;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate:8%;
+            font-weight: 550;
+        }
+        #fizz{
+            translate:8%;
+            font-weight: 550;
+        }
+        #header {
+    background-color: #5c84ab;
     
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        }
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.top {
+display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        @media (max-width: 1100px) {
+        body{
+          font-size: 20px;
+        }
+        p{
+            
+            text-align: center;
+        }
+        #cotton{
+            translate:-3%;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate: 2%;
+          
+        }
+        #fizz{
+            translate:2%;
+            
+
+        }   
+        #header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #405E52;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: Helvetica, sans-serif; 
+      }
+      
+      .sidenav a:hover {
+        color:#5c84ab;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        font-family: Helvetica, sans-serif; 
+      }
+        }
+      </style>  
 </head>
 
 <body>
     <h1>
         <div id="header">
-            <p>Header</p>
+            <p>Halal</p>
         </div> <!--end header-->
     </h1>
 
@@ -36,43 +279,80 @@
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
-
+    <div class="top">
     <div id="top_image">
-        <p>image here</p>
+        <img src="hal.png" alt="Halal">
     </div> <!--end top_image-->
 
-    <div id="About">
-        <p>About here</p>
+    <div id="About" style="padding-top:3px;">
+        <p>
+            Halal refers to the dietary laws and guidelines followed by Muslims, encompassing permissible food and beverages according to Islamic principles. In adherence to Halal, certain foods, including meat and poultry, must be prepared and consumed in specific ways, ensuring they meet the ethical and religious standards outlined in the Quran. Halal certification guarantees that products comply with these regulations, providing assurance to consumers seeking products that align with their religious beliefs. Beyond food, the concept of Halal extends to various aspects of daily life, promoting ethical practices and mindfulness in accordance with Islamic teachings.</p>
     </div> <!--end About-->
-
+</div>
+<div class="middle">
     <div id="popular_foods">
-        <p>Popular Foods Here</p>
+       <img src="hsnacks.png" alt="Halal Snacks">
+       <p><a href="https://saadmeats.com/snacks/">Saad Meats</a></p>
+       <p><a href="https://sourpatchkids.com/">Sour Patch Kids</a></p>
+       <p><a href="https://www.popsecret.com/">Pop Secret</a></p>
+       <p><a href="https://wicklespickles.com/">Wickles Pickles </a></p>
     </div><!--end popular_foods-->
 
     <div id="Influencers">
-        <p>Influencers Here</p>
+        <img src="nusret.png"style="padding-top:20px; translate: 48px;" alt="Halal">
+        <img src="karim.png"style="padding-top:20px; translate: 48px;" alt="Halal">
+        <img src="ibt.png"style="padding-top:20px; translate: 48px;" alt="Halal">
+        <div id="cotton">
+            <p>
+                <a
+                  href="https://www.instagram.com/nusr_et/"
+                  title="Nusret's Instagram Page">
+                  Nusret Gokce's</a>
+                  is a famous Turkish salt-throwing celebrity BBQ Chef. 
+              </p>
+              </div>
+              <div id="niomi">
+              <a
+              href="https://www.instagram.com/karim.bourgi/"
+              title="Karim Bourgi's Instagram Page">
+              Karim Bourgi</a>
+              a Lebanese chef who trained in France with nearly 700,000 followers on Instagram.
+          </p>
+          </div>
+          <div id="fizz">
+            <a
+            href="https://www.instagram.com/p/Cw-bpoDA_WJ/"
+            title="Ibtihaj Muhammad's Instagram Page">
+            Ibtihaj Muhammad</a>
+            is a Olympic fencer and fashion icon. 
+        </p>
+          </div>
+        </div>
     </div><!--end Influencers-->
-
+</div>
     <h2 class="Recipe">
 
         <div id="recipe1">
-                <p>recipe 1</p>
-
+                <img src="rice.png" alt="Chicken and Rice">
+                <a href="https://www.seriouseats.com/serious-eats-halal-cart-style-chicken-and-rice-white-sauce-recipe">Chicken and Rice</a>
         </div><!--end recipe1-->
 
         <div id="recipe2">
-                <p>recipe 2</p>
+            <img src="kheer.png" alt="Kheer">
+            <a href="https://halaal.recipes/recipes/details/9781/kheer">Kheer</a>
 
         </div><!--end recipe2-->
 
         <div id="recipe3">
-                <p>recipe 3</p>
+            <img src="lamb.png" alt="Lamb">
+            <a href="https://www.sunset.com/recipe/crusted-grilled-rack-lamb">Grilled Lamb</a>
 
         </div><!--end recipe3-->
 
         <div id="recipe4">
-                <p>recipe 4</p>
-                
+            <img src="hballs.png" alt="Meatballs">
+            <a href="https://www.sunset.com/recipe/moroccan-spiced-lamb-meatballs">Meatballs</a>
+
         </div><!--end recipe4-->
 
     </h2><!--end Recipe Class-->

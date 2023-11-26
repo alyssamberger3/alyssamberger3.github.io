@@ -5,13 +5,256 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/master.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <style>
+        @media (min-width: 1100px) {
+        img{
+          height: 180px;
+          width:205px;
+          text-align: center;
+          float: center;
+          padding: 10px;
+        }
+        p{
+            font-weight: 550;
+            text-align: center;
+        }
+        #cotton{
+            translate:-7%;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate:3%;
+            font-weight: 550;
+        }
+        #fizz{
+            translate:7%;
+            font-weight: 550;
+        }
+        #header {
+    background-color: #5c84ab;
     
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        }
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.top {
+display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        @media (max-width: 1100px) {
+        body{
+          font-size: 20px;
+        }
+        p{
+            
+            text-align: center;
+        }
+        #cotton{
+            translate:-7%;
+        }
+        #popular_foods{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        #niomi{
+            translate: -1.5%;
+          
+        }
+        #fizz{
+            translate:-1.5%;
+            
+
+        }   
+        #header {
+    background-color: #5c84ab;
+    
+    height:100px;
+    
+    color:white;
+  
+    font-size:70px;
+    text-align:center;
+    margin-top:-65px;
+        
+ .Recipe {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.Recipe > #recipe1,#recipe3 {
+  background-color: #5c84ab ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+.Recipe > #recipe2,#recipe4 {
+  background-color: #A5B584 ;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.top > #top_image {
+    background-color: #5c84ab;
+    width: 225px;
+    height: 200px;
+    margin:auto;
+    position: relative;
+
+}  
+.top > #About{
+    background-color:#A5B584;
+    width:820px;
+    height:200px;
+    margin:auto;
+    position: relative;
+    font-size: 18px;
+}  
+.middle {
+    display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+.middle > #popular_foods {
+    background-color: #A5B584;
+    width: 225px;
+    height: 350px;
+    margin:auto;
+
+}  
+.middle > #Influencers{
+    background-color:#5c84ab;
+    height:350px;
+    width:820px;
+    margin:auto;
+}  
+        }
+        .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #405E52;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: Helvetica, sans-serif; 
+      }
+      
+      .sidenav a:hover {
+        color:#5c84ab;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        font-family: Helvetica, sans-serif; 
+      }
+        }
+      </style>  
 </head>
 
 <body>
     <h1>
         <div id="header">
-            <p>Header</p>
+            <p>Kosher Meat</p>
         </div> <!--end header-->
     </h1>
 
@@ -36,43 +279,79 @@
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
-
+    <div class="top">
     <div id="top_image">
-        <p>image here</p>
+        <img src="meat.png" alt="Kosher Meat">
     </div> <!--end top_image-->
 
-    <div id="About">
-        <p>About here</p>
+    <div id="About" style="padding-top:3px;">
+        <p>Kosher meat refers to meat that adheres to the dietary laws outlined in Jewish dietary regulations, known as kashrut. These guidelines dictate the proper methods of slaughter, processing, and preparation of meat to ensure it meets the religious requirements set forth in the Torah. In particular, kosher meat must come from animals that chew their cud and have split hooves, and they must be slaughtered by a trained and certified Jewish ritual slaughterer (shochet) in a humane and precise manner. Additionally, the meat must undergo a thorough process of salting and soaking to remove any remaining blood, a practice central to maintaining kosher dietary standards.</p>
     </div> <!--end About-->
-
+</div>
+<div class="middle">
     <div id="popular_foods">
-        <p>Popular Foods Here</p>
+       <img src="msnacks.png" alt="Kosher Meat Snacks">
+       <p><a href="https://www.amazon.com/Glatt-Kosher-Chicken-Ready-Meals/dp/B007HRNINU/ref=sr_1_9?m=A1WU6BKK9VQO9S&s=merchant-items&ie=UTF8&qid=1523900843&sr=1-9&th=1">Chicken Soup</a></p>
+       <p><a href="https://www.amazon.com/Glatt-Kosher-Beef-Cholent-Meat/dp/B005IR33MM/ref=sr_1_12?m=A1WU6BKK9VQO9S&s=merchant-items&ie=UTF8&qid=1523900843&sr=1-12&th=1">Cholent</a></p>
+       <p><a href="https://www.amazon.com/Glatt-Kosher-Stuffed-Cabbage-Gravy/dp/B079RMJRJ8/ref=sr_1_5?m=A1WU6BKK9VQO9S&s=merchant-items&ie=UTF8&qid=1523900843&sr=1-5&th=1">Stuffed Cabbage</a></p>
+       <p><a href="https://www.amazon.com/Glatt-Kosher-Pepper-Steak-Served/dp/B071ZT9F7D/ref=sr_1_6?m=A1WU6BKK9VQO9S&s=merchant-items&ie=UTF8&qid=1523900843&sr=1-6&th=1">Pepper Steak</a></p>
     </div><!--end popular_foods-->
 
     <div id="Influencers">
-        <p>Influencers Here</p>
+        <img src="busy.png"style="padding-top:20px; translate: 48px;" alt="Kosher">
+        <img src="bush.png"style="padding-top:20px; translate: 48px;" alt="Kosher">
+        <img src="guru.png"style="padding-top:20px; translate: 48px;" alt="Kosher">
+        <div id="cotton">
+            <p>
+                <a
+                  href="https://www.instagram.com/busyinbrooklyn/"
+                  title="BusyInBrooklyn's Instagram Page">
+                  BusyInBrooklyn</a>
+                  came out with a cookbook titled Millenial Kosher. 
+              </p>
+              </div>
+              <div id="niomi">
+              <a
+              href="https://www.instagram.com/flatbushgirl/"
+              title="FlatbushGirl's Instagram Page">
+              Flatbush Girl</a>
+              is an outspoken voice on societal critiques native to the Orthodox Jewish community
+          </p>
+          </div>
+          <div id="fizz">
+            <a
+            href="https://www.instagram.com/kosherguru/?utm_source=ig_embed&ig_rid=46eb0387-42ef-4406-b545-a7b093d90d9f"
+            title="KosherGuru Instagram Page">
+            KosherGuru</a>
+            is often found promoting neighborhood restaurants or some other local event. 
+        </p>
+          </div>
+        </div>
     </div><!--end Influencers-->
-
+</div>
     <h2 class="Recipe">
 
         <div id="recipe1">
-                <p>recipe 1</p>
-
+                <img src="brisket.png" alt="Brisket">
+                <a href="https://www.thespruceeats.com/sweet-and-sour-brisket-2121651">Brisket</a>
         </div><!--end recipe1-->
 
         <div id="recipe2">
-                <p>recipe 2</p>
+            <img src="hamburger.png" alt="Hamburger">
+            <a href="https://www.thespruceeats.com/broiled-hamburgers-meat-2122096">Hamburger</a>
 
         </div><!--end recipe2-->
 
         <div id="recipe3">
-                <p>recipe 3</p>
+            <img src="chicken.png" alt="Chicken">
+            <a href="https://www.thespruceeats.com/oven-baked-breaded-chicken-breasts-2121936">Chicken Breast</a>
 
         </div><!--end recipe3-->
 
         <div id="recipe4">
-                <p>recipe 4</p>
-                
+            <img src="schnitzel.png" alt="Schnitzel">
+            <a href="https://www.thespruceeats.com/kosher-israeli-chicken-schnitzel-2122104">Schnitzel </a>
+
         </div><!--end recipe4-->
 
     </h2><!--end Recipe Class-->
