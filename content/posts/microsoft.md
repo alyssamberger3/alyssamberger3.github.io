@@ -60,3 +60,31 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 {{< /split >}}
 
 ![Optimizing Self-Help](/images/posts/Microsoft-Optimizing-Self-Help.png)
+
+{{< vs 3>}}
+## Who It's For - The DIY Generation
+> Millennials and Gen Z are independent problem-solvers with high standards for online experiences.
+
+{{< split 4 4 4 >}}
+
+### 📲 Tech Savvy
+- Higher standards for efficient and interactive experiences
+- Skepticism toward new technology & brand marketing
+
+---
+
+### 💡 Innovative
+- Skilled in self-troubleshooting
+- Willing to explore new brands if it offers a better experience
+
+---
+
+### 🙉 Socially Influenced
+- Seek authentic experiences, even when online
+- Keen on trends and peer influence
+
+{{< /split >}}
+
+{{< vs 3>}}
+## The DIY Generation - Where Do They Get Self-Help?
+{{< img src="/images/posts/Microsoft-Self-Help-Sources.png" height="500" align="center" title="Self-Help Sources" >}}
