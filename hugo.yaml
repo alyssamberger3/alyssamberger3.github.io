@@ -1,7 +1,7 @@
 baseURL: https://alyssamberger3.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Alyssa Berger"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,14 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Alyssa Berger"
     weight: 1
   bn:
     languageCode: bn
     languageName: বাংলা
     title: জনের ব্লগ
     weight: 2
+    disabled: true
 # default language for the content
 defaultContentLanguage: en
 
@@ -105,13 +106,13 @@ params:
         facebook: true
         twitter: true
         linkedin: true
-        reddit: true
-        whatsapp: true
+        # reddit: true
+        # whatsapp: true
         email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
-        # mastodon: true
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
