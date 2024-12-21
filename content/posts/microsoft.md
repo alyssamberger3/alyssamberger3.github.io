@@ -3,7 +3,8 @@ title: "Microsoft x PUXD"
 date: 2024-12-20T16:28:31-05:00
 draft: false
 hero: /images/posts/Microsoft-Hero.png
-description: Microsoft x PUXD research project 
+description: Microsoft x PUXD research project
+summary: This Microsoft-sponsored project at Purdue University aims to understand and optimize self-help solutions for Millennials and Gen Z.
 menu:
   sidebar:
     name: Microsoft x PUXD
