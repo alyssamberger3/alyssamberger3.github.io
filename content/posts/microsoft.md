@@ -12,7 +12,7 @@ menu:
     weight: 500
 ---
 
-![Microsoft x PUXD Project Header](/images/posts/Microsoft-PUXD-Project-Header.png)
+{{< figure src="/images/posts/Microsoft-PUXD-Project-Header.png" alt="Microsoft x PUXD Project Header" >}}
 
 ## The Basics
 ##### 🤝 The Team
@@ -59,7 +59,7 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 
 {{< /split >}}
 
-![Optimizing Self-Help](/images/posts/Microsoft-Optimizing-Self-Help.png)
+{{< figure src="/images/posts/Microsoft-Optimizing-Self-Help.png" alt="Optimizing Self-Help" >}}
 
 {{< vs 3>}}
 ## Who It's For - The DIY Generation
@@ -87,4 +87,4 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 
 {{< vs 3>}}
 ## The DIY Generation - Where Do They Get Self-Help?
-{{< img src="/posts/microsoft/Microsoft-Self-Help-Sources.png" height="500" align="center" title="Self-Help Sources" >}}
+{{< figure src="/images/posts/Microsoft-Self-Help-Sources.png" alt="Self-Help Sources" height="500" >}}
