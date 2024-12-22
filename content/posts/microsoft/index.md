@@ -87,4 +87,4 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 
 {{< vs 3>}}
 ## The DIY Generation - Where Do They Get Self-Help?
-{{< img src="/images/posts/Microsoft-Self-Help-Sources.png" height="500" align="center" title="Self-Help Sources" >}}
+{{< img src="/posts/microsoft/Microsoft-Self-Help-Sources.png" height="500" align="center" title="Self-Help Sources" >}}
