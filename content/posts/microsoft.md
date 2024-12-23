@@ -88,3 +88,22 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 {{< vs 3>}}
 ## The DIY Generation - Where Do They Get Self-Help?
 {{< figure src="/images/posts/Microsoft-Self-Help-Sources.png" alt="Self-Help Sources" height="500" >}}
+
+{{< vs 3>}}
+## The DIY Generation - What do they look for?
+{{< split 4 4 4 >}}
+
+### 🏅 Authenticity
+Authenticity is crucial for Gen Z and Millennials. Having grown up amidst an overwhelming amount of information, they often find it challenging to discern genuine content. They highly value quality service that includes a personal touch, as it makes them feel recognized and appreciated as individuals.
+
+---
+
+### 🎨 Personalization
+These generation values brands that recognize their unique preferences and offer tailored experiences. Personalized recommendations enhance this bespoke feel, catering specifically to users' tastes.
+
+---
+
+### 🏎️ Efficiency
+Millennials and Gen Z prioritize quick and accurate online service, with Millennials being more tolerant of service lapses than Gen Z. Both groups expect instant, precise responses and value efficient digital interactions, reflecting their high expectations for customer service.
+
+{{< /split >}}
