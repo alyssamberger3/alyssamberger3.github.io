@@ -15,17 +15,20 @@ menu:
 {{< figure src="/images/posts/Microsoft-PUXD-Project-Header.png" alt="Microsoft x PUXD Project Header" >}}
 
 ## The Basics
-##### 🤝 The Team
+🤝 **The Team**
 
 A group of 10 UX Design students with varied experiences  collaborated to produce a UX Research project for Microsoft’s self-help sector.
 
 We collaborated with 1 Principle CX Manager, 1 Senior UX Researcher, 1 Social Media Team Lead and 1 University Research Manager from Microsoft.
 
-##### 🚀 Research Outcomes
+{{< vs 2>}}
+🚀 **Research Outcomes**
 1. Enhancing touchpoints across support platforms to improve resource discoverability.
 2. Incorporating personalization to provide tailored and relevant resources to users.
 
-##### 📅 The Timeframe
+{{< vs 2>}}
+📅 **The Timeframe**
+
 The project ran from January 2024 to May 2024, with continuation projects in subsequent semesters.
 
 {{< vs 3>}}
@@ -67,19 +70,19 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 
 {{< split 4 4 4 >}}
 
-### 📲 Tech Savvy
+#### 📲 Tech Savvy
 - Higher standards for efficient and interactive experiences
 - Skepticism toward new technology & brand marketing
 
 ---
 
-### 💡 Innovative
+#### 💡 Innovative
 - Skilled in self-troubleshooting
 - Willing to explore new brands if it offers a better experience
 
 ---
 
-### 🙉 Socially Influenced
+#### 🙉 Socially Influenced
 - Seek authentic experiences, even when online
 - Keen on trends and peer influence
 
@@ -93,17 +96,17 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 ## The DIY Generation - What do they look for?
 {{< split 4 4 4 >}}
 
-### 🏅 Authenticity
+#### 🏅 Authenticity
 Authenticity is crucial for Gen Z and Millennials. Having grown up amidst an overwhelming amount of information, they often find it challenging to discern genuine content. They highly value quality service that includes a personal touch, as it makes them feel recognized and appreciated as individuals.
 
 ---
 
-### 🎨 Personalization
+#### 🎨 Personalization
 These generation values brands that recognize their unique preferences and offer tailored experiences. Personalized recommendations enhance this bespoke feel, catering specifically to users' tastes.
 
 ---
 
-### 🏎️ Efficiency
+#### 🏎️ Efficiency
 Millennials and Gen Z prioritize quick and accurate online service, with Millennials being more tolerant of service lapses than Gen Z. Both groups expect instant, precise responses and value efficient digital interactions, reflecting their high expectations for customer service.
 
 {{< /split >}}
@@ -163,13 +166,13 @@ It is crucial to implement changes to the current platforms in a way that preser
 
 {{< split 6 6 >}}
 
-### Time Constraints
+#### Time Constraints
 
 A significant challenge we faced was the limited time available, which restricted our ability to conduct extensive evaluations and develop in-depth testing. To mitigate this, we scaled back the ambitiousness of our research and shifted our focus away from finalized designs towards deeper insights.
 
 ---
 
-### Conceptual Wireframes
+#### Conceptual Wireframes
 
 Due to the breadth of our research, there was insufficient time to develop fully fleshed-out user flows for comprehensive testing. To mitigate this, we emphasized creating a solid base for following semesters to work on and develop what we could not complete. 
 
