@@ -1,4 +1,4 @@
-baseURL: https://alyssamberger3.github.io
+baseURL: https://alyssaberger.org
 
 languageCode: en
 title: "Alyssa Berger"
@@ -66,8 +66,8 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
+    main: /images/site/AB-Logo.png
+    inverted: /images/site/AB-Logo.png
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
