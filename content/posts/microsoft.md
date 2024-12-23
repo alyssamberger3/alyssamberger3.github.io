@@ -107,3 +107,49 @@ These generation values brands that recognize their unique preferences and offer
 Millennials and Gen Z prioritize quick and accurate online service, with Millennials being more tolerant of service lapses than Gen Z. Both groups expect instant, precise responses and value efficient digital interactions, reflecting their high expectations for customer service.
 
 {{< /split >}}
+
+{{< vs 3>}}
+## How is Microsoft currently engaging younger generations?
+{{< split 4 4 4 >}}
+
+#### Microsoft Support
+Official documentation and articles on all Microsoft products
+
+---
+
+####  Microsoft Community
+Form-style platform where users can ask and answer each other’s questions
+
+---
+
+#### Microsoft Tech Community
+Similar to Community except segmented into smaller hubs based on product
+
+{{< /split >}}
+
+{{< vs 3>}}
+## *Quote PLACEHOLDER TKTKTK*
+
+{{< figure src="/images/posts/Microsoft-Strengths-and-Improvements.png" alt="Strengths and Improvements" >}}
+
+## *What Should We Focus On? PLACEHOLDER TKTKTK*
+
+{{< vs 3>}}
+## What Should We Consider Moving Forward? 
+
+{{< split 4 4 4 >}}
+
+#### 💅 First Article/Post = First Impression 
+Users most commonly enter Microsoft's self-help platforms organically through a Google search. How can that first article or post they interact with help form a positive experience?
+
+---
+
+#### 🚨 How can Microsoft Offer Options for Immediate Support?
+If the first support article or community post they come across does not help resolve the issue, how can Microsoft effectively present other options or resources?
+
+---
+
+#### 🧘 Maintaining Balance with What Works
+It is crucial to implement changes to the current platforms in a way that preserves what already works (especially for existing users) while also catering to the needs of younger users
+
+{{< /split >}}
