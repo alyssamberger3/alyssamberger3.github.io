@@ -153,3 +153,35 @@ If the first support article or community post they come across does not help re
 It is crucial to implement changes to the current platforms in a way that preserves what already works (especially for existing users) while also catering to the needs of younger users
 
 {{< /split >}}
+
+{{< vs 3>}}
+{{< figure src="/images/posts/Microsoft-Suggested-Improvements.png" alt="Suggested Improvements" >}}
+
+{{< figure src="/images/posts/Microsoft-Next-Steps.png" alt="Next Steps" >}}
+
+## Challenges We Faced
+
+{{< split 6 6 >}}
+
+### Time Constraints
+
+A significant challenge we faced was the limited time available, which restricted our ability to conduct extensive evaluations and develop in-depth testing. To mitigate this, we scaled back the ambitiousness of our research and shifted our focus away from finalized designs towards deeper insights.
+
+---
+
+### Conceptual Wireframes
+
+Due to the breadth of our research, there was insufficient time to develop fully fleshed-out user flows for comprehensive testing. To mitigate this, we emphasized creating a solid base for following semesters to work on and develop what we could not complete. 
+
+
+{{< /split >}}
+
+{{< vs 3>}}
+## Self-Reflection
+- This project offered a valuable opportunity to apply classroom concepts to a real-world Microsoft initiative. **As my first sponsored research experience**, it was incredibly rewarding to see academic knowledge translate into impactful outcomes.
+
+- **Generational Insights:** Initially focused on differentiating Millennials and Gen Z, we identified opportunities to enhance our analysis. Moving forward, we will integrate nuanced distinctions and compelling examples to highlight unique behavioral patterns, improving the precision and impact of our findings.
+
+- **User Journey Analysis:** I developed a deeper appreciation for analyzing specific stages of the user journey. While our current approach provided key insights, future efforts will leverage detailed journey maps and case studies to identify pivotal interaction points and deliver more targeted solutions.
+
+- This project has transformed my approach to research and presentation. I’ve refined my ability to highlight subtle nuances and deliver precise, actionable insights, **strengthening my expertise as a researcher.**
