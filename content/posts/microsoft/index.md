@@ -12,7 +12,7 @@ menu:
     weight: 500
 ---
 
-{{< figure src="/images/posts/Microsoft-PUXD-Project-Header.png" alt="Microsoft x PUXD Project Header" >}}
+{{< figure src="/posts/microsoft/Microsoft-PUXD-Project-Header.png" alt="Microsoft x PUXD Project Header" >}}
 
 ## The Basics
 🤝 **The Team**
@@ -59,7 +59,7 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 
 {{< /split >}}
 
-{{< figure src="/images/posts/Microsoft-Optimizing-Self-Help.png" alt="Optimizing Self-Help" >}}
+{{< figure src="/posts/microsoft/Microsoft-Optimizing-Self-Help.png" alt="Optimizing Self-Help" >}}
 
 {{< vs 3>}}
 ## Who It's For - The DIY Generation
@@ -87,7 +87,7 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 
 {{< vs 3>}}
 ## The DIY Generation - Where Do They Get Self-Help?
-{{< figure src="/images/posts/Microsoft-Self-Help-Sources.png" alt="Self-Help Sources" height="500" >}}
+{{< figure src="/posts/microsoft/Microsoft-Self-Help-Sources.png" alt="Self-Help Sources" height="500" >}}
 
 {{< vs 3>}}
 ## The DIY Generation - What do they look for?
@@ -135,7 +135,7 @@ Similar to Community except segmented into smaller hubs based on product
 > 
 > **Use of external search engines:** Users generally go through a general search engine (ie. Google) first because they feel it will do the sorting for them to find the best result.
 
-{{< figure src="/images/posts/Microsoft-Strengths-and-Improvements.png" alt="Strengths and Improvements" >}}
+{{< figure src="/posts/microsoft/Microsoft-Strengths-and-Improvements.png" alt="Strengths and Improvements" >}}
 
 {{< textbox title="What Should We Focus On?" text="Improve Microsoft's support platforms by simplifying navigation and tailoring content to boost usability and satisfaction for younger users." fromcolor="#05A6F0 50%" tocolor="#D9D9D9" angle="60deg" textcolor="white">}}
 
@@ -160,9 +160,9 @@ It is crucial to implement changes to the current platforms in a way that preser
 {{< /split >}}
 
 {{< vs 3>}}
-{{< figure src="/images/posts/Microsoft-Suggested-Improvements.png" alt="Suggested Improvements" >}}
+{{< figure src="/posts/microsoft/Microsoft-Suggested-Improvements.png" alt="Suggested Improvements" >}}
 
-{{< figure src="/images/posts/Microsoft-Next-Steps.png" alt="Next Steps" >}}
+{{< figure src="/posts/microsoft/Microsoft-Next-Steps.png" alt="Next Steps" >}}
 
 ## Challenges We Faced
 
