@@ -88,15 +88,30 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Collaboration
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Problem Solving
   percentage: 85
   color: orange
-
+  
+- type: soft-skill-indicator
+  name: Research & Analysis
+  percentage: 85
+  color: "#05CF82"
+  
+- type: soft-skill-indicator
+  name: Figma
+  percentage: 65
+  color: "#A259FF"
+  
+- type: soft-skill-indicator
+  name: Web Design
+  percentage: 55
+  color: "#19BCFE"
+  
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
