@@ -32,7 +32,7 @@ We collaborated with 1 Principle CX Manager, 1 Senior UX Researcher, 1 Social Me
 The project ran from January 2024 to May 2024, with continuation projects in subsequent semesters.
 
 {{< vs 3>}}
-{{< textbox title="Research Problem" text="In an era where instant digital gratification is not just desired but expected, Microsoft’s user feedback and engagement metrics reveal a significant gap in its self-help resources, particularly for its youngest and most tech-savvy users: Millennials and Gen Z. These users often perceive current support platforms as overly complex or misaligned with their expectations for quick, efficient, and seamless digital support solutions." text2="This disconnect not only diminishes user satisfaction but also risks long-term loyalty and engagement with Microsoft products—an especially critical concern as this demographic emerges as the dominant consumer segment." fromcolor="#F35325 50%" tocolor="#D9D9D9" angle="60deg" textcolor="white">}}
+{{< textbox title="Research Problem" text="In an era where instant digital gratification is not just desired but expected, Microsoft’s user feedback and engagement metrics reveal a significant gap in its self-help resources, particularly for its youngest and most tech-savvy users: Millennials and Gen Z. These users often perceive current support platforms as overly complex or misaligned with their expectations for quick, efficient, and seamless digital support solutions." text2="This disconnect not only diminishes user satisfaction but also risks long-term loyalty and engagement with Microsoft products—an especially critical concern as this demographic emerges as the dominant consumer segment." fromcolor="#05A6F0 50%" tocolor="#D9D9D9" angle="60deg" textcolor="white">}}
 
 {{< vs 3>}}
 ## Goals of the Research Project
@@ -127,13 +127,11 @@ Similar to Community except segmented into smaller hubs based on product
 
 {{< /split >}}
 
-> {{< ico vendor=bootstrap name=quote color=#0A91B1 size=3em >}} "I feel like I trust Reddit answers more than help articles."
-> 
-> **Authenticity in discussion forums:** Many users preferred forum-based platforms over articles because the discussions feel more authentic and trustworthy.
-
-> {{< ico vendor=bootstrap name=quote color=#0A91B1 size=3em >}} "My first instinct would be to use Google over a specific site."
-> 
-> **Use of external search engines:** Users generally go through a general search engine (ie. Google) first because they feel it will do the sorting for them to find the best result.
+{{< quotes
+   quote1="I feel like I trust Reddit answers more than help articles."
+   author1="**Authenticity in discussion forums:** Many users preferred forum-based platforms over articles because the discussions feel more authentic and trustworthy."
+   quote2="My first instinct would be to use Google over a specific site."
+   author2="**Use of external search engines:** Users generally go through a general search engine (ie. Google) first because they feel it will do the sorting for them to find the best result." >}}
 
 {{< figure src="/posts/microsoft/Microsoft-Strengths-and-Improvements.png" alt="Strengths and Improvements" >}}
 
