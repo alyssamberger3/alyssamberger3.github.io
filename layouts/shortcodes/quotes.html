@@ -1,7 +1,5 @@
  <style>
-   .custom-icon {
-      color: #0A91B1;
-      font-size: 250%;
+   .hi-svg-inline {
       margin-right: 5px;
       vertical-align: bottom;
    }
@@ -9,13 +7,19 @@
 
 <div style="display: flex; justify-content: space-between;">
    <blockquote style="flex-shrink: 1; margin-right: 20px;">
-      <i class="custom-icon fa-solid fa-quote-left"></i> 
+      {{ $ctx := dict
+         "vendor" "fas"
+         "name" "quote-left"
+         "color" "#0A91B1"
+         "size" "2.5em"
+      }}
+      {{ partial "icons/icon" $ctx }}
       "{{ .Get "quote1" | markdownify }}"
       <br><br>
       <footer>{{ .Get "author1" | markdownify }}</footer>
    </blockquote>
    <blockquote style="flex-shrink: 1;">
-      <i class="custom-icon fa-solid fa-quote-left"></i> 
+      {{ partial "icons/icon" $ctx }}
       "{{ .Get "quote2" | markdownify }}"
       <br><br>
       <footer>{{ .Get "author2" | markdownify }}</footer>
