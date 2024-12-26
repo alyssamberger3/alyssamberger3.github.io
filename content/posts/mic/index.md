@@ -45,13 +45,13 @@ The project took place from August to December 2024, building on insights from p
 
 {{< vs 3>}}
 ## What is CASA?
-Court Appointed Special Advocates is an organization containing court-appointed volunteers who ensure every child experiencing domestic challenges gets their voice heard in court.​
-{{< figure src="/posts/mic/MIC_Responsibilities.png" alt="MIC Responsibilities" >}}
+Court Appointed Special Advocates is an organization containing court-appointed volunteers who ensure every child experiencing domestic challenges gets their voice heard in court.
+{{< figure src="/posts/mic/MIC-Responsibilities.png" alt="MIC Responsibilities" >}}
 
 
 ## What is MIC?
 A digital workspace aimed to streamline the data collection and report writing process for CASA volunteers.
-{{< figure src="/posts/mic/MIC_How_Might.png" alt="MIC How Might We?" >}}
+{{< figure src="/posts/mic/MIC-How-Might.png" alt="MIC How Might We?" >}}
 
 {{< vs 3>}}
 ## MIC Stakeholders
@@ -88,7 +88,7 @@ Court Appointed Special Advocates (CASAs)
 
 {{< vs 3>}}
 ## Deliverables
-{{< figure src="/posts/mic/MIC_Deliverables.png" alt="MIC Deliverables" >}}
+{{< figure src="/posts/mic/MIC-Deliverables.png" alt="MIC Deliverables" >}}
 
 {{< vs 3>}}
 ## Volunteer Responsibilities 
@@ -96,19 +96,19 @@ FONT AWESOME STUFF IDK
 
 {{< split 6 6 >}}
 
-{{< figure src="/posts/mic/MIC_Tired_Guy.png" alt="MIC Deliverables" >}}
+{{< figure src="/posts/mic/MIC-Tired-Guy.png" alt="MIC Deliverables" >}}
 
 ---
 
 ####  This CASA project builds on work from the previous semester and a summer internship. To familiarize ourselves with the provided framework, we conducted an audit of prior work and identified key pain points.
-​
-#### These challenges included difficulty remembering timelines, dates, and meetings, transferring notes into Optima, and organizing reports to deliver effective recommendations.​
+
+#### These challenges included difficulty remembering timelines, dates, and meetings, transferring notes into Optima, and organizing reports to deliver effective recommendations.
 
 
 {{< /split >}}
 
 {{< vs 3>}}
-{{< figure src="/posts/mic/MIC_Gaps.png" alt="Filling the Gaps" >}}
+{{< figure src="/posts/mic/MIC-Gaps.png" alt="Filling the Gaps" >}}
 
 {{< vs 3>}}
 ## Current Report Writing Issues
@@ -134,7 +134,7 @@ FONT AWESOME STUFF IDK
 
 {{< vs 3>}}
 ## A Typical Case Flow
-{{< figure src="/posts/mic/MIC_Flow.png" alt="MIC Case Flow" >}}
+{{< figure src="/posts/mic/MIC-Flow.png" alt="MIC Case Flow" >}}
 
 {{< vs 3>}}
 ## Sketching Process
@@ -145,12 +145,12 @@ FONT AWESOME STUFF IDK
 {{< vs 3>}}
 ## Mid-Fis/Feedback
 After creating initial sketches, we sought feedback on our wireframes from field volunteers. While our designs were based on CASA insights, we prioritized consistent feedback at every stage to ensure alignment with field needs.
-{{< figure src="/posts/mic/MIC_Midfis.png" alt="MIC Midfis" >}}
+{{< figure src="/posts/mic/MIC-Mid-Fis.png" alt="MIC Mid-Fis" >}}
 
 {{< vs 3>}}
 ## High-Fi Prototypes
 Test, Iterate, and Create a High Fidelity prototype of a streamlined report-writing platform.
-{{< figure src="/posts/mic/MIC.Highfis.png" alt="MIC High-fis" >}}
+{{< figure src="/posts/mic/MIC-High-Fis.png" alt="MIC High-Fis" >}}
 
 
 {{< vs 3>}}
@@ -176,7 +176,7 @@ Our design workshop was conducted in collaboration with an active CASA to better
 
 {{< vs 3>}}
 ## Testing Our Designs
-{{< figure src="/posts/mic/MIC.Testing.png" alt="MIC Testing Our Designs" >}}
+{{< figure src="/posts/mic/MIC-Testing.png" alt="MIC Testing Our Designs" >}}
 
 {{< vs 3>}}
 ## Next Steps
