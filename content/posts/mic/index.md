@@ -33,7 +33,7 @@ We collaborated predominantly with CASA volunteers and employees, all under the 
 The project took place from August to December 2024, building on insights from previous semesters and summer internship findings.
 
 {{< vs 2>}}
-☝️ **My Role**
+🙋 **My Role**
 
 - Primary and Secondary Research
 - User Interviews
@@ -41,17 +41,18 @@ The project took place from August to December 2024, building on insights from p
 - Wireframing and Prototyping
 - Usability Testing
 
+{{< vs 3>}}
 {{< textbox title="Project Overview" text="A Court Appointed Special Advocate (CASA) is a trained volunteer advocating for abused and neglected children in the child welfare system. In 2021, Indiana volunteers served 23,290 children, but many still lacked representation. Improving the CASA volunteer experience can free up time for volunteers to focus on building relationships and addressing children's needs in court." text2="Our final goal: Create high-fidelity prototypes of the MIC platform to alleviate the report-writing process of CASA volunteers and return as much time as possible to the children." fromcolor="#EF382B 50%" tocolor="#D9D9D9" angle="60deg" textcolor="white">}}
 
 {{< vs 3>}}
 ## What is CASA?
-Court Appointed Special Advocates is an organization containing court-appointed volunteers who ensure every child experiencing domestic challenges gets their voice heard in court.
-{{< figure src="/posts/mic/MIC-Responsibilities.png" alt="MIC Responsibilities" >}}
+*Court Appointed Special Advocates is an organization containing court-appointed volunteers who ensure every child experiencing domestic challenges gets their voice heard in court.*
+{{< figure src="/posts/mic/MIC-Responsibilities.png" alt="MIC Responsibilities" width="700" >}}
 
-
+{{< vs 3>}}
 ## What is MIC?
-A digital workspace aimed to streamline the data collection and report writing process for CASA volunteers.
-{{< figure src="/posts/mic/MIC-How-Might.png" alt="MIC How Might We?" >}}
+*A digital workspace aimed to streamline the data collection and report writing process for CASA volunteers.*
+{{< figure src="/posts/mic/MIC-How-Might.png" alt="MIC How Might We?" width="700" >}}
 
 {{< vs 3>}}
 ## MIC Stakeholders
@@ -80,7 +81,7 @@ The work done by the CASA impacts decisions regarding their wellbeing.
 
 {{< vs 3>}}
 ## User Group and Primary Stakeholder
-Court Appointed Special Advocates (CASAs)
+*Court Appointed Special Advocates (CASAs)*
 - They are the ‘voice’ for children in court.
 - They spend time with their court-appointed child.
 - They interact with stakeholders/parties.
@@ -88,35 +89,28 @@ Court Appointed Special Advocates (CASAs)
 
 {{< vs 3>}}
 ## Deliverables
-{{< figure src="/posts/mic/MIC-Deliverables.png" alt="MIC Deliverables" >}}
+{{< figure src="/posts/mic/MIC-Deliverables.png" alt="MIC Deliverables" width="700" >}}
 
 {{< vs 3>}}
 ## Volunteer Responsibilities 
 FONT AWESOME STUFF IDK
 
-{{< split 6 6 >}}
+{{< img src="/posts/mic/MIC-Tired-Guy.png" height="200" float="right" title="Tired Guy" >}}
 
-{{< figure src="/posts/mic/MIC-Tired-Guy.png" alt="MIC Deliverables" >}}
+#####  This CASA project builds on work from the previous semester and a summer internship. To familiarize ourselves with the provided framework, we conducted an audit of prior work and identified key pain points.
 
----
-
-####  This CASA project builds on work from the previous semester and a summer internship. To familiarize ourselves with the provided framework, we conducted an audit of prior work and identified key pain points.
-
-#### These challenges included difficulty remembering timelines, dates, and meetings, transferring notes into Optima, and organizing reports to deliver effective recommendations.
-
-
-{{< /split >}}
+##### These challenges included difficulty remembering timelines, dates, and meetings, transferring notes into Optima, and organizing reports to deliver effective recommendations.
 
 {{< vs 3>}}
-{{< figure src="/posts/mic/MIC-Gaps.png" alt="Filling the Gaps" >}}
+{{< figure src="/posts/mic/MIC-Gaps.png" alt="Filling the Gaps" width="700" >}}
 
 {{< vs 3>}}
 ## Current Report Writing Issues
-**We interviewed three CASA staff members to understand their processes and frustrations. Combined with secondary research, these interviews highlighted key pain points in the CASA documentation process, including:**
+*We interviewed three CASA staff members to understand their processes and frustrations. Combined with secondary research, these interviews highlighted key pain points in the CASA documentation process, including:*
 
 {{< split 3 3 3 3 >}}
 
-##### 🔧 Optima is inconvenient: technical issues, only for uploading data
+##### 😤 Optima is inconvenient: technical issues, only for uploading data
 
 ---
 
@@ -128,7 +122,7 @@ FONT AWESOME STUFF IDK
 
 ---
 
-##### 👯 3rd party tools being used (ex. Microsoft Word)
+##### 🛠️ 3rd party tools being used (ex. Microsoft Word)
 
 {{< /split >}}
 
@@ -138,45 +132,44 @@ FONT AWESOME STUFF IDK
 
 {{< vs 3>}}
 ## Sketching Process
-Our second milestone focused on initial sketching and iterations using exercises like Round Robin and Crazy 6’s to bring ideas from our research to paper. Emphasizing collaboration, we prioritized group projects to ensure diverse perspectives were heard and considered.
+*Our second milestone focused on initial sketching and iterations using exercises like Round Robin and Crazy 6’s to bring ideas from our research to paper. Emphasizing collaboration, we prioritized group projects to ensure diverse perspectives were heard and considered.*
 
 FONT AWESOME STUFF IDK
 
 {{< vs 3>}}
 ## Mid-Fis/Feedback
-After creating initial sketches, we sought feedback on our wireframes from field volunteers. While our designs were based on CASA insights, we prioritized consistent feedback at every stage to ensure alignment with field needs.
+*After creating initial sketches, we sought feedback on our wireframes from field volunteers. While our designs were based on CASA insights, we prioritized consistent feedback at every stage to ensure alignment with field needs.*
 {{< figure src="/posts/mic/MIC-Mid-Fis.png" alt="MIC Mid-Fis" >}}
 
 {{< vs 3>}}
 ## High-Fi Prototypes
-Test, Iterate, and Create a High Fidelity prototype of a streamlined report-writing platform.
-{{< figure src="/posts/mic/MIC-High-Fis.png" alt="MIC High-Fis" >}}
-
+*Test, Iterate, and Create a High Fidelity prototype of a streamlined report-writing platform.*
+{{< figure src="/posts/mic/MIC-High-Fis.png" alt="MIC High-Fis" width="700" >}}
 
 {{< vs 3>}}
 ## CASA Workshop Findings
-Our design workshop was conducted in collaboration with an active CASA to better understand the process and explore the potential of current features. This collaboration helped us identify which components stood out and which were ineffective.
-{{< split 3 3 3 3 >}}
+*Our design workshop was conducted in collaboration with an active CASA to better understand the process and explore the potential of current features. This collaboration helped us identify which components stood out and which were ineffective.*
+{{< split-icons splits="3,3,3,3" vendors="bs,bs,bs,bs" names="stopwatch,robot,journal-bookmark,shield-lock" colors="#1A598C,#1A598C,#1A598C,#1A598C" size="4em,4em,4em,4em" >}}
 
-#### ⏱️ Lots of time spent inefficiently communicating
-
----
-
-#### 🤖 Al would be utilized if it's not intrusive or blatant
+##### Lots of time spent inefficiently communicating
 
 ---
 
-#### 📝 Many CASAs take notes on pen and paper
+##### Al would be utilized if it's not intrusive or blatant
 
 ---
 
-#### 🔒 Privacy is very important for protecting CASAs
+#####  Many CASAs take notes on pen and paper
 
-{{< /split >}}
+---
+
+##### Privacy is very important for protecting CASAs
+
+{{< /split-icons >}}
 
 {{< vs 3>}}
 ## Testing Our Designs
-{{< figure src="/posts/mic/MIC-Testing.png" alt="MIC Testing Our Designs" >}}
+{{< figure src="/posts/mic/MIC-Testing.png" alt="MIC Testing Our Designs" width="900" >}}
 
 {{< vs 3>}}
 ## Next Steps

@@ -15,13 +15,14 @@
    {{ $vendors := split (.Get "vendors") "," }}
    {{ $names := split (.Get "names") "," }}
    {{ $colors := split (.Get "colors") "," }}
+   {{ $size := split (.Get "size") "," }}
    {{ range $idx, $val := split .Inner "---" }}
       <div class="col col-sm-12 col-lg-{{ (index $splits $idx) }}">
          {{ $ctx := dict
             "vendor" (index $vendors $idx)
             "name" (index $names $idx)
             "color" (index $colors $idx)
-            "size" "5em"
+            "size" (index $size $idx)
          }}
          {{ partial "icons/icon" $ctx }}<br>
          {{ $val | markdownify }}
