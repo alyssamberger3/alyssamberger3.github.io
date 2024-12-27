@@ -12,71 +12,105 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+# - name: "Machine Learning"
+#   filter: "machinelearning"
+# - name: "Image Processing"
+#   filter: "image-processing"
+# - name: Security
+#   filter: "security"
+- name: "US Department of State"
+  filter: "state-department"
+- name: "Research"
+  filter: "research"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Palazzos, Perimeters, and Preserving Pasts
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: 2024 US Department of State's Spring Diplomacy Lab
+    date: 19 April 2024
+    url: https://storymaps.arcgis.com/stories/4c0ce6e6740144ffaea964f32994a48c 
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Alyssa Berger
+    url: https://www.linkedin.com/in/alyssamberger/ 
+  - name: Johnny Dong
+    url: https://www.linkedin.com/in/dong322/
+  - name: Maggie Dong
+    url: 
+  - name: Michal Gawronski
+    url: https://www.linkedin.com/in/michal-gawronski/ 
+  - name: Lauren Gardner
+    url: 
+  - name: Melanie Kreutz
+    url: 
+  - name: Matthew Mozingo
+    url: https://www.linkedin.com/in/matthew-mozingo-18abb024b/
+  - name: Amelia Simpson
+    url: 
+  - name: Alexander Repikov
+    url: https://www.linkedin.com/in/alexander-r-110614246/ 
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: Welcome to the United States Chancery, located within the World Heritage Site of the  Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura , housing the US Mission to Italy. While the historic buildings located within the Chancery complex serve an important role as an embassy for US citizens and an epicenter for diplomatic personnel in Italy, their significance to the cultural heritage and historic character of the city cannot be understated. In the following sections we will discuss the iconic Palazzo Margherita--which serves as the primary Embassy building--both before and after it became a US diplomatic space.
+    url: https://storymaps.arcgis.com/stories/4c0ce6e6740144ffaea964f32994a48c 
+  categories: ["state-department","research"]
+  tags: ["US Department of State", "Research"]
 
-- title: An Sample Paper on Image Processing
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+# - title: An Example Paper on Machine Learning
+#   publishedIn:
+#     name: 2020 IEEE Region Symposium (TENSYMP)
+#     date: 7 June 2020
+#     url: https://example.com
+#   authors:
+#   - name: Dr. Madman
+#     url: https://example.com
+#   - name: Dr. Lessmad
+#     url: https://example.com
+#   - name: Dr. Moremad
+#     url: https://example.com
+#   - name: Dr. Goodman
+#     url: https://example.com
+#   paper:
+#     summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
+#     url: https://example.com
+#   categories: ["machinelearning","image-processing"]
+#   tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
 
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+# - title: An Sample Paper on Image Processing
+#   publishedIn:
+#     name: 2020 IEEE Region Symposium (TENSYMP)
+#     date: 7 June 2020
+#     url: https://example.com
+#   authors:
+#   - name: Dr. Madman
+#     url: https://example.com
+#   - name: Dr. Lessmad
+#     url: https://example.com
+#   - name: Dr. Moremad
+#     url: https://example.com
+#   - name: Dr. Goodman
+#     url: https://example.com
+#   paper:
+#     summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
+#     url: https://example.com
+#   categories: ["image-processing"]
+#   tags: ["Image Processing", "Computer Vision"]
+
+# - title: An Example Paper on Security
+#   publishedIn:
+#     name: 2020 IEEE Region Symposium (TENSYMP)
+#     date: 7 June 2020
+#     url: https://example.com
+#   authors:
+#   - name: Dr. Madman
+#     url: https://example.com
+#   - name: Dr. Lessmad
+#     url: https://example.com
+#   - name: Dr. Moremad
+#     url: https://example.com
+#   - name: Dr. Goodman
+#     url: https://example.com
+#   paper:
+#     summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
+#     url: https://example.com
+#   categories: ["security"]
+#   tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
