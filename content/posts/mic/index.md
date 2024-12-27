@@ -93,8 +93,26 @@ The work done by the CASA impacts decisions regarding their wellbeing.
 
 {{< vs 3>}}
 ## Volunteer Responsibilities 
-FONT AWESOME STUFF IDK
+*In the secondary research phase, we’ll build a fact-based understanding of the CASA process. While project specifics may vary, key volunteer responsibilities include:*
+{{< split-icons splits="3,3,3,3" vendors="bs,bs,bs,bs" names="file-earmark-text,clipboard-data,pen,chat-left-dots" colors="#1A598C,#1A598C,#1A598C,#1A598C" size="4em,4em,4em,4em" >}}
 
+##### Providing fact-based court recommendations
+
+---
+
+##### Ensuring compliance with court orders and submitting hearing reports
+
+---
+
+#####  Documenting case details in Optima software
+
+---
+
+##### Communicating with all parties in the child’s life and documenting findings
+
+{{< /split-icons >}}
+
+{{< vs 3>}}
 {{< img src="/posts/mic/MIC-Tired-Guy.png" height="200" float="right" title="Tired Guy" >}}
 
 #####  This CASA project builds on work from the previous semester and a summer internship. To familiarize ourselves with the provided framework, we conducted an audit of prior work and identified key pain points.
@@ -134,7 +152,19 @@ FONT AWESOME STUFF IDK
 ## Sketching Process
 *Our second milestone focused on initial sketching and iterations using exercises like Round Robin and Crazy 6’s to bring ideas from our research to paper. Emphasizing collaboration, we prioritized group projects to ensure diverse perspectives were heard and considered.*
 
-FONT AWESOME STUFF IDK
+{{< split-icons splits="4,4,4" vendors="bs,bs,bs" names="arrow-clockwise,funnel,megaphone" colors="#1A598C,#1A598C,#1A598C" size="4em,4em,4em" >}}
+
+##### Round Robin and Crazy 6's
+
+---
+
+##### Synthesize Our Ideas
+
+---
+
+#####  Sponsor Feedback 
+
+{{< /split-icons >}}
 
 {{< vs 3>}}
 ## Mid-Fis/Feedback
