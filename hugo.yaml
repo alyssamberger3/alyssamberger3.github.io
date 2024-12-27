@@ -105,20 +105,20 @@ params:
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
+        # facebook: true
+        # twitter: true
+        # linkedin: true
         # reddit: true
         # whatsapp: true
-        email: true
+        # email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
-        mastodon: true
+        # mastodon: true
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
