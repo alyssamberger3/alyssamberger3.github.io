@@ -90,7 +90,7 @@ Gauge how the implemented changes affect user satisfaction and engagement, using
 {{< figure src="/posts/microsoft/Microsoft-Self-Help-Sources.png" alt="Self-Help Sources" height="500" >}}
 
 {{< vs 3>}}
-## The DIY Generation - What do they look for?
+## The DIY Generation - What Do They Look For?
 {{< split 4 4 4 >}}
 
 #### 🏅 Authenticity
@@ -109,7 +109,7 @@ Millennials and Gen Z prioritize quick and accurate online service, with Millenn
 {{< /split >}}
 
 {{< vs 3>}}
-## How is Microsoft currently engaging younger generations?
+## How Is Microsoft Currently Engaging Younger Generations?
 {{< split 4 4 4 >}}
 
 #### Microsoft Support
