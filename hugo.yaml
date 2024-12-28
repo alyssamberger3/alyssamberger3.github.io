@@ -10,6 +10,8 @@ module:
   - path: github.com/hugomods/icons/vendors/bootstrap
   - path: github.com/hugomods/icons/vendors/font-awesome
   mounts:
+  - source: static
+    target: static
   - source: static/files
     target: static/files
   - source: ./node_modules/flag-icons/flags
