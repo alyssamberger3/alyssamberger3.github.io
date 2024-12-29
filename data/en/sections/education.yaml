@@ -20,8 +20,8 @@ degrees:
     darkLogo: /images/sections/education/Purdue-Dark.png
   grade:
     scale: GPA
-    achieved: 4.0
-    outOf: 4.0
+    achieved: "4.0"
+    outOf: "4.0"
 - name: High School Diploma
   icon: fa-graduation-cap
   timeframe: 2019-2023
@@ -31,8 +31,8 @@ degrees:
     logo: /images/sections/education/Worthington-Kilbourne.png
   grade:
     scale: GPA
-    achieved: 4.2
-    outOf: 4.0
+    achieved: "4.2"
+    outOf: "4.0"
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
 #   timeframe: 2016-2020
