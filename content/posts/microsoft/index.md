@@ -160,7 +160,21 @@ It is crucial to implement changes to the current platforms in a way that preser
 {{< vs 3>}}
 {{< figure src="/posts/microsoft/Microsoft-Suggested-Improvements.png" alt="Suggested Improvements" >}}
 
-{{< figure src="/posts/microsoft/Microsoft-Next-Steps.png" alt="Next Steps" >}}
+## Next Steps
+{{< vs 2>}}
+{{< split-icons splits="4,4,4" vendors="bs,bs,bs" names="circle-fill,circle-fill,circle-fill" colors="#00A4EF,#F24F22,#7EBA02" size="5em,5em,5em" >}}
+
+##### Visualize design recommendations and conduct testing for evaluation.
+
+---
+
+##### Receive feedback from our sponsors to iterate and expand on our recommendations.
+
+---
+
+##### Compile a cohesive research report that organizes our findings, insights, and recommendations.
+
+{{< /split-icons >}}
 
 ## Challenges We Faced
 

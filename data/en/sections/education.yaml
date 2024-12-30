@@ -22,6 +22,11 @@ degrees:
     scale: GPA
     achieved: "4.0"
     outOf: "4.0"
+  extracurricularActivities:
+  - "Purdue Hillel: Vice President of Programming & Engagement"
+  - "Purdue Student Union Board: Director of Wellbeing & General Member"
+  - "John Martinson Honors College: Honors Mentor & Hall Club Member"
+  - "Residential Housing Association: Hall Senator"
 - name: High School Diploma
   icon: fa-graduation-cap
   timeframe: 2019-2023
