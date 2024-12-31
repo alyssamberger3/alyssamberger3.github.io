@@ -19,9 +19,9 @@ buttons:
 # - name: Hobby
 #   filter: "hobby"
 - name: Honors
-  filter: "honors"
+  filter: "Honors"
 - name: User Experience
-  filter: "ux"
+  filter: "UX"
 
 # your projects
 projects:
@@ -31,7 +31,7 @@ projects:
   role: Researcher
   timeline: "Aug 2024 - Present"
   summary: The US Department of State Diplomacy Lab conducted historical research on the Old Naval Observatory, examining its construction and associated narratives.
-  tags: ["honors"]
+  tags: ["Honors"]
 
 - name: Next Gen CASA Reports
   logo: /images/sections/projects/MIC-Icon.png
@@ -40,7 +40,7 @@ projects:
   timeline: "Aug 2024 - Dec 2024"
   summary: This CASA-based, startup-sponsored project aims to revolutionize the current report writing system, giving valuable time back to volunteers and the children they support.
   url: "/posts/mic/"
-  tags: ["ux"]
+  tags: ["UX"]
   
 - name: "Human Epoch: Mapping Heritage"
   logo: /images/sections/projects/US-State-Dept-Icon.png
@@ -48,7 +48,7 @@ projects:
   role: Researcher
   timeline: "Jan 2024 - May 2024"
   summary: The US Department of State's Diplomacy Lab conducted research on the cultural heritage and historic significance of the US Chancery complex within the Historic Centre of Rome.
-  tags: ["honors"]
+  tags: ["Honors"]
   
 - name: Microsoft Support Audience Expansion
   logo: /images/sections/projects/Microsoft-Icon.png
@@ -57,7 +57,7 @@ projects:
   timeline: "Jan 2024 - May 2024"
   summary: This Microsoft-sponsored project at Purdue University aims to understand and optimize self-help solutions for Millennials and Gen Z.
   url: "/posts/microsoft/"
-  tags: ["ux"]
+  tags: ["UX"]
   
 # - name: Kubernetes
 #   logo: /images/sections/projects/kubernetes.png
