@@ -44,10 +44,11 @@ projects:
   
 - name: "Human Epoch: Mapping Heritage"
   logo: /images/sections/projects/US-State-Dept-Icon.png
-  image: /images/posts/Human-Epoch-Hero.png
+  image: /images/posts/Mapping-Heritage-Hero.png
   role: Researcher
   timeline: "Jan 2024 - May 2024"
   summary: The US Department of State's Diplomacy Lab conducted research on the cultural heritage and historic significance of the US Chancery complex within the Historic Centre of Rome.
+  url: "/posts/mapping-heritage/"
   tags: ["Honors"]
   
 - name: Microsoft Support Audience Expansion

@@ -1,6 +1,6 @@
 ---
 title: "MIC x PUXD"
-date: 2024-12-20T16:28:31-05:00
+date: 2024-12-01T16:28:31-05:00
 draft: false
 hero: /images/posts/MIC-Hero.png
 description: MIC x PUXD research project

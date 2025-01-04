@@ -1,6 +1,6 @@
 ---
 title: "Microsoft x PUXD"
-date: 2024-12-20T16:28:31-05:00
+date: 2024-05-01T16:28:31-05:00
 draft: false
 hero: /images/posts/Microsoft-Hero.png
 description: Microsoft x PUXD research project
