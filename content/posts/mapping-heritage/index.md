@@ -8,7 +8,7 @@ summary: The U.S. Department of State's Diplomacy Lab conducted research on the 
 
 menu:
   sidebar:
-    name: "Human Epoch: Mapping Heritage"
+    name: "Mapping Heritage"
     identifier: mapping-heritage-project
     weight: 500
 ---
@@ -23,7 +23,7 @@ We predominantly analyzed documents directly from UNESCO as well as the U.S. Dep
 {{< vs 2>}}
 🚀 **Research Outcomes**
 1. An interactive [ArcGIS StoryMap](https://storymaps.arcgis.com/stories/4c0ce6e6740144ffaea964f32994a48c)
-2. A Diplomacy Lab Presentation in Washington, D.C.
+2. A Diplomacy Lab presentation in Washington, D.C.
 
 {{< vs 2>}}
 📅 **The Timeframe**
