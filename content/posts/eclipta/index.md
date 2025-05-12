@@ -22,10 +22,10 @@ A group of 9 UX Design students at various points within the program collaborate
 
 {{< vs 2>}}
 🚀 **Research Outcomes**
-1. Amazon Store Design
-2. Amazon Store Creation and SEO Optimization Section in Guideline
-3. Shopify Redesign
-4. Shopify Questionnaire Creation & Implementation Section in Guideline 
+1. Amazon store design
+2. Amazon store creation and SEO optimization strategy
+3. Shopify redesign
+4. Shopify questionnaire
 
 {{< vs 2>}}
 📅 **The Timeframe**
@@ -41,12 +41,12 @@ The project took place from January to May 2025, building on insights and design
 - Wireframing and Prototyping
 
 {{< vs 3>}}
-{{< textbox title="Project Overview" text="The self-care industry has become increasingly aware of the unnatural ingredients in preventative hair loss products. In a market filled with harmful chemicals, we aim to promote an all-natural, ingredient-conscious brand." text2="Our final goal: Establishing a cohesive brand identity and a seamless shopping experience for consumers through an Amazon and Shopify storefront." fromcolor="#69629a 50%" tocolor="#e0b1cb" angle="60deg" textcolor="white">}}
+{{< textbox title="Project Overview" text="The self-care industry has become increasingly aware of the unnatural ingredients in preventative hair loss products. In a market filled with harmful chemicals, we aim to promote an all-natural, ingredient-conscious brand." text2="Our final goal: Establishing a cohesive brand identity and a seamless shopping experience for consumers through Amazon and Shopify storefronts." fromcolor="#69629a 50%" tocolor="#e0b1cb" angle="60deg" textcolor="white">}}
 
 {{< vs 3>}}
 ## What is Eclipta?
 *Eclipta is a start-up business in the natural eyelash-enhancing sector. They began with a single product – a herbal-infused oil blend for natural eyelash enhancement – created by Nature’s Mercantile. Building on its success, the brand expanded to include additional products and is now developing the Eclipta Mens line.*
-{{< figure src="/posts/eclipta/Eclipta-About.png" alt="About Eclipta" width="700" >}}
+{{< figure src="/posts/eclipta/Eclipta-About.png" alt="About Eclipta" width="500" >}}
 
 {{< vs 3>}}
 ## Eclipta Stakeholders
@@ -56,14 +56,12 @@ The project took place from January to May 2025, building on insights and design
 People interested in all-natural hair and skincare products.
 ---
 
-#### 👭 Secondary Stakeholders: Women Experiencing Hair Thining/Loss
+#### 👭 Secondary Stakeholder: Women Experiencing Hair Thining/Loss
 Women are more susceptible to eyelash thinning and loss, looking to revitalize their look.
 
 ---
 
 #### 🧔‍♂️ Secondary Stakeholder: Men with Facial Hair
-The Child the CASA volunteer is directly working with in each case.
-
 Men who aim to restore or strengthen their facial hair.
 
 {{< /split >}}
@@ -82,29 +80,12 @@ Men who aim to restore or strengthen their facial hair.
 {{< figure src="/posts/eclipta/Eclipta-Comparative.png" alt="Eclipta Comparative Analysis" width="700" >}}
 
 {{< vs 3>}}
-## Heuristics Homepage
-{{< split 3 3 3 3 >}}
-
-##### 🫢 Leading banner is a bit jarring, text readability
----
-
-##### 🔀 Product images are differently sized
----
-
-##### ✨ Add more text and content about Eclipta
----
-
-##### ⏬ Headers can be consolidated
-
-{{< /split >}}
-
-{{< vs 3>}}
 ## Shopify Designs
 {{< figure src="/posts/eclipta/Eclipta-Shopify.png" alt="Eclipta Shopify Designs" width="700" >}}
 {{< vs 3>}}
 *Meeting with our sponsors, we decided what details could be reworked to improve the cohesiveness of the website. These things included:*
 {{< vs 3>}}
-{{< split-icons splits="4,4,4" vendors="bs,bs,bs" names="award-fill,bezier,card-checklist" colors="#69629a,#69629a,#69629a" size="4em,4em,4em" >}}
+{{< split-icons splits="4,4,4" vendors="bs,bs,bs" names="rulers,bezier,card-checklist" colors="#69629a,#69629a,#69629a" size="4em,4em,4em" >}}
 
 ##### Making the headers and footers uniform
 
@@ -124,7 +105,7 @@ Men who aim to restore or strengthen their facial hair.
 
 {{< vs 3>}}
 ## Questionnaire & Updated Style Guide guidelines
-*Create a step-by-step guide as to how to create and phrase the questionnaire, and showcase the updated design system.*
+*Develop a step-by-step guide that explains how to create and phrase the questionnaire, and present the updated design system.*
 
 
 {{< vs 3>}}
