@@ -133,9 +133,9 @@ Men who aim to restore or strengthen their facial hair.
 ## Research/Comparative Analysis of Amazon Stores
 {{< figure src="/posts/eclipta/Eclipta-Compare.png" alt="Eclipta Comparative Analysis" width="700" >}}
 {{< vs 3>}}
-*The metrics and criteria we used to compare the stores*
+##### The metrics and criteria we used to compare the stores:
 {{< vs 3>}}
-{{< split-icons splits="4,4,4" vendors="bs,bs,bs" names="border-width,cart-check-fill,bounding-box" colors="#69629a,#69629a,#69629a" size="4em,4em,4em" >}}
+{{< split-icons splits="4,4,4" vendors="bs,bs,bs" names="border-width,stars,bounding-box" colors="#69629a,#69629a,#69629a" size="4em,4em,4em" >}}
 
 ##### Product Arrangement
 ###### How stores break up and highlight their product lines
@@ -180,19 +180,21 @@ Due to access, we interviewed disproportionately more females than males
 
 ---
 
-#### ⚖️ Legal Constraints
-Things like trademarks, patents, and GTINs are required to establish an Amazon shop
+#### 🙅 Our Access
+Due to the sensitivity of information such as two-factor authentication, tax details, and card data, sponsor involvement was necessary, limiting what could be completed in the moment.
+
 ---
 
-#### 🙅 Our Access
-Two-factor authentication, tax information, and card details required sponsor engagement, often limiting work capabilities
+#### ⚖️ Legal Constraints
+Trademarks, patents, and GTINs are required to establish an Amazon shop
+
 
 {{< /split >}}
 
 {{< vs 3>}}
 ## Self-Reflection
-- **Creative Freedom & New Beginnings:** Eclipta offered a refreshing change from my previous structured projects, allowing our team to be the first to set up both a Shopify and Amazon store—an experience that came with both freedom and responsibility.
+- **Creative Freedom & New Beginnings:** Eclipta offered a refreshing change from my previous structured projects, allowing our team to be the first to set up both a Shopify and an Amazon store — an experience that came with both freedom and responsibility.
 
 - **Deepening Design Emphasis:** From experimenting with page layouts to refining design fidelities, I had the chance to sharpen my UX skills while also expanding my knowledge in areas like SEO and trademark law.
 
-- **Personal & Professional Connection:** This project uniquely blended my professional interests with a health-conscious and wellbeing-based beauty brand, letting me experience UX design through a lens that felt both meaningful and inspiring.
+- **Personal & Professional Connection:** This project uniquely blended my professional interests with a health-conscious and well-being-based beauty brand, letting me experience UX design through a lens that felt both meaningful and inspiring.
