@@ -4,7 +4,7 @@ date: 2025-05-11T16:28:31-05:00
 draft: false
 hero: /images/posts/Eclipta-Hero.png
 description: Eclipta x PUXD research project
-summary: This Eclipta-sponsored project at Purdue University aims to expand the brand’s digital presence through Shopify and Amazon.
+summary: Sponsored by Eclipta and presented through Purdue University, this project is focused on enhancing the brand's online visibility through platforms like Shopify and Amazon.
 
 menu:
   sidebar:
@@ -67,20 +67,20 @@ Men who aim to restore or strengthen their facial hair.
 {{< /split >}}
 
 {{< vs 3>}}
-# Eclipta's Shopify
+## Eclipta's Shopify
 ##### *Personalize Eclipta’s shopping experience by maximizing navigability and integrating product lines.*
 
 
 {{< vs 3>}}
-## Activites
+### Activites
 {{< figure src="/posts/eclipta/Eclipta-Activites.1.png" alt="Eclipta Activites" width="700" >}}
 
 {{< vs 3>}}
-## Comparative Analysis
+### Comparative Analysis
 {{< figure src="/posts/eclipta/Eclipta-Comparative.png" alt="Eclipta Comparative Analysis" width="700" >}}
 
 {{< vs 3>}}
-## Shopify Designs
+### Shopify Designs
 {{< figure src="/posts/eclipta/Eclipta-Shopify.png" alt="Eclipta Shopify Designs" width="700" >}}
 {{< vs 3>}}
 *Meeting with our sponsors, we decided what details could be reworked to improve the cohesiveness of the website. These things included:*
@@ -104,33 +104,33 @@ Men who aim to restore or strengthen their facial hair.
 {{< figure src="/posts/eclipta/Eclipta-Values.png" alt="Eclipta Values" width="700" >}}
 
 {{< vs 3>}}
-# Questionnaire & Updated Style Guide guidelines
+## Questionnaire & Updated Style Guide
 ##### *Develop a step-by-step guide that explains how to create and phrase the questionnaire, and present the updated design system.*
 
 
 {{< vs 3>}}
-## Activites
+### Activites
 {{< figure src="/posts/eclipta/Eclipta-Activites.2.png" alt="Eclipta Activites" width="700" >}}
 
 {{< vs 3>}}
-## Questionnaire Recommendations
+### Questionnaire Recommendations
 {{< figure src="/posts/eclipta/Eclipta-Question.png" alt="Eclipta Questionaire" width="700" >}}
 
 {{< vs 3>}}
-## Style Guide Implementation
+### Style Guide Implementation
 *The style guide includes all the steps to implement storefronts, images and text that you'll need for future expansion and implementation. All the information has links and directions with easy to follow tutorials and steps.*
 {{< figure src="/posts/eclipta/Eclipta-Style.png" alt="Eclipta Style Guide" width="700" >}}
 
 {{< vs 3>}}
-# Creating an Amazon Store
+## Creating an Amazon Store
 ##### *A drafted Amazon store that aligns with Eclipta’s branding by incorporating cohesive visuals, curated product collections, and brand-consistent language to establish a clean, trustworthy, and engaging shopping experience.*
 
 {{< vs 3>}}
-## Activites
+### Activites
 {{< figure src="/posts/eclipta/Eclipta-Activites.3.png" alt="Eclipta Activites" width="700" >}}
 
 {{< vs 3>}}
-## Research/Comparative Analysis of Amazon Stores
+### Research/Comparative Analysis of Amazon Stores
 {{< figure src="/posts/eclipta/Eclipta-Compare.png" alt="Eclipta Comparative Analysis" width="700" >}}
 {{< vs 3>}}
 ##### The metrics and criteria we used to compare the stores:
@@ -151,7 +151,7 @@ Men who aim to restore or strengthen their facial hair.
 {{< /split-icons >}}
 
 {{< vs 3>}}
-## Amazon Guidelines
+### Amazon Guidelines
 {{< figure src="/posts/eclipta/Eclipta-Guidelines.png" alt="Eclipta Amazon Guidelines" width="700" >}}
 
 {{< vs 3>}}
@@ -160,7 +160,7 @@ Men who aim to restore or strengthen their facial hair.
 {{< split 4 4 4 >}}
 
 #### 🛍️ Implementing the Amazon Designs
-Working our high fideity designs into the functioning Amazon store.
+Working our high-fidelity designs into the functioning Amazon store.
 ---
 
 #### ⁉️ Expanding the Shopify Questionaire
@@ -169,7 +169,7 @@ Supplement the current questionaire to include more products and recommendations
 ---
 
 #### 🎨 Designing the Product Listing Page
-Expand Shopify hi-fis to include designs for the product listing pages.
+Expand Shopify high-fidelity prototypes to include designs for the product listing pages.
 
 {{< /split >}}
 
@@ -183,7 +183,7 @@ Due to access, we interviewed disproportionately more females than males
 ---
 
 #### 🙅 Our Access
-Due to the sensitivity of information such as two-factor authentication, tax details, and card data, sponsor involvement was necessary, limiting what could be completed in the moment.
+Due to the sensitivity of information such as two-factor authentication, tax details, and card data, sponsor involvement was necessary, limiting what could be completed in the moment
 
 ---
 
