@@ -67,8 +67,8 @@ Men who aim to restore or strengthen their facial hair.
 {{< /split >}}
 
 {{< vs 3>}}
-## Eclipta's Shopify
-*Personalize Eclipta’s shopping experience by maximizing navigability and integrating product lines.*
+# Eclipta's Shopify
+##### *Personalize Eclipta’s shopping experience by maximizing navigability and integrating product lines.*
 
 
 {{< vs 3>}}
@@ -104,8 +104,8 @@ Men who aim to restore or strengthen their facial hair.
 {{< figure src="/posts/eclipta/Eclipta-Values.png" alt="Eclipta Values" width="700" >}}
 
 {{< vs 3>}}
-## Questionnaire & Updated Style Guide guidelines
-*Develop a step-by-step guide that explains how to create and phrase the questionnaire, and present the updated design system.*
+# Questionnaire & Updated Style Guide guidelines
+##### *Develop a step-by-step guide that explains how to create and phrase the questionnaire, and present the updated design system.*
 
 
 {{< vs 3>}}
@@ -122,8 +122,8 @@ Men who aim to restore or strengthen their facial hair.
 {{< figure src="/posts/eclipta/Eclipta-Style.png" alt="Eclipta Style Guide" width="700" >}}
 
 {{< vs 3>}}
-## Creating an Amazon Store
-*A drafted Amazon store that aligns with Eclipta’s branding by incorporating cohesive visuals, curated product collections, and brand-consistent language to establish a clean, trustworthy, and engaging shopping experience.*
+# Creating an Amazon Store
+##### *A drafted Amazon store that aligns with Eclipta’s branding by incorporating cohesive visuals, curated product collections, and brand-consistent language to establish a clean, trustworthy, and engaging shopping experience.*
 
 {{< vs 3>}}
 ## Activites
@@ -157,19 +157,21 @@ Men who aim to restore or strengthen their facial hair.
 {{< vs 3>}}
 
 ## Next Steps
+{{< split 4 4 4 >}}
 
-{{< split 6 6 >}}
+#### 🛍️ Implementing the Amazon Designs
+Working our high fideity designs into the functioning Amazon store.
+---
 
-#### 🔬 Our team’s ideal next steps…
-Our team’s ideal next steps if we weren’t limited on time is conducting user testing of impressions and also usability of our Shopify homepage and PLP pages in addition to the Amazon store. 
+#### ⁉️ Expanding the Shopify Questionaire
+Supplement the current questionaire to include more products and recommendations.
 
 ---
 
-#### ☝️ Our recommended next steps for Team Eclipta…
-Our recommended next steps for Eclipta is working with a UX team to conduct the user testing our team would have ideally have done if we weren’t limited on time. We also recommend to start implementing our designs onto Shopify and Amazon per our provided updates, guidelines, and to finally complete setting up the Amazon with necessary sensitive documents.
-{{< /split >}}
+#### 🎨 Designing the Product Listing Page
+Expand Shopify hi-fis to include designs for the product listing pages.
 
-{{< vs 3>}}
+{{< /split >}}
 
 ## Overall Limitations
 
