@@ -25,6 +25,15 @@ buttons:
 
 # your projects
 projects:
+- name: Digital Storefront Expansion with Eclipta
+  logo: /images/sections/projects/Eclipta-Icon.png
+  image: /images/posts/Eclipta-Hero.png
+  role: UX Designer
+  timeline: "Jan 2025 - May 2025"
+  summary: Sponsored by Eclipta and presented through Purdue University, this project is focused on enhancing the brand's online visibility through platforms like Shopify and Amazon.
+  url: "/posts/eclipta/"
+  tags: ["UX"]
+
 - name: Naval Observatory Construction Analysis
   logo: /images/sections/projects/US-State-Dept-Icon.png
   image: /images/posts/Naval-Observatory-Hero.png
