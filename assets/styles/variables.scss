@@ -43,7 +43,7 @@ $themes: (
     // slate 300
     'inverse-text-color': #cbd5e1,
     // slate 500
-    'muted-text-color': #627694,
+    'muted-text-color': #64748b,
     // red 600
     'inline-code-color': #dc2626,
     // amber 200
@@ -53,12 +53,11 @@ $themes: (
   ),
   'dark': (
     // cyan 600
-    // 'accent-color': #0891b2,
-    'accent-color': #fffcfc, // Improve accessibility
+    'accent-color': #00ACC1,
     // cyan 500
     'hover-over-accent-color': #06b6d4,
     // zinc 200
-    'text-over-accent-color': #627694,
+    'text-over-accent-color': #ffffff,
     // gray-800
     'bg-primary': #1f2937,
     // slate 900
@@ -74,8 +73,7 @@ $themes: (
     // slate 900
     'inverse-text-color': #0f172a,
     // slate 500
-    // 'muted-text-color': #64748b,
-    'muted-text-color': #7e91ae, // Improve accessibility
+    'muted-text-color': #7e91ae,
     // red 600
     'inline-code-color': #dc2626,
     // amber 200
