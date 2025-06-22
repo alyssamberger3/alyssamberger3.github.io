@@ -10,7 +10,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Bachelors of Science, User Experience Design
+- name: User Experience Design (B.S.), Anthropology (B.A.)
   icon: fa-university
   timeframe: 2023-Present
   institution:
@@ -20,13 +20,14 @@ degrees:
     darkLogo: /images/sections/education/Purdue-Dark.png
   grade:
     scale: GPA
-    achieved: "4.0"
+    achieved: "3.99"
     outOf: "4.0"
   extracurricularActivities:
-  - "Purdue Hillel: Vice President of Programming & Engagement"
+  - "Purdue Hillel: Vice President of Programming & Engagement, Vice President"
   - "Purdue Student Union Board: Director of Wellbeing & General Member"
   - "John Martinson Honors College: Honors Mentor & Hall Club Member"
-  - "Residential Housing Association: Hall Senator"
+  - "Residence Hall Association: Windsor Hall Senator, Vice President"
+  - "Windsor Hall Club: RHA Representative, Resident Assistant Advisor"
 - name: High School Diploma
   icon: fa-graduation-cap
   timeframe: 2019-2023

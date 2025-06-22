@@ -11,6 +11,34 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Purdue Univeristy - University Residences
+    url: "https://www.housing.purdue.edu/campus-living/get-involved/work-with-us/ra.html"
+    location: West Lafayette, Indiana
+    logo: /images/sections/education/Purdue.png
+    darkLogo: /images/sections/education/Purdue-Dark.png
+    overview: Resident Assistants (RAs) foster student learning and success by supporting social and intellectual growth of residents while they live and learn on campus.
+  positions:
+  - designation: Resident Assistant
+    start: Aug 2025
+    responsibilities:
+    - Built community among 30+ residents through daily engagement and weekly events, fostering a welcoming environment.
+    - Planned and executed 32 annual programs, managing budgets and boosting resident participation.
+    - Enforced policies and supported residents through challenges, using strong communication and problem-solving skills.
+- company:
+    name: OCLC
+    url: "https://www.oclc.org/en/home.html"
+    location: Columbus, Ohio
+    logo: /images/sections/experiences/OCLC.png
+    darkLogo: /images/sections/experiences/OCLC.png
+    overview: OCLC is a global library organization that provides shared technology services, original research, and community programs for its membership and the library community at large.
+  positions:
+  - designation: UX Accessibility Intern
+    start: May 2025 
+    responsibilities:
+    - Assessed accessibility compliance of OCLC products using WCAG 2.2 standards, with a focus on upcoming EU (2025) and US (2026) regulations.
+    - Generated VPAT reports, created and updated Jira tickets, and re-evaluated product accessibility post-remediation.
+    - Contributed to an AI capstone project introducing AI applications across UX Design, Cybersecurity, Business Analysis, and Information Services teams.
+- company:
     name: Elliott Hall of Music
     url: "https://www.purdue.edu/hallofmusic/attend-a-show/elliott-hall.html"
     location: West Lafayette, Indiana

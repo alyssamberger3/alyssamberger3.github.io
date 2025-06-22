@@ -55,6 +55,22 @@ publications:
   categories: ["state-department","research"]
   tags: ["US Department of State", "Research"]
 
+- title: Exploring the Old Naval Observatory
+  publishedIn:
+    name: Purdue John Martinson Honors College Scholarly Project
+    date: Fall 2024 - Spring 2025
+    url: https://storymaps.arcgis.com/stories/a7025a5a0be5495292baa8b6fdd08bb7 
+  authors:
+  - name: Alyssa Berger
+    url: https://www.linkedin.com/in/alyssamberger/ 
+  - name: Marisa Crescent
+    url: https://www.linkedin.com/in/marisa-crescent-0744b126b/ 
+  paper:
+    summary: This project seeks to uncover more details about the Observatory's construction and establish whether it used enslaved people or indentured servants in the construction of the building. Additionally, should our findings prove that such people performed the construction, we want to educate the public regarding their work's importance and historical significance. To carry out our research, we applied both a virtual and an in-person approach. We utilized the information that was digitally documented by the Library of Congress (LOC) and the National Archives (NARA) to go over various documents relevant to the Observatory's construction and the current state of slavery at the time. Furthermore, in September of 2024, we traveled to Washington, D.C., to visit and review the records of the Library of Congress (LOC) and National Archives (NARA). In this report, we will discuss our current findings regarding the Observatory’s construction as well as our future steps and plans for continued research.
+    url: https://storymaps.arcgis.com/stories/a7025a5a0be5495292baa8b6fdd08bb7  
+  categories: ["state-department","research"]
+  tags: ["US Department of State", "Research"]
+
 # - title: An Example Paper on Machine Learning
 #   publishedIn:
 #     name: 2020 IEEE Region Symposium (TENSYMP)
