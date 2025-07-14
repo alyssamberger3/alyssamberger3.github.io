@@ -11,7 +11,7 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Purdue Univeristy - University Residences
+    name: Purdue University - University Residences
     url: "https://www.housing.purdue.edu/campus-living/get-involved/work-with-us/ra.html"
     location: West Lafayette, Indiana
     logo: /images/sections/education/Purdue.png
@@ -37,7 +37,7 @@ experiences:
     responsibilities:
     - Assessed accessibility compliance of OCLC products using WCAG 2.2 standards, with a focus on upcoming EU (2025) and US (2026) regulations.
     - Generated VPAT reports, created and updated Jira tickets, and re-evaluated product accessibility post-remediation.
-    - Contributed to an AI capstone project introducing AI applications across UX Design, Cybersecurity, Business Analysis, and Information Services teams.
+    - Contributed to a capstone project introducing AI applications across UX Design, Cybersecurity, Business Analysis, and Information Security teams.
 - company:
     name: Elliott Hall of Music
     url: "https://www.purdue.edu/hallofmusic/attend-a-show/elliott-hall.html"
@@ -60,13 +60,12 @@ experiences:
     logo: /images/sections/experiences/The-Bristol.png
     overview: The Bristol is a leading community offering luxurious independent and assisted living options, designed to provide residents with tailored services and amenities that meet their individual needs.
   positions:
-  - designation: Server
+  - designation: Lead Server
     start: Jun 2023
     responsibilities:
     - Excitedly welcomed residents with the understanding that we are guests in their homes, and that it is our pleasure to be in their attendance
     - Delivered and attended to the resident's request for food, beverage, or culinary assistance in a timely manner
-    - Assisted with separate department activities within the community, including buffet lines, tasting events, and holiday celebrations
-
+    - Assisted with interviewing, onboarding, and training of new waitstaff, ensuring seamless integration into team operations and maintaining high standards of service
 # - company:
 #     name: Example Co.
 #     url: "https://www.example.com"

@@ -16,19 +16,20 @@ menu:
 ## The Basics
 🤝 **The Team**
 
-Two Purdue students at various points within the John Martinson Honors program collaborated to produce a U.S. Department of State project focusing on the Old Naval Observatory in Washington, D.C.
+Two Purdue John Martinson Honors program students collaborated to produce a U.S. Department of State project focusing on the Old Naval Observatory in Washington, D.C.
 
 Our primary sources were official documents from the United States, which we obtained through access to records held by the National Archives and Library of Congress. We also consulted with subject matter experts affiliated with the U.S. Department of State to supplement our research.
 
 {{< vs 2>}}
 🚀 **Research Outcomes**
-1. A published research paper (target April 2025)
-2. A Diplomacy Lab presentation in Washington, D.C.
+1. A published research paper 
+2. A public presentation at Purdue Spring Undergraduate Research Conference
 
 {{< vs 2>}}
 📅 **The Timeframe**
 
-In progress, starting in August 2024 and expected to conclude in April 2025.
+August 2024 through June 2025
+
 
 {{< vs 2>}}
 🙋 **My Role**
@@ -54,8 +55,26 @@ Following the trip to D.C., the research continued. For documents that required 
 
 {{< figure src="/posts/ono/ONO-Research.jpg" alt="ONO Research" width="700" >}}
 
-## What's Ahead
-In the coming months, we will refine the findings gathered during our research and compile them into a publication for submission to the U.S. Department of State. Our work will contribute to determining the future of the Old Naval Observatory. At present, the building remains closed to the public due to concerns about asbestos and its unstable structure. While there are planned efforts to revitalize the facility due to its historical ties, there are further considerations as to how the building may be used that will be determined in part due to our research.
-Future plans envision the facility being redeveloped as a library. However, it's essential to recognize the site's complex historical connections to slavery, which may necessitate additional thought and consideration regarding its use and potential restrictions on repurposing the space.
+## An Unexpected Roadblock
+Due to unforeseen circumstances, our partnership and the associated funding were terminated alongside the dissolution of the Diplomacy Lab program. Although the initial concept and financial support were provided by the U.S. Department of State’s Office of the Historian, our collaboration officially ended in February 2025. This also led to the cancellation of our planned trip to Washington, D.C., where we had intended to present our findings in March.
+
+Despite the formal end of the partnership, we chose to continue our research and complete our deliverables, with the intention of submitting our findings to the Office of the Historian regardless of our official affiliation. To move forward, we transitioned the project under Dr. Ashima Krishina’s Urban Matters Lab. Consequently, our presentation plans shifted as well, culminating in a showcase at Purdue University’s Spring Undergraduate Research Conference in April 2025.
+
+Since then, the Diplomacy Lab has been reinstated under the U.S. Department of State’s Office of Global Partnerships. However, the extent of its current operations remains unclear. Bidding for Fall 2025 Diplomacy Lab topics has resumed, with hopes to relaunch the conference in April 2026. That said, all original publications and references to the Diplomacy Lab are now accessible only through the State Department’s archived resources page.
+
+## Final Presentation and Conclusion
+In April 2025, we officially presented our research findings as part of Purdue University’s Spring Undergraduate Research Conference. Our topic earned a nearly perfect presentation score and would be published in Purdue University's Undergraduate Research pamphlet. 
+
+In concluding our research, we found it to be unlikely that slave labor was used in the construction of the Old Naval Observatory. The Navy’s anti-slavery actions, such as liberating slave ships, suggest a progressive stance during the Observatory’s construction. While the observatory’s original superintendent Matthew Fontaine Maury was later tied to the Confederacy, it was James Gilliss, driven by scientific ambition and backed by federal support, who led the project. Architect George De la Roche, once an indentured servant, and contractor William Bird, who shows no direct ties to slavery, reflect a more complex labor history. With significant funding aimed at rivaling European observatories, unpaid labor was neither necessary nor desired. Though there is no decisive evidence, the research performed here hopes to advance the current literature on the topic, provide a helpful basis for future research to come, and serve as a starting point for education on the usage of slave labor in the construction of important historic buildings in the United States.
+
+## Self-Reflection
+
+- **Not Everything Is Within My Control:** The entire trajectory of our Diplomacy Lab project shifted with a single email—plans that had been in motion just days earlier were abruptly canceled. Although my team and I tried to understand the reasoning and challenge the decision, one truth became clear: this change was far beyond our control. It was frustrating and disheartening to pivot so suddenly, but the experience taught us a valuable lesson—how to adapt and make the most of what we had. In the face of uncertainty, we found resilience.
+
+- **Experience With the Unfamiliar:** This project uniquely combined my background in focused research with a newly developing understanding of architectural and constructional history. It strengthened my ability to analyze primary documents, some of which predate the founding of the United States. While my academic interests typically revolve around experience and design, this project offered a refreshing and eye-opening exploration into a lesser-known chapter of American history and the humanities.
+
+- **More Than Just a Box Checked:** When I first joined this project, I saw it primarily as a way to fulfill my Honors College Scholarly Project requirement. The topic mildly interested me, and I felt confident I could manage it alongside my other studies. But over the course of nearly a year, my perspective changed. I became deeply invested in the work and proud to contribute to research that extended far beyond myself. Despite its imperfections and unexpected turns, this project taught me the value of stepping outside my comfort zone and embracing opportunities that don’t always come neatly packaged. It became far more than a requirement—it became a meaningful journey.
+
+
 {{< figure src="/posts/ono/ONO-Ahead.jpg" alt="ONO What's Ahead" width="700" >}}
 
