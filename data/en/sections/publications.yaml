@@ -25,10 +25,26 @@ buttons:
 
 # your publications
 publications:
+- title: Exploring the Old Naval Observatory
+  publishedIn:
+    name: Purdue John Martinson Honors College Scholarly Project
+    date: 15 May 2025
+    url: https://storymaps.arcgis.com/stories/a7025a5a0be5495292baa8b6fdd08bb7 
+  authors:
+  - name: Alyssa Berger
+    url: https://www.linkedin.com/in/alyssamberger/ 
+  - name: Marisa Crescent
+    url: https://www.linkedin.com/in/marisa-crescent-0744b126b/ 
+  paper:
+    summary: This project seeks to uncover more details about the Observatory's construction and establish whether it used enslaved people or indentured servants in the construction of the building. Additionally, should our findings prove that such people performed the construction, we want to educate the public regarding their work's importance and historical significance. To carry out our research, we applied both a virtual and an in-person approach. We utilized the information that was digitally documented by the Library of Congress (LOC) and the National Archives (NARA) to go over various documents relevant to the Observatory's construction and the current state of slavery at the time. Furthermore, in September of 2024, we traveled to Washington, D.C., to visit and review the records of the Library of Congress (LOC) and National Archives (NARA). In this report, we will discuss our current findings regarding the Observatory’s construction as well as our future steps and plans for continued research.
+    url: https://storymaps.arcgis.com/stories/a7025a5a0be5495292baa8b6fdd08bb7  
+  categories: ["state-department","research"]
+  tags: ["US Department of State", "Research"]
+
 - title: Palazzos, Perimeters, and Preserving Pasts
   publishedIn:
     name: 2024 US Department of State's Spring Diplomacy Lab
-    date: 19 April 2024
+    date: 15 April 2024
     url: https://storymaps.arcgis.com/stories/4c0ce6e6740144ffaea964f32994a48c 
   authors:
   - name: Alyssa Berger
@@ -52,22 +68,6 @@ publications:
   paper:
     summary: Welcome to the United States Chancery, located within the World Heritage Site of the  Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura , housing the US Mission to Italy. While the historic buildings located within the Chancery complex serve an important role as an embassy for US citizens and an epicenter for diplomatic personnel in Italy, their significance to the cultural heritage and historic character of the city cannot be understated. In the following sections we will discuss the iconic Palazzo Margherita--which serves as the primary Embassy building--both before and after it became a US diplomatic space.
     url: https://storymaps.arcgis.com/stories/4c0ce6e6740144ffaea964f32994a48c 
-  categories: ["state-department","research"]
-  tags: ["US Department of State", "Research"]
-
-- title: Exploring the Old Naval Observatory
-  publishedIn:
-    name: Purdue John Martinson Honors College Scholarly Project
-    date: Fall 2024 - Spring 2025
-    url: https://storymaps.arcgis.com/stories/a7025a5a0be5495292baa8b6fdd08bb7 
-  authors:
-  - name: Alyssa Berger
-    url: https://www.linkedin.com/in/alyssamberger/ 
-  - name: Marisa Crescent
-    url: https://www.linkedin.com/in/marisa-crescent-0744b126b/ 
-  paper:
-    summary: This project seeks to uncover more details about the Observatory's construction and establish whether it used enslaved people or indentured servants in the construction of the building. Additionally, should our findings prove that such people performed the construction, we want to educate the public regarding their work's importance and historical significance. To carry out our research, we applied both a virtual and an in-person approach. We utilized the information that was digitally documented by the Library of Congress (LOC) and the National Archives (NARA) to go over various documents relevant to the Observatory's construction and the current state of slavery at the time. Furthermore, in September of 2024, we traveled to Washington, D.C., to visit and review the records of the Library of Congress (LOC) and National Archives (NARA). In this report, we will discuss our current findings regarding the Observatory’s construction as well as our future steps and plans for continued research.
-    url: https://storymaps.arcgis.com/stories/a7025a5a0be5495292baa8b6fdd08bb7  
   categories: ["state-department","research"]
   tags: ["US Department of State", "Research"]
 
