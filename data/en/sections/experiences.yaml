@@ -33,7 +33,8 @@ experiences:
     overview: OCLC is a global library organization that provides shared technology services, original research, and community programs for its membership and the library community at large.
   positions:
   - designation: UX Accessibility Intern
-    start: May 2025 
+    start: May 2025
+    end: Aug 2025
     responsibilities:
     - Assessed accessibility compliance of OCLC products using WCAG 2.2 standards, with a focus on upcoming EU (2025) and US (2026) regulations.
     - Generated VPAT reports, created and updated Jira tickets, and re-evaluated product accessibility post-remediation.
