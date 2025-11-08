@@ -25,6 +25,15 @@ buttons:
 
 # your projects
 projects:
+- name: Azure Health Models
+  logo: /images/sections/projects/Microsoft-Icon.png
+  image: /images/posts/Azure-Hero.png
+  role: UX Researcher & Project Lead
+  timeline: "Aug 2025 - Present"
+  summary: This Microsoft-sponsored project focuses on redesigning Azure Monitor's health models to enhance the user experience, broaden user targets, and improve troubleshooting efficiency.
+  # url: "/posts/TBD/"
+  tags: ["UX"]
+
 - name: Digital Storefront Expansion with Eclipta
   logo: /images/sections/projects/Eclipta-Icon.png
   image: /images/posts/Eclipta-Hero.png
@@ -38,7 +47,7 @@ projects:
   logo: /images/sections/projects/US-State-Dept-Icon.png
   image: /images/posts/Naval-Observatory-Hero.png
   role: Researcher
-  timeline: "Aug 2024 - Present"
+  timeline: "Aug 2024 - May 2025"
   summary: The US Department of State Diplomacy Lab conducted historical research on the Old Naval Observatory, examining its construction and associated narratives.
   url: "/posts/ono/"
   tags: ["Honors"]
