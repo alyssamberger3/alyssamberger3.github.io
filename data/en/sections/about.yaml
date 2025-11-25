@@ -83,33 +83,33 @@ badges:
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
+  name: Figma
+  percentage: 100
   color: blue
 
 - type: soft-skill-indicator
-  name: Collaboration
-  percentage: 90
+  name: Jira
+  percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
-  name: Problem Solving
-  percentage: 85
+  name: UI Design
+  percentage: 100
   color: orange
   
 - type: soft-skill-indicator
-  name: Research & Analysis
-  percentage: 85
+  name: Design Systems
+  percentage: 100
   color: "#05CF82"
   
 - type: soft-skill-indicator
-  name: Figma
-  percentage: 65
+  name: Usability Testing
+  percentage: 100
   color: "#A259FF"
   
 - type: soft-skill-indicator
-  name: Web Design
-  percentage: 55
+  name: WCAG 2.2
+  percentage: 100
   color: "#19BCFE"
   
 # you can also provide color code instead of the color name
