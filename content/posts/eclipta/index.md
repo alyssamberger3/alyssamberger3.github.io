@@ -56,7 +56,7 @@ The project took place from January to May 2025, building on insights and design
 People interested in all-natural hair and skincare products.
 ---
 
-#### 👭 Secondary Stakeholder: Women Experiencing Hair Thining/Loss
+#### 👭 Secondary Stakeholder: Women Experiencing Hair Thinning/Loss
 Women are more susceptible to eyelash thinning and loss, looking to revitalize their look.
 
 ---
@@ -72,8 +72,8 @@ Men who aim to restore or strengthen their facial hair.
 
 
 {{< vs 3>}}
-### Activites
-{{< figure src="/posts/eclipta/Eclipta-Activites.1.png" alt="Eclipta Activites" width="700" >}}
+### Activities
+{{< figure src="/posts/eclipta/Eclipta-Activities.1.png" alt="Eclipta Activities" width="700" >}}
 
 {{< vs 3>}}
 ### Comparative Analysis
@@ -109,8 +109,8 @@ Men who aim to restore or strengthen their facial hair.
 
 
 {{< vs 3>}}
-### Activites
-{{< figure src="/posts/eclipta/Eclipta-Activites.2.png" alt="Eclipta Activites" width="700" >}}
+### Activities
+{{< figure src="/posts/eclipta/Eclipta-Activities.2.png" alt="Eclipta Activities" width="700" >}}
 
 {{< vs 3>}}
 ### Questionnaire Recommendations
@@ -126,8 +126,8 @@ Men who aim to restore or strengthen their facial hair.
 ##### *A drafted Amazon store that aligns with Eclipta’s branding by incorporating cohesive visuals, curated product collections, and brand-consistent language to establish a clean, trustworthy, and engaging shopping experience.*
 
 {{< vs 3>}}
-### Activites
-{{< figure src="/posts/eclipta/Eclipta-Activites.3.png" alt="Eclipta Activites" width="700" >}}
+### Activities
+{{< figure src="/posts/eclipta/Eclipta-Activities.3.png" alt="Eclipta Activities" width="700" >}}
 
 {{< vs 3>}}
 ### Research/Comparative Analysis of Amazon Stores
