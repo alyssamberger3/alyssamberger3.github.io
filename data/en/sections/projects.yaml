@@ -29,9 +29,9 @@ projects:
   logo: /images/sections/projects/Microsoft-Icon.png
   image: /images/posts/Azure-Hero.png
   role: UX Researcher & Project Lead
-  timeline: "Aug 2025 - Present"
+  timeline: "Aug 2025 - Dec 2025"
   summary: This Microsoft-sponsored project focuses on redesigning Azure Monitor's health models to enhance the user experience, broaden user targets, and improve troubleshooting efficiency.
-  # url: "/posts/TBD/"
+  url: "/posts/azure-health-models/"
   tags: ["UX"]
 
 - name: Digital Storefront Expansion with Eclipta
