@@ -1,6 +1,6 @@
 module github.com/alyssamberger3/alyssamberger3.github.io
 
-go 1.24.3
+go 1.25
 
 require (
 	github.com/hugo-toha/toha/v4 v4.14.0 // indirect
