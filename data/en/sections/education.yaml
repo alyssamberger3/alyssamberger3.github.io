@@ -4,7 +4,7 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -24,21 +24,20 @@ degrees:
     outOf: "4.0"
   extracurricularActivities:
   - "Purdue Hillel: President, VP of Programming & Engagement"
-  - "Purdue Student Union Board: Director of Wellbeing & General Member"
-  - "John Martinson Honors College: Honors Mentor & Hall Club Member"
+  - "Purdue Student Union Board: Director of Wellbeing, General Member"
   - "Residence Hall Association: President, Windsor Hall Senator"
-  - "Windsor Hall Club: RHA Representative, Resident Assistant Advisor, Treasurer"
-- name: High School Diploma
-  icon: fa-graduation-cap
-  timeframe: 2019-2023
-  institution:
-    name: Worthington Kilbourne High School
-    url: "https://wkhs.worthington.k12.oh.us"
-    logo: /images/sections/education/Worthington-Kilbourne.png
-  grade:
-    scale: GPA
-    achieved: "4.2"
-    outOf: "4.0"
+  - "Windsor Hall Club: Resident Assistant Representative, Treasurer, RHA Senator"
+# - name: High School Diploma
+#   icon: fa-graduation-cap
+#   timeframe: 2019-2023
+#   institution:
+#     name: Worthington Kilbourne High School
+#     url: "https://wkhs.worthington.k12.oh.us"
+#     logo: /images/sections/education/Worthington-Kilbourne.png
+#   grade:
+#     scale: GPA
+#     achieved: "4.2"
+#     outOf: "4.0"
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
 #   timeframe: 2016-2020

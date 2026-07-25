@@ -25,6 +25,22 @@ buttons:
 
 # your publications
 publications:
+- title: "You Can't Stop the Beat: Exploring Bias, Power, and Perspective Through Hairspray"
+  publishedIn:
+    name: Communication Teacher
+    date: 4 June 2026
+    url: https://doi.org/10.1080/17404622.2026.2669274
+  authors:
+  - name: Alyssa Berger
+    url: https://www.linkedin.com/in/alyssamberger/
+  - name: Seungyoon Lee
+    url: https://www.linkedin.com/in/seungyoon-lee-b45898aa/
+  paper:
+    summary: This activity seeks to instruct and inform students about feminist standpoint theory and structuration theory through a screening of Hairspray. By analyzing historical events and confronting their own biases, students engage with themes in the film and the real-world events that contribute to those themes. This lesson can ideally be concluded within a single-class setting, although it may be conducted across multiple periods or supplemented with external work. For best results, activities should be completed with a medium to large class size; however, topics covered may be reduced to accommodate smaller groups. Instructors may extend the activity beyond the classroom by providing community-level resources and opportunities for student involvement.
+    url: https://doi.org/10.1080/17404622.2026.2669274
+  categories: ["research"]
+  tags: ["Research"]
+
 - title: Exploring the Old Naval Observatory
   publishedIn:
     name: Purdue John Martinson Honors College Scholarly Project

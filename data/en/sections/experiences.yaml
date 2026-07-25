@@ -3,27 +3,13 @@ section:
   name: Work Experience
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 
 # Your experiences
 experiences:
-- company:
-    name: Purdue University - University Residences
-    url: "https://www.housing.purdue.edu/campus-living/get-involved/work-with-us/ra.html"
-    location: West Lafayette, Indiana
-    logo: /images/sections/education/Purdue.png
-    darkLogo: /images/sections/education/Purdue-Dark.png
-    overview: Resident Assistants (RAs) foster student learning and success by supporting social and intellectual growth of residents while they live and learn on campus.
-  positions:
-  - designation: Windsor Halls Resident Assistant
-    start: Aug 2025
-    responsibilities:
-    - Built community among 30+ residents through daily engagement and weekly events, fostering a welcoming environment.
-    - Planned and executed 32 annual programs, managing budgets and boosting resident participation.
-    - Enforced policies and supported residents through challenges, using strong communication and problem-solving skills.
 - company:
     name: OCLC
     url: "https://www.oclc.org/en/home.html"
@@ -35,38 +21,49 @@ experiences:
   - designation: UX Accessibility Intern
     start: May 2025
     responsibilities:
-    - Assessed accessibility compliance of OCLC products using WCAG 2.2 standards, with a focus on upcoming EU (2025) and US (2026) regulations.
-    - Generated VPAT reports, created and updated Jira tickets, and re-evaluated product accessibility post-remediation.
-    - Contributed to a capstone project introducing AI applications across UX Design, Cybersecurity, Business Analysis, and Information Security teams.
+    - Assessed accessibility compliance of OCLC products against WCAG 2.2 standards, with focus on landmark EU (2025) and US (2027) digital accessibility regulations.
+    - Generated VPAT reports, managed Jira tickets, and re-evaluated product accessibility post-remediation to verify resolution of identified barriers.
+    - Led UX Design and Research efforts on a capstone project focused on introducing AI applications, working closely with Cybersecurity, Business Analysis, and Information Security teams.
 - company:
-    name: Elliott Hall of Music
-    url: "https://www.purdue.edu/hallofmusic/attend-a-show/elliott-hall.html"
+    name: Purdue University Residences
+    url: "https://www.housing.purdue.edu/campus-living/get-involved/work-with-us/ra.html"
     location: West Lafayette, Indiana
     logo: /images/sections/education/Purdue.png
     darkLogo: /images/sections/education/Purdue-Dark.png
-    overview: One of the largest proscenium theaters in the world, Elliot Hall of Music hosts over 40 shows a year for Purdue students and the Lafayette community as a whole.
+    overview: Purdue University Residences provides on-campus housing and community living services for Purdue students, encompassing residence hall operations, staff training, and resident support programs.
   positions:
-  - designation: Usher and Ticket Taker
-    start: Sep 2023
+  - designation: Accessibility Compliance Intern
+    start: May 2026
     responsibilities:
-    - Guided and validated visitors, tailoring assistance to meet their unique needs
-    - Supervised peer ushers, ensuring visitors were properly greeted with all questions appropriately answered
-    - Ensured theatre remains safe and accessible throughout performances
-
+    - Remediated protocol manuals, onboarding materials, and professional staff documentation to meet WCAG 2.2 and Section 508 standards.
+    - Audited and provided remediation guidance for the Purdue University Residences website, identifying accessibility barriers and recommending compliant design solutions.
+    - Served as an accessibility subject-matter expert for housing staff, advising on equitable communication practices and inclusive document creation workflows.
 - company:
-    name: The Bristol Senior Living
-    url: "https://continentalseniorcommunities.com/the-bristol"
-    location: Worthington, Ohio
-    logo: /images/sections/experiences/The-Bristol.png
-    overview: The Bristol is a leading community offering luxurious independent and assisted living options, designed to provide residents with tailored services and amenities that meet their individual needs.
+    name: Purdue University – Center for Instructional Excellence
+    url: "https://www.purdue.edu/cie/"
+    location: West Lafayette, Indiana
+    logo: /images/sections/education/Purdue.png
+    darkLogo: /images/sections/education/Purdue-Dark.png
+    overview: The Center for Instructional Excellence supports Purdue faculty and staff in delivering effective, accessible instruction, including compliance with digital accessibility requirements for course materials.
   positions:
-  - designation: Lead Server
-    start: Jun 2023
-    end: May 2025
+  - designation: Innovative Learning Support Team Lead
+    start: Oct 2025
     responsibilities:
-    - Excitedly welcomed residents with the understanding that we are guests in their homes, and that it is our pleasure to be in their attendance
-    - Delivered and attended to the resident's request for food, beverage, or culinary assistance in a timely manner
-    - Assisted with interviewing, onboarding, and training of new waitstaff, ensuring seamless integration into team operations and maintaining high standards of service
+    - Supported the Student Accessibility Support Team in meeting the Department of Justice's updated ADA Title II digital accessibility requirements campus-wide.
+    - Audited student-facing digital and web instructional materials for WCAG 2.2 and Section 508 compliance; guided faculty on accessible course design best practices.
+- company:
+    name: Purdue University Residences – Windsor Halls
+    url: "https://www.housing.purdue.edu/campus-living/get-involved/work-with-us/ra.html"
+    location: West Lafayette, Indiana
+    logo: /images/sections/education/Purdue.png
+    darkLogo: /images/sections/education/Purdue-Dark.png
+    overview: Resident Assistants (RAs) foster student learning and success by supporting social and intellectual growth of residents while they live and learn on campus.
+  positions:
+  - designation: Windsor Halls Resident Assistant
+    start: Aug 2025
+    responsibilities:
+    - Built community among 40+ residents through daily engagement and 32 annual programs, managing budgets and supporting resident wellbeing.
+    - Enforced residential policies and supported residents through challenges using strong interpersonal communication and problem-solving skills.
 # - company:
 #     name: Example Co.
 #     url: "https://www.example.com"
