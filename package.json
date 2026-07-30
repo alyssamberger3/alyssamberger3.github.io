@@ -1,61 +1,82 @@
 {
-  "comments": {
-    "dependencies": {},
-    "devDependencies": {
-      "@fontsource/mulish": "github.com/hugo-toha/toha/v4",
-      "@fortawesome/fontawesome-free": "github.com/hugo-toha/toha/v4",
-      "bootstrap": "github.com/hugo-toha/toha/v4",
-      "eslint": "github.com/hugo-toha/toha/v4",
-      "eslint-config-prettier": "github.com/hugo-toha/toha/v4",
-      "eslint-config-standard": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-import": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-n": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-no-jquery": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-promise": "github.com/hugo-toha/toha/v4",
-      "feather-icons": "github.com/hugo-toha/toha/v4",
-      "filterizr": "github.com/hugo-toha/toha/v4",
-      "flag-icons": "github.com/hugo-toha/toha/v4",
-      "fuse.js": "github.com/hugo-toha/toha/v4",
-      "highlight.js": "github.com/hugo-toha/toha/v4",
-      "imagesloaded": "github.com/hugo-toha/toha/v4",
-      "include-media": "github.com/hugo-toha/toha/v4",
-      "katex": "github.com/hugo-toha/toha/v4",
-      "mark.js": "github.com/hugo-toha/toha/v4",
-      "mermaid": "github.com/hugo-toha/toha/v4",
-      "plyr": "github.com/hugo-toha/toha/v4",
-      "popper.js": "github.com/hugo-toha/toha/v4",
-      "typeit": "github.com/hugo-toha/toha/v4"
-    }
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@fontsource/mulish": "4.5.13",
-    "@fortawesome/fontawesome-free": "^6.6.0",
-    "bootstrap": "^5.3.3",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.6.0",
-    "eslint-plugin-no-jquery": "^2.7.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "feather-icons": "^4.29.1",
-    "filterizr": "^2.2.4",
-    "flag-icons": "^7.2.3",
-    "fuse.js": "^6.6.2",
-    "highlight.js": "^11.6.0",
-    "imagesloaded": "^5.0.0",
-    "include-media": "^1.4.10",
-    "katex": "^0.16.11",
-    "mark.js": "^8.11.1",
-    "mermaid": "^11.10.0",
-    "plyr": "^3.7.2",
-    "popper.js": "^1.16.1",
-    "typeit": "^8.8.7"
-  },
-  "name": "hugo-toha.github.io",
-  "version": "0.1.0",
+  "name": "accessible-astro-starter",
+  "description": "An Accessible Starter Theme for Astro including several accessibility features and tools to help you build faster.",
+  "version": "5.2.5",
+  "author": "Incluud",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://accessible-astro-starter.incluud.dev/",
   "workspaces": [
-    "packages/hugoautogen"
-  ]
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "build:cli": "npm --workspace create-accessible-astro-starter run build",
+    "create:local": "node packages/create-accessible-astro-starter/scripts/run-local.mjs",
+    "test:cli": "npm --workspace create-accessible-astro-starter run test",
+    "test:cli:e2e": "npm --workspace create-accessible-astro-starter run test:e2e"
+  },
+  "keywords": [
+    "astro",
+    "astro-component",
+    "astro-components",
+    "accessible",
+    "accessibility",
+    "a11y",
+    "wcag",
+    "responsive",
+    "ui-library",
+    "ui-components",
+    "blog",
+    "portfolio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incluud/accessible-astro-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/incluud/accessible-astro-starter/issues"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "^5.0.4",
+    "@astrojs/partytown": "^2.1.7",
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^9.39.2",
+    "@iconify-json/lucide": "^1.2.105",
+    "@types/sanitize-html": "^2.16.1",
+    "@typescript-eslint/eslint-plugin": "^8.59.1",
+    "@typescript-eslint/parser": "^8.59.1",
+    "astro": "^6.3.7",
+    "astro-compress": "^2.4.1",
+    "astro-eslint-parser": "^1.4.0",
+    "astro-icon": "^1.1.5",
+    "eslint": "^9.39.2",
+    "eslint-plugin-astro": "^1.7.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-css-order": "^2.2.0",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "sanitize-html": "^2.17.3",
+    "sass": "^1.99.0",
+    "svgo": "^4.0.1",
+    "tailwindcss": "^4.2.4"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "@tailwindcss/vite": "^4.2.4",
+    "accessible-astro-components": "^5.4.0",
+    "accessible-astro-launcher": "^2.0.0",
+    "astro-seo": "^1.1.0"
+  },
+  "overrides": {
+    "vite": "^7"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
 }
