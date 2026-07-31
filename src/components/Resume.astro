@@ -1,0 +1,137 @@
+---
+import { Heading } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
+import {
+  experience as defaultExperience,
+  education as defaultEducation,
+  type ExperienceEntry,
+  type EducationEntry,
+} from '@utils/resumeData'
+
+/**
+ * Resume Component
+ *
+ * @description A component that displays a summary of work experience and education
+ */
+interface Props {
+  /**
+   * Additional classes to apply to the section
+   */
+  class?: string
+  /**
+   * The title for the section
+   * @default "Resume"
+   */
+  title?: string
+  /**
+   * Work experience entries, most recent first
+   */
+  experience?: ExperienceEntry[]
+  /**
+   * Education entries, most recent first
+   */
+  education?: EducationEntry[]
+}
+
+const {
+  class: className,
+  title = 'Resume',
+  experience = defaultExperience,
+  education = defaultEducation,
+}: Props = Astro.props
+---
+
+<section id="resume" class:list={[className, 'my-64']}>
+  <div class="container">
+    <Heading level="h2" class="mb-8">{title}</Heading>
+    <div class="grid grid-cols-1 gap-16 lg:grid-cols-2">
+      <div>
+        <div class="mb-6 flex items-center gap-3">
+          <Icon aria-hidden="true" name="lucide:briefcase" size="1.75rem" />
+          <Heading level="h3" size="h4">Experience</Heading>
+        </div>
+        <ol class="timeline">
+          {
+            experience.map((entry) => (
+              <li class="timeline-item">
+                <Heading level="h4" size="h5">
+                  {entry.title}
+                </Heading>
+                <p class="timeline-meta">
+                  {entry.organization}
+                  {entry.location && `, ${entry.location}`}
+                </p>
+                <p class="timeline-period">{entry.period}</p>
+                {entry.description && <p class="mt-2">{entry.description}</p>}
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+      <div>
+        <div class="mb-6 flex items-center gap-3">
+          <Icon aria-hidden="true" name="lucide:graduation-cap" size="1.75rem" />
+          <Heading level="h3" size="h4">Education</Heading>
+        </div>
+        <ol class="timeline">
+          {
+            education.map((entry) => (
+              <li class="timeline-item">
+                <Heading level="h4" size="h5">
+                  {entry.degree}
+                </Heading>
+                <p class="timeline-meta">
+                  {entry.institution}
+                  {entry.location && `, ${entry.location}`}
+                </p>
+                <p class="timeline-period">{entry.period}</p>
+                {entry.description && <p class="mt-2">{entry.description}</p>}
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style lang="scss">
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    margin: 0;
+    border-inline-start: 2px solid var(--border-color-subtle);
+    padding: 0;
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-inline-start: var(--space-m);
+
+    &::before {
+      position: absolute;
+      inset-block-start: 0.5rem;
+      inset-inline-start: -7px;
+      border-radius: 50%;
+      background-color: var(--link-color);
+      inline-size: 12px;
+      block-size: 12px;
+      content: '';
+    }
+  }
+
+  .timeline-meta {
+    color: var(--foreground-color);
+    font-weight: 600;
+  }
+
+  .timeline-period {
+    color: var(--color-neutral-700);
+    font-size: var(--font-size--1);
+  }
+
+  :global(.darkmode) .timeline-period {
+    color: var(--color-neutral-500);
+  }
+</style>

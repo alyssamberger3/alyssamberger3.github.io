@@ -1,21 +1,15 @@
 ---
-import { Link } from 'accessible-astro-components'
+import { Heading, Link } from 'accessible-astro-components'
 import { Icon } from 'astro-icon/components'
-import { Image } from 'astro:assets'
+import { experience } from '@utils/resumeData'
 
 /**
  * Hero Component
  *
- * @description A component that displays a hero section with a title, description, and image
+ * @description A component that displays a hero section with a title, description, and a
+ * snapshot of the current resume entry linking through to the full resume
  */
-interface Props {
-  /**
-   * The source URL for the image
-   */
-  src?: string
-}
-
-const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
+const [currentRole] = experience
 ---
 
 <section class="hero my-24">
@@ -48,7 +42,22 @@ const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
           </Link>
         </div>
       </div>
-      <Image class="hidden lg:block" src={src} alt="" decoding="async" width={800} height={600} loading="eager" />
+      <div class="resume-snapshot">
+        <p class="resume-snapshot-eyebrow">
+          <Icon aria-hidden="true" name="lucide:briefcase" size="1.25rem" />
+          Currently
+        </p>
+        <Heading level="h2" size="h5" class="mb-2">{currentRole.title}</Heading>
+        <p class="resume-snapshot-org">
+          {currentRole.organization}
+          {currentRole.location && `, ${currentRole.location}`}
+        </p>
+        {currentRole.description && <p class="mt-4">{currentRole.description}</p>}
+        <Link href="#resume" isButton type="secondary" animateOnHover animationType="nudge" class="mt-6">
+          View full resume
+          <Icon aria-hidden="true" name="lucide:arrow-down" size="1.5rem" />
+        </Link>
+      </div>
     </div>
   </div>
 </section>
@@ -67,5 +76,35 @@ const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .resume-snapshot {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--border-color-subtle);
+    border-radius: var(--radius-l);
+    background-color: light-dark(var(--color-neutral-200), var(--color-neutral-800));
+    padding: var(--space-l);
+    inline-size: 100%;
+  }
+
+  .resume-snapshot-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xs);
+    color: var(--link-color);
+    font-weight: 600;
+    font-size: var(--font-size--1);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .resume-snapshot-org {
+    color: var(--foreground-color);
+    font-weight: 600;
+  }
+
+  .resume-snapshot :global(.button) {
+    align-self: flex-start;
   }
 </style>
