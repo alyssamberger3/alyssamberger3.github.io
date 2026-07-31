@@ -1,7 +1,9 @@
 ---
-import { Card, Heading, Link } from 'accessible-astro-components'
+import { Heading, Link } from 'accessible-astro-components'
 import { Icon } from 'astro-icon/components'
+import ProjectCard from '@components/ProjectCard.astro'
 import { getCollection } from 'astro:content'
+import { sortProjectsByEndDate } from '@utils/projects'
 
 /**
  * FeaturedProjects Component
@@ -27,8 +29,8 @@ interface Props {
 
 const { class: className, limit = 3, title = 'Featured projects' } = Astro.props
 
-// Get projects from content collection
-const projects = await getCollection('projects')
+// Get projects from content collection, newest first
+const projects = sortProjectsByEndDate(await getCollection('projects'))
 const featuredProjects = projects.slice(0, limit)
 ---
 
@@ -37,16 +39,16 @@ const featuredProjects = projects.slice(0, limit)
     <Heading level="h2" class="mb-6">{title}</Heading>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
       {
-        featuredProjects.map((project) => (
-          <Card
-            img={project.data.image}
-            url={'/portfolio/' + project.id}
-            headingLevel="h2"
+        featuredProjects.map((project, index) => (
+          <ProjectCard
             title={project.data.title}
-            footer={`${project.data.role} · ${project.data.timeline}`}
-          >
-            {project.data.description}
-          </Card>
+            description={project.data.description}
+            role={project.data.role}
+            timeline={project.data.timeline}
+            image={project.data.image}
+            url={'/portfolio/' + project.id}
+            accent={index % 2 === 0 ? 'primary' : 'secondary'}
+          />
         ))
       }
     </div>

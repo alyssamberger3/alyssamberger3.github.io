@@ -13,6 +13,7 @@ const projects = defineCollection({
     description: z.string(),
     role: z.string(),
     timeline: z.string(),
+    endDate: z.coerce.date(),
     image: z.string(),
     tags: z.array(z.string()).default([]),
   }),

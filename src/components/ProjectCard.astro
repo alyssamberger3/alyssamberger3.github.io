@@ -1,0 +1,202 @@
+---
+import { Icon } from 'astro-icon/components'
+
+/**
+ * ProjectCard Component
+ *
+ * @description A project card styled after the homepage Feature tiles: a thick-bordered
+ * card with a solid color block offset behind it, image up top, and a single link on
+ * the title (the whole card is clickable via a stretched-link technique).
+ */
+interface Props {
+  /**
+   * Additional classes to apply to the card
+   */
+  class?: string
+  /**
+   * The project title
+   */
+  title: string
+  /**
+   * A short project description
+   */
+  description: string
+  /**
+   * The project role, e.g. "UX Designer"
+   */
+  role: string
+  /**
+   * The project timeline, e.g. "Jan 2025 - May 2025"
+   */
+  timeline: string
+  /**
+   * The project image path
+   */
+  image: string
+  /**
+   * The URL the card links to
+   */
+  url: string
+  /**
+   * Which brand color the offset block behind the card uses
+   * @default 'primary'
+   */
+  accent?: 'primary' | 'secondary'
+}
+
+const {
+  class: className,
+  title,
+  description,
+  role,
+  timeline,
+  image,
+  url,
+  accent = 'primary',
+}: Props = Astro.props
+---
+
+<article class:list={['project-card', `project-card--${accent}`, className]}>
+  <img class="project-card-thumb" src={image} alt="" width="640" height="400" loading="lazy" />
+  <div class="project-card-content">
+    <p class="project-card-meta">
+      <span>{role}</span>
+      <span aria-hidden="true">·</span>
+      <span>{timeline}</span>
+    </p>
+    <h3 class="project-card-title">
+      <a href={url}>{title}</a>
+    </h3>
+    <p class="project-card-desc">{description}</p>
+    <span class="project-card-cta" aria-hidden="true">
+      View project
+      <Icon name="lucide:arrow-right" size="1rem" />
+    </span>
+  </div>
+</article>
+
+<style lang="scss">
+  .project-card {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    inline-size: calc(100% - var(--space-l));
+
+    > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      content: '';
+    }
+
+    &::before {
+      z-index: 1;
+      inset: 0;
+      box-shadow: 0 0 0 6px var(--color-neutral-100);
+      border: 3px solid var(--color-neutral-700);
+      border-radius: var(--radius-l);
+      background-color: var(--color-neutral-100);
+    }
+
+    &::after {
+      z-index: 0;
+      inset: var(--space-m) -0.85rem -0.85rem 1rem;
+      border-radius: var(--radius-l);
+    }
+  }
+
+  .project-card--primary::after {
+    background-color: var(--color-primary-300);
+  }
+
+  .project-card--secondary::after {
+    background-color: var(--color-secondary-100);
+  }
+
+  :global(.darkmode) .project-card::before {
+    box-shadow: 0 0 0 6px var(--color-neutral-900);
+    background-color: var(--color-neutral-900);
+  }
+
+  .project-card-thumb {
+    border-start-start-radius: calc(var(--radius-l) - 3px);
+    border-start-end-radius: calc(var(--radius-l) - 3px);
+    aspect-ratio: 16 / 9;
+    inline-size: 100%;
+    object-fit: cover;
+  }
+
+  .project-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: var(--space-4xs);
+    padding: var(--space-xs) var(--space-s) var(--space-s);
+  }
+
+  .project-card-meta {
+    margin: 0;
+    color: var(--foreground-color);
+    font-weight: 600;
+    font-size: var(--font-size--1);
+    opacity: 0.75;
+  }
+
+  .project-card-title {
+    margin: 0;
+    font-size: var(--font-size-0);
+    line-height: 1.3;
+  }
+
+  .project-card-title a {
+    color: var(--foreground-color);
+    text-decoration: none;
+
+    &::after {
+      position: absolute;
+      inset: 0;
+      content: '';
+    }
+
+    &:hover {
+      color: var(--link-color);
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--outline-color);
+      outline-offset: 3px;
+      border-radius: var(--radius-s);
+    }
+  }
+
+  .project-card-desc {
+    margin: 0;
+    font-size: var(--font-size--1);
+    opacity: 0.85;
+  }
+
+  .project-card-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-4xs);
+    margin-block-start: var(--space-3xs);
+    color: var(--link-color);
+    font-weight: 700;
+    font-size: var(--font-size--1);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .project-card-cta :global(svg) {
+      transition: transform 0.2s ease;
+    }
+
+    .project-card:has(a:hover, a:focus-visible) .project-card-cta :global(svg) {
+      transform: translateX(3px);
+    }
+  }
+</style>

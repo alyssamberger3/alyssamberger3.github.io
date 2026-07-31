@@ -33,3 +33,5 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 - [ ] Once the site is complete, have Alyssa audit the site for accessibility.
 - [ ] Add support for GoatCounter analytics
 - [ ] Once the site is complete, delete the gh-pages branch
+- [ ] Update the title of the website that shows in browser tab
+- [ ] Do we need to make an OpenGraph card for sharing?
