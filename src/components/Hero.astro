@@ -16,29 +16,30 @@ const [currentRole] = experience
   <div class="container">
     <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
       <div class="flex flex-col items-center gap-8 md:items-start">
-        <h1 class="text-center text-6xl md:text-left lg:text-8xl">
-          <slot><span class="text-gradient">Accessible</span> Starter for Astro</slot>
-        </h1>
+        <div class="hero-intro">
+          <img
+            class="hero-portrait"
+            src="/images/alyssa-berger.gif"
+            alt="Portrait of Alyssa Berger"
+            width="160"
+            height="160"
+          />
+          <h1 class="text-center text-5xl md:text-left lg:text-6xl">
+            <slot><span class="text-gradient">Hello!</span> I'm Alyssa Berger</slot>
+          </h1>
+        </div>
+        <p class="hero-blurb text-center text-xl md:text-left">
+          I'm a UX Design student at Purdue University ('27) and a Section 508 Trusted Tester. My work is grounded in
+          accessibility, and I'm especially curious about where it intersects with artificial intelligence.
+        </p>
         <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <Link
-            href="https://github.com/incluud/accessible-astro-starter"
-            isButton
-            type="primary"
-            animateOnHover
-            animationType="boop"
-          >
-            <Icon aria-hidden="true" name="lucide:star" size="1.5rem" />
-            Star on GitHub
+          <Link href="/#projects" isButton type="primary" animateOnHover animationType="boop">
+            <Icon aria-hidden="true" name="lucide:folder-open" size="1.5rem" />
+            View my work
           </Link>
-          <Link
-            href="https://accessible-astro.incluud.dev/"
-            isButton
-            type="secondary"
-            animateOnHover
-            animationType="boop"
-          >
-            <Icon aria-hidden="true" name="lucide:bookmark" size="1.5rem" />
-            Read the docs
+          <Link href="/contact" isButton type="secondary" animateOnHover animationType="boop">
+            <Icon aria-hidden="true" name="lucide:mail" size="1.5rem" />
+            Get in touch
           </Link>
         </div>
       </div>
@@ -65,6 +66,35 @@ const [currentRole] = experience
 <style lang="scss">
   h1 {
     text-wrap: unset;
+  }
+
+  .hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-m);
+    text-align: center;
+  }
+
+  .hero-portrait {
+    flex-shrink: 0;
+    border: 2px solid var(--border-color-subtle);
+    border-radius: 50%;
+    inline-size: 160px;
+    block-size: 160px;
+    object-fit: cover;
+  }
+
+  .hero-blurb {
+    color: var(--foreground-color);
+    max-inline-size: 55ch;
+  }
+
+  @media (min-width: 768px) {
+    .hero-intro {
+      flex-direction: row;
+      text-align: start;
+    }
   }
 
   .text-gradient {

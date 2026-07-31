@@ -1,0 +1,85 @@
+---
+import { Heading, Link } from 'accessible-astro-components'
+import { publications as defaultPublications, type PublicationEntry } from '@utils/publicationsData'
+
+/**
+ * Publications Component
+ *
+ * @description A component that displays a list of published or presented research work
+ */
+interface Props {
+  /**
+   * Additional classes to apply to the section
+   */
+  class?: string
+  /**
+   * The title for the section
+   * @default "Publications"
+   */
+  title?: string
+  /**
+   * Publication entries, most recent first
+   */
+  publications?: PublicationEntry[]
+}
+
+const { class: className, title = 'Publications', publications = defaultPublications }: Props = Astro.props
+
+const formatAuthors = (authors: string[]) =>
+  authors.length > 2 ? `${authors[0]} and ${authors.length - 1} others` : authors.join(' and ')
+---
+
+<section id="publications" class:list={[className, 'my-64']}>
+  <div class="container">
+    <Heading level="h2" class="mb-8">{title}</Heading>
+    <ul class="publications-list">
+      {
+        publications.map((publication) => (
+          <li class="publication">
+            <Heading level="h3" size="h5" class="mb-1">
+              <Link href={publication.url} isExternal>
+                {publication.title}
+              </Link>
+            </Heading>
+            <p class="publication-meta">
+              {publication.venue}, {publication.date}
+            </p>
+            <p class="publication-authors">{formatAuthors(publication.authors)}</p>
+            <p class="mt-2">{publication.summary}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+
+<style lang="scss">
+  .publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .publication {
+    border: 2px solid var(--border-color-subtle);
+    border-radius: var(--radius-l);
+    padding: var(--space-l);
+  }
+
+  .publication-meta {
+    color: var(--foreground-color);
+    font-weight: 600;
+  }
+
+  .publication-authors {
+    color: var(--color-neutral-700);
+    font-size: var(--font-size--1);
+  }
+
+  :global(.darkmode) .publication-authors {
+    color: var(--color-neutral-500);
+  }
+</style>

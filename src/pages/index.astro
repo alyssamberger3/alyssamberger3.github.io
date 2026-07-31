@@ -7,6 +7,7 @@ import ContentMedia from '@components/ContentMedia.astro'
 import FeaturedProjects from '@components/FeaturedProjects.astro'
 import FeaturedPosts from '@components/FeaturedPosts.astro'
 import Resume from '@components/Resume.astro'
+import Publications from '@components/Publications.astro'
 import { Accordion, AccordionItem, Avatar, AvatarGroup, Heading, Link } from 'accessible-astro-components'
 import { Icon } from 'astro-icon/components'
 ---
@@ -68,7 +69,8 @@ import { Icon } from 'astro-icon/components'
       reaching WCAG AA compliance.
     </p>
   </ContentMedia>
-  <FeaturedProjects />
+  <FeaturedProjects limit={6} title="Projects" />
+  <Publications />
   <FeaturedPosts />
   <section class="my-64">
     <div class="container grid grid-cols-1 gap-12 md:grid-cols-2">

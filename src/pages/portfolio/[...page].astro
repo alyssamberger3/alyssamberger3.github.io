@@ -7,14 +7,6 @@ import type { GetStaticPaths, Page } from 'astro'
 import type { CollectionEntry } from 'astro:content'
 import { slugify } from '@utils/slugify'
 
-// Import images directly for optimization
-import projectImage1 from '@assets/images/projects/project-image-1.png'
-import projectImage2 from '@assets/images/projects/project-image-2.png'
-import projectImage3 from '@assets/images/projects/project-image-3.png'
-import projectImage4 from '@assets/images/projects/project-image-4.png'
-import projectImage5 from '@assets/images/projects/project-image-5.png'
-import projectImage6 from '@assets/images/projects/project-image-6.png'
-
 export const getStaticPaths = (async ({ paginate }) => {
   const projects = await getCollection('projects')
   const allTags = projects.map((project) => project.data.tags).flat()
@@ -24,23 +16,14 @@ export const getStaticPaths = (async ({ paginate }) => {
     slug: slugify(label),
   }))
 
-  const projectImages = [projectImage1, projectImage2, projectImage3, projectImage4, projectImage5, projectImage6]
-
-  const projectsWithImages = projects.map((project, index) => {
-    return {
-      ...project,
-      featuredImage: projectImages[index % projectImages.length],
-    }
-  })
-
-  return paginate(projectsWithImages, {
+  return paginate(projects, {
     pageSize: 6,
     props: { uniqueTags },
   })
 }) satisfies GetStaticPaths
 
 interface Props {
-  page: Page<CollectionEntry<'projects'> & { featuredImage: any }>
+  page: Page<CollectionEntry<'projects'>>
   uniqueTags: { label: string; slug: string }[]
 }
 
@@ -74,11 +57,11 @@ const { page, uniqueTags } = Astro.props
           page.data.map((project) => (
             <li>
               <Card
-                imageComponent={project.featuredImage}
+                img={project.data.image}
                 url={'/portfolio/' + project.id}
                 title={project.data.title}
                 headingLevel="h2"
-                footer={'Author: ' + project.data.author}
+                footer={`${project.data.role} · ${project.data.timeline}`}
                 fullHeight={true}
               >
                 <span slot="meta">

@@ -9,49 +9,26 @@ import type { CollectionEntry } from 'astro:content'
 export async function getStaticPaths() {
   const projects = await getCollection('projects')
 
-  const projectImages = [
-    { src: '/projects/project-image-1.png' },
-    { src: '/projects/project-image-2.png' },
-    { src: '/projects/project-image-3.png' },
-    { src: '/projects/project-image-4.png' },
-    { src: '/projects/project-image-5.png' },
-    { src: '/projects/project-image-6.png' },
-  ]
-
-  return projects.map((project, index) => {
-    const projectWithImage = {
-      ...project,
-      featuredImage: projectImages[index % projectImages.length].src,
-    }
-
-    return {
-      params: { project: project.id },
-      props: { project: projectWithImage },
-    }
-  })
+  return projects.map((project) => ({
+    params: { project: project.id },
+    props: { project },
+  }))
 }
 
 interface Props {
-  project: CollectionEntry<'projects'> & { featuredImage: string }
+  project: CollectionEntry<'projects'>
 }
 
 const { project } = Astro.props
 const { Content } = await render(project)
-
-const author = {
-  name: project.data.author,
-  image: '/projects/project-image-1.png',
-  bio: 'Project Creator',
-}
 ---
 
 <DefaultLayout title={project.data.title} description={project.data.description} url={`/portfolio/${project.id}`}>
   <PageHeader
     title={project.data.title}
-    subtitle={project.data.description}
-    author={author}
+    subtitle={`${project.data.role} · ${project.data.timeline}`}
     bgType="bordered"
-    featuredImage={project.featuredImage}
+    featuredImage={project.data.image}
   />
   <section class="my-12">
     <div class="narrow space-content container">
