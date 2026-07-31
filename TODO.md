@@ -27,3 +27,5 @@ Shared to-do list for this repo. Items are removed once complete, but only after
     - Bottom credit line could become "© {year} Alyssa Berger", with an open question on whether to keep a "built with Accessible Astro Starter" attribution or drop it entirely.
 - [ ] Update hero section (to the left of the current role) to better reflect Alyssa
   - Context: `Hero.astro`'s left column still has the starter's placeholder H1 ("Accessible Starter for Astro") and CTA buttons ("Star on GitHub", "Read the docs"). The right column now shows the resume snapshot card (current role + "View full resume" link).
+  - Include a headshot of Alyssa as a hero image, along with a short blurb about her and a Hello! with the gradient currently being applied to the word Accessible.
+- [ ] Once the site is complete, have Alyssa audit the site for accessibility.
