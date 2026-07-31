@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is **Accessible Astro Starter**, an SEO- and accessibility-focused Astro 6 starter theme (WCAG 2.2 AA / EAA compliant). It ships as both a standalone static site (this repo's root) and a scaffolding CLI (`packages/create-accessible-astro-starter`) that generates new projects from it. It is an npm workspaces monorepo: the root `package.json` declares `workspaces: ["packages/*"]`.
 
+### What this repo actually is
+
+This is the personal website of **Alyssa Berger**, a Senior at Purdue University majoring in UX Design with a focus on accessibility. The site is being migrated from a Hugo template to this Accessible Astro starter, chosen specifically because accessibility is central to Alyssa's work and identity. Beyond the migration, the starter needs real modifications to support **resume** and **portfolio** sections/pages tailored to her — this isn't just a theme swap, it's an active build-out on top of the migration.
+
 ## Commands
 
 Run from the repo root unless noted.
