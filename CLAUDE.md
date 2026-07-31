@@ -91,6 +91,7 @@ This repo is the reference implementation for the Accessible Astro ecosystem —
 ## My Preferences
 - Writing style
    - Don't use em dashes in any written copy (site content, commit messages, etc.). Use a comma, period, or restructure the sentence instead.
+   - End every response to me with "Big day!" (e.g. "I've written the code for you. Let me know if you need anything else. Big day!")
 - Version Control
    - Only commit to the repo when asked.
    - Work from the astro-migration branch. Check it out if not active before committing.
