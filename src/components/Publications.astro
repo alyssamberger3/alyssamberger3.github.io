@@ -1,5 +1,6 @@
 ---
 import { Heading, Link } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
 import { publications as defaultPublications, type PublicationEntry } from '@utils/publicationsData'
 
 /**
@@ -32,49 +33,196 @@ const formatAuthors = (authors: string[]) =>
 <section id="publications" class:list={[className, 'my-64']}>
   <div class="container">
     <Heading level="h2" class="mb-8">{title}</Heading>
-    <ul class="publications-list">
+    <ol class="publications-timeline">
       {
         publications.map((publication) => (
-          <li class="publication">
-            <Heading level="h3" size="h5" class="mb-1">
-              <Link href={publication.url} isExternal>
-                {publication.title}
-              </Link>
-            </Heading>
-            <p class="publication-meta">
-              {publication.venue}, {publication.date}
-            </p>
-            <p class="publication-authors">{formatAuthors(publication.authors)}</p>
-            <p class="mt-2">{publication.summary}</p>
+          <li class="publication-item">
+            <span class="publication-dot" aria-hidden="true"></span>
+            <div class="publication-card">
+              <p class="publication-meta-row">
+                <Icon aria-hidden="true" name={publication.icon} size="1.25rem" class="publication-icon" />
+                <span class="publication-meta-text">
+                  {publication.date} &middot; {publication.type}
+                </span>
+              </p>
+              <Heading level="h3" size="h5" class="publication-title">
+                <Link href={publication.url} isExternal>
+                  {publication.title}
+                </Link>
+              </Heading>
+              <p class="publication-venue">{publication.venue}</p>
+              <p class="publication-summary">{publication.summary}</p>
+              <p class="publication-authors">{formatAuthors(publication.authors)}</p>
+            </div>
           </li>
         ))
       }
-    </ul>
+    </ol>
   </div>
 </section>
 
 <style lang="scss">
-  .publications-list {
+  .publications-timeline {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: var(--space-l);
+    gap: var(--space-xl);
     margin: 0;
     padding: 0;
     list-style: none;
+
+    &::before {
+      position: absolute;
+      inset-inline-start: -1px;
+      inset-block: 0.4rem;
+      inline-size: 3px;
+      background-color: var(--border-color-subtle);
+      background-image: linear-gradient(var(--color-secondary-300) 60%, transparent 0%);
+      background-repeat: repeat-y;
+      background-size: 3px 10px;
+      content: '';
+    }
   }
 
-  .publication {
-    border: 2px solid var(--border-color-subtle);
-    border-radius: var(--radius-l);
+  .publication-item {
+    position: relative;
+    padding-inline-start: var(--space-l);
+  }
+
+  .publication-dot {
+    position: absolute;
+    inset-inline-start: -13px;
+    inset-block-start: var(--space-s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    border-radius: 999px;
+    border: 3px solid var(--border-color);
+    background-color: var(--background-color);
+
+    &::after {
+      inline-size: 0.5rem;
+      block-size: 0.5rem;
+      border-radius: 999px;
+      background-color: var(--link-color);
+      content: '';
+    }
+  }
+
+  .publication-card {
+    position: relative;
+    isolation: isolate;
     padding: var(--space-l);
+    inline-size: calc(100% - var(--space-s));
+
+    > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      content: '';
+    }
+
+    &::before {
+      z-index: 1;
+      inset: 0;
+      box-shadow: 0 0 0 5px var(--color-neutral-100);
+      border: 3px solid var(--color-neutral-700);
+      border-radius: var(--radius-l);
+      background-color: var(--color-neutral-100);
+    }
+
+    &::after {
+      z-index: 0;
+      inset: var(--space-2xs) -0.7rem -0.7rem 0.85rem;
+      border-radius: var(--radius-l);
+      background-color: var(--color-secondary-100);
+    }
   }
 
-  .publication-meta {
+  :global(.darkmode) .publication-card::before {
+    box-shadow: 0 0 0 5px var(--color-neutral-900);
+    background-color: var(--color-neutral-900);
+  }
+
+  .publication-meta-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3xs);
+    margin: 0 0 var(--space-2xs);
+  }
+
+  .publication-icon {
+    color: var(--link-color);
+  }
+
+  .publication-meta-text {
     color: var(--foreground-color);
-    font-weight: 600;
+    opacity: 0.7;
+    font-weight: 800;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .publication-title {
+    margin: 0 0 var(--space-3xs);
+    font-size: var(--font-size-0);
+    font-weight: 700;
+    line-height: 1.35;
+
+    /* Color is reserved for the icon and venue line; the title stays neutral until
+       hovered/focused so the accent doesn't get diluted across every line. */
+    :global(.link) {
+      color: var(--foreground-color);
+      text-decoration: none;
+    }
+
+    :global(.link:hover) {
+      color: var(--link-color);
+      text-decoration: underline;
+    }
+
+    :global(.link:focus-visible) {
+      color: var(--link-color);
+      outline: 3px solid var(--outline-color);
+      outline-offset: 3px;
+      border-radius: var(--radius-s);
+    }
+
+    /* The Link component's external-link icon is inline-flex, which centers it against
+       the full block height once the title wraps to multiple lines instead of sitting
+       next to the last word. Make it a normal inline glyph so it wraps with the text. */
+    :global(.link--external) {
+      display: inline;
+      gap: 0;
+    }
+
+    :global(.link--external svg) {
+      display: inline-block;
+      margin-inline-start: var(--space-3xs);
+      vertical-align: -0.125em;
+    }
+  }
+
+  .publication-venue {
+    margin: 0 0 var(--space-2xs);
+    color: var(--link-color);
+    font-weight: 700;
+    font-size: var(--font-size--1);
+  }
+
+  .publication-summary {
+    margin: 0 0 var(--space-2xs);
   }
 
   .publication-authors {
+    margin: 0;
     color: var(--color-neutral-700);
     font-size: var(--font-size--1);
   }

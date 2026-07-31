@@ -2,6 +2,14 @@ export interface PublicationEntry {
   title: string
   venue: string
   date: string
+  /**
+   * Short human-readable category shown next to the date, e.g. "Journal Article", "StoryMap"
+   */
+  type: string
+  /**
+   * Icon name from the lucide set (via astro-icon), e.g. "lucide:book-open"
+   */
+  icon: string
   authors: string[]
   summary: string
   url: string
@@ -12,6 +20,8 @@ export const publications: PublicationEntry[] = [
     title: "You Can't Stop the Beat: Exploring Bias, Power, and Perspective Through Hairspray",
     venue: 'Communication Teacher',
     date: '4 June 2026',
+    type: 'Journal Article',
+    icon: 'lucide:scissors',
     authors: ['Alyssa Berger', 'Seungyoon Lee'],
     summary:
       "A classroom activity that uses a screening of Hairspray to teach feminist standpoint theory and structuration theory, prompting students to confront their own biases through the film's historical themes and the real-world events behind them.",
@@ -21,6 +31,8 @@ export const publications: PublicationEntry[] = [
     title: 'Exploring the Old Naval Observatory',
     venue: "Purdue John Martinson Honors College Scholarly Project",
     date: '15 May 2025',
+    type: 'StoryMap',
+    icon: 'lucide:map',
     authors: ['Alyssa Berger', 'Marisa Crescent'],
     summary:
       "A study into the Old Naval Observatory's construction, drawing on Library of Congress and National Archives records to examine whether enslaved or indentured labor was used to build it.",
@@ -30,6 +42,8 @@ export const publications: PublicationEntry[] = [
     title: 'Palazzos, Perimeters, and Preserving Pasts',
     venue: "2024 U.S. Department of State's Spring Diplomacy Lab",
     date: '15 April 2024',
+    type: 'StoryMap',
+    icon: 'lucide:landmark',
     authors: [
       'Alyssa Berger',
       'Johnny Dong',
