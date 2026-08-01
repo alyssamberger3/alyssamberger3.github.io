@@ -32,12 +32,6 @@ const [currentRole] = experience
           I'm a UX Design student at Purdue University ('27) and a Section 508 Trusted Tester. My work is grounded in
           accessibility, and I'm especially curious about where it intersects with artificial intelligence.
         </p>
-        <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <Link href="/#projects" isButton type="primary" animateOnHover animationType="boop">
-            <Icon aria-hidden="true" name="lucide:folder-open" size="1.5rem" />
-            View my work
-          </Link>
-        </div>
       </div>
       <div class="resume-snapshot">
         <p class="resume-snapshot-eyebrow">
@@ -50,12 +44,15 @@ const [currentRole] = experience
           {currentRole.location && `, ${currentRole.location}`}
         </p>
         {currentRole.description && <p class="mt-4">{currentRole.description}</p>}
-        <Link href="#resume" isButton type="secondary" animateOnHover animationType="nudge" class="mt-6">
+        <Link href="/files/alyssa-berger-resume.pdf" isButton type="secondary" isExternal class="mt-6">
           View full resume
-          <Icon aria-hidden="true" name="lucide:arrow-down" size="1.5rem" />
         </Link>
       </div>
     </div>
+    <a href="#resume" class="scroll-cue">
+      <span class="sr-only">Scroll to see more</span>
+      <Icon aria-hidden="true" name="lucide:chevron-down" size="3rem" />
+    </a>
   </div>
 </section>
 
@@ -132,5 +129,39 @@ const [currentRole] = experience
 
   .resume-snapshot :global(.button) {
     align-self: flex-start;
+  }
+
+  .scroll-cue {
+    display: flex;
+    justify-content: center;
+    margin-block-start: var(--space-3xl);
+    color: var(--link-color);
+    transition: scale var(--animation-speed-fast) var(--cubic-bezier);
+
+    &:where(:hover, :focus-visible) {
+      scale: 1.15;
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--outline-color);
+      outline-offset: 3px;
+      border-radius: var(--radius-s);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .scroll-cue :global(svg) {
+      animation: scroll-cue-bounce 1.7s ease-in-out infinite;
+    }
+  }
+
+  @keyframes scroll-cue-bounce {
+    0%,
+    100% {
+      translate: 0 0;
+    }
+    50% {
+      translate: 0 14px;
+    }
   }
 </style>
