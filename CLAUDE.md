@@ -101,5 +101,5 @@ This repo is the reference implementation for the Accessible Astro ecosystem —
    - When committing, if there are unstaged changes predating your session, please include them.
    - When committing, you should not push to origin until I tell you to.
 - I will run the dev server myself in a separate session with npm run dev. You don't have to start it up yourself.
-- I store our shared to-do list in TODO.md. Please create it if it doesn't exist already. To-dos should be deleted once complete, but only after I confirm this is ok.
+- I store our shared to-do list in TODO.md. Please create it if it doesn't exist already. When you finish a to-do, ask me to confirm it's done, then delete it from the file. Don't append status updates or progress notes to items in TODO.md instead of asking.
 - I don't always leave Google Chrome running. So feel free to check if it is running before launching your /claude-in-chrome skill.
