@@ -2,10 +2,6 @@
 
 Shared to-do list for this repo. Items are removed once complete, but only after confirming with Joel or Alyssa first.
 
-- [ ] Link to a pdf of Alyssa's resume in the top nav as well as the current job box in the header.
-  - Decision: use `~/Downloads/Alyssa_Berger_Resume.pdf` (confirmed as the correct/current version). Phone number and email visible on it are fine to be public.
-- [ ] Create a logo for Alyssa for the top nav vs "Accessible Astro"
-  - Decision: something styled, but similar to the site's existing theme. Alyssa wants a few example directions to look at and iterate on together, not a single final logo up front.
 - [ ] Update footer to include Alyssa's contact info
   - Decision: include email, LinkedIn, and phone number. LinkedIn: https://www.linkedin.com/in/alyssamberger
 - [ ] Update the title of the website that shows in browser tab

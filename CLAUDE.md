@@ -47,7 +47,7 @@ The starter's demo blog (JSONPlaceholder-backed, not a content collection) and o
 
 ### Theme configuration is the single source of site identity
 
-`theme.config.ts` (aliased as `@theme-config`) is a typed config — validated/defaulted by `src/utils/defineThemeConfig.ts` — that drives: site name/SEO defaults, brand colors (injected as CSS custom properties in `DefaultLayout.astro` via `define:vars`, then consumed by the OKLCH-based palette in `src/assets/scss`), the primary navigation (including the Cmd/Ctrl+K command launcher's entries, via `accessible-astro-launcher`), and the social links in the footer. Change site branding/nav here, not by hardcoding in components.
+`theme.config.ts` (aliased as `@theme-config`) is a typed config — validated/defaulted by `src/utils/defineThemeConfig.ts` — that drives: site name/SEO defaults, brand colors (injected as CSS custom properties in `DefaultLayout.astro` via `define:vars`, then consumed by the OKLCH-based palette in `src/assets/scss`), the primary navigation, and the social links in the footer. Change site branding/nav here, not by hardcoding in components. The starter's Cmd/Ctrl+K command launcher (`accessible-astro-launcher`) has been removed from this site.
 
 ### Layouts
 
