@@ -1,18 +1,25 @@
 ---
 import { Link } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
 import themeConfig from '@theme-config'
 
 /**
  * Logo Component
  *
  * @description The site wordmark: Alyssa's name set in the site's own type, with a small
- * blinking text-cursor accent as a nod to her work designing interfaces
+ * accent that cycles through accessibility-related symbols (eye, ear, hand, the universal
+ * access icon) as a nod to the range of accessibility work she does
  */
 ---
 
 <Link href="/" class="logo-mark">
   <span class="logo-name">{themeConfig.name}</span>
-  <span class="logo-cursor" aria-hidden="true"></span>
+  <span class="logo-a11y-cycle" aria-hidden="true">
+    <Icon class="a11y-icon" name="lucide:eye" />
+    <Icon class="a11y-icon" name="lucide:ear" />
+    <Icon class="a11y-icon" name="lucide:hand" />
+    <Icon class="a11y-icon" name="lucide:accessibility" />
+  </span>
 </Link>
 
 <style lang="scss">
@@ -22,7 +29,7 @@ import themeConfig from '@theme-config'
     position: relative;
     display: inline-flex;
     align-items: center;
-    gap: 0.15rem;
+    gap: 0.4rem;
     border: none;
     border-radius: var(--radius-m);
     background: linear-gradient(115deg, #a767e5, #12bcfe, #44ce7b, #fad648, #a767e5);
@@ -64,26 +71,58 @@ import themeConfig from '@theme-config'
     }
   }
 
-  .logo-cursor {
+  .logo-a11y-cycle {
+    position: relative;
     display: inline-block;
-    inline-size: 0.125em;
-    block-size: 0.85em;
-    border-radius: 999px;
-    background-color: var(--link-color);
+    inline-size: 1em;
+    block-size: 1em;
+    color: var(--link-color);
+  }
+
+  .logo-a11y-cycle :global(.a11y-icon) {
+    position: absolute;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    opacity: 0;
+  }
+
+  .logo-a11y-cycle :global(.a11y-icon:first-child) {
+    opacity: 1;
   }
 
   @media (prefers-reduced-motion: no-preference) {
-    .logo-cursor {
-      animation: logo-cursor-blink 1.1s steps(1, end) infinite;
+    .logo-a11y-cycle :global(.a11y-icon) {
+      animation: logo-a11y-cycle 12s ease-in-out infinite;
+    }
+
+    .logo-a11y-cycle :global(.a11y-icon:nth-child(1)) {
+      animation-delay: 0s;
+    }
+
+    .logo-a11y-cycle :global(.a11y-icon:nth-child(2)) {
+      animation-delay: 3s;
+    }
+
+    .logo-a11y-cycle :global(.a11y-icon:nth-child(3)) {
+      animation-delay: 6s;
+    }
+
+    .logo-a11y-cycle :global(.a11y-icon:nth-child(4)) {
+      animation-delay: 9s;
     }
   }
 
-  @keyframes logo-cursor-blink {
+  @keyframes logo-a11y-cycle {
     0%,
     100% {
+      opacity: 0;
+    }
+    2%,
+    20% {
       opacity: 1;
     }
-    50% {
+    25% {
       opacity: 0;
     }
   }
