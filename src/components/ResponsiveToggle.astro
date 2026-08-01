@@ -27,10 +27,13 @@ const { class: className } = Astro.props
 </button>
 
 <script>
-  document.addEventListener('astro:page-load', () => {
+  const initializedToggles = new WeakSet<Element>()
+
+  const setupResponsiveToggle = () => {
     // variables
     const responsiveToggle = document.querySelector('.responsive-toggle')
-    if (!responsiveToggle) return
+    if (!responsiveToggle || initializedToggles.has(responsiveToggle)) return
+    initializedToggles.add(responsiveToggle)
 
     // functions
     const openMenu = (toggle: Element) => {
@@ -67,7 +70,16 @@ const { class: className } = Astro.props
         closeMenu(responsiveToggle)
       }
     })
-  })
+  }
+
+  // Run immediately for the initial page load (this script only executes once the DOM is
+  // already parsed), and again on every subsequent view-transition navigation via
+  // `astro:page-load`. The initial-load firing of `astro:page-load` itself is tied to the
+  // native `load` event and isn't reliable here, so don't depend on it for first paint.
+  // The WeakSet guard above prevents double-attaching listeners if astro:page-load does
+  // also fire for this same initial DOM.
+  setupResponsiveToggle()
+  document.addEventListener('astro:page-load', setupResponsiveToggle)
 </script>
 
 <style lang="scss">

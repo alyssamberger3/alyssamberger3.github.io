@@ -26,10 +26,13 @@ import Logo from './Logo.astro'
 </div>
 
 <script>
-  document.addEventListener('astro:page-load', () => {
+  const initializedNavs = new WeakSet<Element>()
+
+  const setupNavigation = () => {
     // variables
     const mainNav = document.querySelector('#main-navigation') as HTMLElement | null
-    if (!mainNav) return
+    if (!mainNav || initializedNavs.has(mainNav)) return
+    initializedNavs.add(mainNav)
 
     const mainMenu = mainNav.querySelector('ul') as HTMLUListElement | null
     const dropdownMenus = [...document.querySelectorAll('.has-dropdown button')] as HTMLButtonElement[]
@@ -211,7 +214,14 @@ import Logo from './Logo.astro'
         closeAllDropdownMenus()
       }
     })
-  })
+  }
+
+  // Run immediately for the initial page load (this script only executes once the DOM is
+  // already parsed), and again on every subsequent view-transition navigation via
+  // `astro:page-load`. The initial-load firing of `astro:page-load` itself is tied to the
+  // native `load` event and isn't reliable here, so don't depend on it for first paint.
+  setupNavigation()
+  document.addEventListener('astro:page-load', setupNavigation)
 </script>
 
 <style lang="scss" is:global>
