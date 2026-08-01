@@ -39,10 +39,11 @@ No test suite exists for the Astro site itself (root package) — verification i
 
 ## Architecture
 
-### Two content sources, two different patterns
+### Content source: portfolio
 
-- **Portfolio (`src/content/projects/*.mdx`)** is a real Astro **content collection**, defined in `src/content.config.ts` with a `glob` loader and a Zod schema (`title`, `author`, `description`, `tags`). Pages `src/pages/portfolio/[...page].astro`, `[project].astro`, and `tag/[tag]/[...page].astro` query it with `getCollection()`.
-- **Blog posts are NOT a content collection.** `src/pages/blog/[...page].astro` and `[post].astro` fetch JSON at build time from `BLOG_API_URL` (an `astro:env` server secret, defaulting to `https://jsonplaceholder.typicode.com/posts`, configurable via `.env`; see `.env.example`). Both files independently `fetch()` the same API, cap results to 30 posts, and map them onto a fixed rotation of 6 local images (`src/assets/images/posts/post-image-*.png`) — this is demo scaffolding, not a real CMS integration. If `BLOG_API_URL` is unset or the fetch fails, both routes emit a console warning and `getStaticPaths` returns `[]` (no blog pages built), so a `.env` with `BLOG_API_URL` is required to see the blog locally.
+**Portfolio (`src/content/projects/*.mdx`)** is a real Astro **content collection**, defined in `src/content.config.ts` with a `glob` loader and a Zod schema (`title`, `author`, `description`, `tags`). Pages `src/pages/portfolio/[...page].astro`, `[project].astro`, and `tag/[tag]/[...page].astro` query it with `getCollection()`.
+
+The starter's demo blog (JSONPlaceholder-backed, not a content collection) and other starter-template demo pages (accessible-components, accessible-launcher, color-contrast-checker, markdown/MDX examples, accessibility statement, HTML sitemap) have been removed from this site — only the portfolio content source remains.
 
 ### Theme configuration is the single source of site identity
 
