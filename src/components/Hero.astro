@@ -12,23 +12,23 @@ import { experience } from '@utils/resumeData'
 const [currentRole] = experience
 ---
 
-<section class="hero my-24">
+<section class="hero my-32 md:my-48">
   <div class="container">
     <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
-      <div class="flex flex-col items-center gap-8 md:items-start">
+      <div class="flex flex-col items-center gap-10 md:items-start">
         <div class="hero-intro">
           <img
             class="hero-portrait"
             src="/images/alyssa-berger.gif"
             alt="Portrait of Alyssa Berger"
-            width="160"
-            height="160"
+            width="220"
+            height="220"
           />
-          <h1 class="text-center text-5xl md:text-left lg:text-6xl">
+          <h1 class="text-center text-6xl md:text-left lg:text-7xl">
             <slot><span class="text-gradient">Hello!</span> I'm Alyssa Berger</slot>
           </h1>
         </div>
-        <p class="hero-blurb text-center text-xl md:text-left">
+        <p class="hero-blurb text-center text-2xl md:text-left">
           I'm a UX Design student at Purdue University ('27) and a Section 508 Trusted Tester. My work is grounded in
           accessibility, and I'm especially curious about where it intersects with artificial intelligence.
         </p>
@@ -76,8 +76,8 @@ const [currentRole] = experience
     flex-shrink: 0;
     border: 2px solid var(--border-color-subtle);
     border-radius: 50%;
-    inline-size: 160px;
-    block-size: 160px;
+    inline-size: 220px;
+    block-size: 220px;
     object-fit: cover;
   }
 
@@ -110,7 +110,7 @@ const [currentRole] = experience
     border: 2px solid var(--border-color-subtle);
     border-radius: var(--radius-l);
     background-color: light-dark(var(--color-neutral-200), var(--color-neutral-800));
-    padding: var(--space-l);
+    padding: var(--space-xl);
     inline-size: 100%;
   }
 
