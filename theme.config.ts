@@ -29,64 +29,18 @@ export default defineThemeConfig({
       },
       {
         type: 'link',
-        label: 'Blog',
-        href: '/blog',
+        label: 'Resume',
+        href: '/#resume',
       },
       {
         type: 'link',
-        label: 'Portfolio',
-        href: '/portfolio',
-      },
-      {
-        label: 'Features',
-        type: 'dropdown',
-        items: [
-          {
-            label: 'Accessibility statement',
-            href: '/accessibility-statement',
-          },
-          {
-            label: 'Accessible components',
-            href: '/accessible-components',
-          },
-          {
-            label: 'Accessible launcher',
-            href: '/accessible-launcher',
-          },
-          {
-            label: 'Color contrast checker',
-            href: '/color-contrast-checker',
-          },
-          {
-            label: 'Markdown page',
-            href: '/markdown-page',
-          },
-          {
-            label: 'MDX page',
-            href: '/mdx-page',
-          },
-          {
-            label: '404 page',
-            href: '/404',
-          },
-          {
-            label: 'Sitemap',
-            href: '/sitemap',
-          },
-        ],
+        label: 'Projects',
+        href: '/#projects',
       },
       {
         type: 'link',
-        label: 'Contact',
-        href: '/contact',
-      },
-      {
-        type: 'link',
-        label: 'Go to our GitHub page, opens in new tab',
-        href: 'https://github.com/incluud/accessible-astro-starter',
-        icon: 'lucide:github',
-        external: true,
-        excludeFromLauncher: true,
+        label: 'Publications',
+        href: '/#publications',
       },
     ],
   },
