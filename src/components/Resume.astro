@@ -4,14 +4,19 @@ import { Icon } from 'astro-icon/components'
 import {
   experience as defaultExperience,
   education as defaultEducation,
+  skills as defaultSkills,
+  leadership as defaultLeadership,
   type ExperienceEntry,
   type EducationEntry,
+  type SkillCategory,
+  type LeadershipEntry,
 } from '@utils/resumeData'
 
 /**
  * Resume Component
  *
- * @description A component that displays a summary of work experience and education
+ * @description A component that displays a summary of work experience, education, skills,
+ * and leadership involvement
  */
 interface Props {
   /**
@@ -31,6 +36,14 @@ interface Props {
    * Education entries, most recent first
    */
   education?: EducationEntry[]
+  /**
+   * Skill categories
+   */
+  skills?: SkillCategory[]
+  /**
+   * Leadership and involvement entries
+   */
+  leadership?: LeadershipEntry[]
 }
 
 const {
@@ -38,6 +51,8 @@ const {
   title = 'Resume',
   experience = defaultExperience,
   education = defaultEducation,
+  skills = defaultSkills,
+  leadership = defaultLeadership,
 }: Props = Astro.props
 ---
 
@@ -92,6 +107,46 @@ const {
         </ol>
       </div>
     </div>
+    <div class="mt-16 grid grid-cols-1 gap-16 lg:grid-cols-2">
+      <div>
+        <div class="mb-6 flex items-center gap-3">
+          <Icon aria-hidden="true" name="lucide:sparkles" size="1.75rem" />
+          <Heading level="h3" size="h4">Skills</Heading>
+        </div>
+        <div class="space-content">
+          {
+            skills.map((group) => (
+              <div>
+                <Heading level="h4" size="h6" class="mb-2">
+                  {group.category}
+                </Heading>
+                <ul class="skill-list">
+                  {group.skills.map((skill) => (
+                    <li class="skill-pill">{skill}</li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      <div>
+        <div class="mb-6 flex items-center gap-3">
+          <Icon aria-hidden="true" name="lucide:users" size="1.75rem" />
+          <Heading level="h3" size="h4">Leadership</Heading>
+        </div>
+        <ul class="leadership-list">
+          {
+            leadership.map((entry) => (
+              <li class="leadership-item">
+                <p class="leadership-org">{entry.organization}</p>
+                <p class="leadership-roles">{entry.roles.join(', ')}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -132,6 +187,47 @@ const {
   }
 
   :global(.darkmode) .timeline-period {
+    color: var(--color-neutral-500);
+  }
+
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2xs);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .skill-pill {
+    border: 2px solid var(--border-color-subtle);
+    border-radius: var(--radius-large);
+    padding: var(--space-4xs) var(--space-xs);
+    font-weight: 600;
+    font-size: var(--font-size--1);
+  }
+
+  .leadership-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-m);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .leadership-org {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .leadership-roles {
+    margin: 0;
+    color: var(--color-neutral-700);
+    font-size: var(--font-size--1);
+  }
+
+  :global(.darkmode) .leadership-roles {
     color: var(--color-neutral-500);
   }
 </style>
