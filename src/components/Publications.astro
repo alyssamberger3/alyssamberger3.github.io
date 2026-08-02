@@ -35,10 +35,10 @@ const formatAuthors = (authors: string[]) =>
     <Heading level="h2" class="mb-8">{title}</Heading>
     <ol class="publications-timeline">
       {
-        publications.map((publication) => (
+        publications.map((publication, index) => (
           <li class="publication-item">
             <span class="publication-dot" aria-hidden="true"></span>
-            <div class="publication-card">
+            <div class:list={['publication-card', index % 2 === 0 ? 'publication-card--primary' : 'publication-card--secondary']}>
               <p class="publication-meta-row">
                 <Icon aria-hidden="true" name={publication.icon} size="1.25rem" class="publication-icon" />
                 <span class="publication-meta-text">
@@ -141,8 +141,15 @@ const formatAuthors = (authors: string[]) =>
       z-index: 0;
       inset: var(--space-2xs) -0.7rem -0.7rem 0.85rem;
       border-radius: var(--radius-l);
-      background-color: var(--color-secondary-100);
     }
+  }
+
+  .publication-card--primary::after {
+    background-color: var(--color-primary-300);
+  }
+
+  .publication-card--secondary::after {
+    background-color: var(--color-secondary-100);
   }
 
   :global(.darkmode) .publication-card::before {
