@@ -25,7 +25,7 @@ interface Props {
   class?: string
   /**
    * The title for the section
-   * @default "Resume"
+   * @default "Experience"
    */
   title?: string
   /**
@@ -48,7 +48,7 @@ interface Props {
 
 const {
   class: className,
-  title = 'Resume',
+  title = 'Experience',
   experience = defaultExperience,
   education = defaultEducation,
   skills = defaultSkills,
@@ -56,13 +56,13 @@ const {
 }: Props = Astro.props
 ---
 
-<section id="resume" class:list={[className, 'my-64']}>
+<section id="experience" class:list={[className, 'my-64']}>
   <div class="container">
     <Heading level="h2" class="mb-8">{title}</Heading>
     <div>
       <div class="mb-6 flex items-center gap-3">
         <Icon aria-hidden="true" name="lucide:briefcase" size="1.75rem" />
-        <Heading level="h3" size="h4">Experience</Heading>
+        <Heading level="h3" size="h4">Work</Heading>
       </div>
       <ol class="timeline">
         {

@@ -6,8 +6,6 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 - [ ] Create a little extra space in the current job box between Currently and her job title.
 - [ ] Consider icons for work and education positions?
   - Decision: means actual organization logos (OCLC, Purdue), not generic icons. Note: these logo files are not currently in this repo (astro-migration branch) — they exist on the `main` branch at `assets/images/sections/experiences/OCLC.png` and `assets/images/sections/education/Purdue.png` (plus a `Purdue-Dark.png` dark-mode variant) and will need to be copied over when this work happens. Tied to the resume redesign decision above.
-- [ ] Consider removing Resume section header and top nav link and replacing with dedicated sections for Experience and Education
-  - Note: TBD, not being worked on yet, tied to the resume redesign decision above.
 - [ ] Make the skill pill text a little bigger
 - [ ] Consider rounding the corners a bit more of the skill pills
 - [ ] Remove the dedicated Projects/Portfolio page since all projects fit on the home page

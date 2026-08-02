@@ -27,8 +27,8 @@ export default defineThemeConfig({
       },
       {
         type: 'link',
-        label: 'Resume',
-        href: '/#resume',
+        label: 'Experience',
+        href: '/#experience',
       },
       {
         type: 'link',
