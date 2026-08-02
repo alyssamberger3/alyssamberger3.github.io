@@ -86,16 +86,16 @@ export const skills: SkillCategory[] = [
 
 export const leadership: LeadershipEntry[] = [
   {
-    organization: 'Purdue Hillel',
-    roles: ['President', 'VP of Programming & Engagement'],
+    organization: 'Residence Hall Association',
+    roles: ['President', 'Windsor Hall Senator'],
   },
   {
     organization: 'Purdue Student Union Board',
     roles: ['Director of Wellbeing', 'General Member'],
   },
   {
-    organization: 'Residence Hall Association',
-    roles: ['President', 'Windsor Hall Senator'],
+    organization: 'Purdue Hillel',
+    roles: ['President', 'VP of Programming & Engagement'],
   },
   {
     organization: 'Windsor Hall Club',
