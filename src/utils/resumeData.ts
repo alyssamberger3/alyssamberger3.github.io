@@ -1,9 +1,16 @@
+export interface LogoAsset {
+  light: string
+  dark?: string
+  alt: string
+}
+
 export interface ExperienceEntry {
   title: string
   organization: string
   location?: string
   period: string
   description?: string
+  logo?: LogoAsset
 }
 
 export interface EducationEntry {
@@ -12,6 +19,7 @@ export interface EducationEntry {
   location?: string
   period: string
   description?: string
+  logo?: LogoAsset
 }
 
 export interface SkillCategory {
@@ -24,6 +32,17 @@ export interface LeadershipEntry {
   roles: string[]
 }
 
+const oclcLogo: LogoAsset = {
+  light: '/images/logos/oclc.png',
+  alt: 'OCLC logo',
+}
+
+const purdueLogo: LogoAsset = {
+  light: '/images/logos/purdue.png',
+  dark: '/images/logos/purdue-dark.png',
+  alt: 'Purdue University logo',
+}
+
 export const experience: ExperienceEntry[] = [
   {
     title: 'UX Accessibility Intern',
@@ -32,6 +51,7 @@ export const experience: ExperienceEntry[] = [
     period: 'May 2025 – Present',
     description:
       'Assess accessibility compliance of OCLC products against WCAG 2.2, with a focus on landmark EU (2025) and US (2027) digital accessibility regulations. Generate VPAT reports, manage Jira tickets, and re-evaluate products post-remediation, and lead UX design and research on a capstone project introducing AI applications.',
+    logo: oclcLogo,
   },
   {
     title: 'Accessibility Compliance Intern',
@@ -40,6 +60,7 @@ export const experience: ExperienceEntry[] = [
     period: 'May 2026 – Present',
     description:
       'Remediate protocol manuals, onboarding materials, and staff documentation to meet WCAG 2.2 and Section 508 standards. Audit the Purdue University Residences website and serve as an accessibility subject-matter expert for housing staff.',
+    logo: purdueLogo,
   },
   {
     title: 'Innovative Learning Support Team Lead',
@@ -48,6 +69,7 @@ export const experience: ExperienceEntry[] = [
     period: 'Oct 2025 – Present',
     description:
       "Support the Student Accessibility Support Team in meeting the Department of Justice's updated ADA Title II digital accessibility requirements campus-wide. Audit student-facing instructional materials for WCAG 2.2 and Section 508 compliance and guide faculty on accessible course design.",
+    logo: purdueLogo,
   },
   {
     title: 'Resident Assistant',
@@ -56,6 +78,7 @@ export const experience: ExperienceEntry[] = [
     period: 'Aug 2025 – Present',
     description:
       'Build community among 40+ residents through daily engagement and 32 annual programs, managing budgets and supporting resident wellbeing.',
+    logo: purdueLogo,
   },
 ]
 
@@ -66,6 +89,7 @@ export const education: EducationEntry[] = [
     location: 'West Lafayette, IN',
     period: 'Expected May 2027',
     description: 'GPA: 3.98',
+    logo: purdueLogo,
   },
 ]
 

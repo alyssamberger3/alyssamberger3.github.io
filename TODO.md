@@ -4,12 +4,11 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 
 - [ ] Consider making the text and icon match the color of the border for both projects and publications. Right now, they are all green, regardless of border color.
 - [ ] Create a little extra space in the current job box between Currently and her job title.
-- [ ] Consider icons for work and education positions?
-  - Decision: means actual organization logos (OCLC, Purdue), not generic icons. Note: these logo files are not currently in this repo (astro-migration branch) — they exist on the `main` branch at `assets/images/sections/experiences/OCLC.png` and `assets/images/sections/education/Purdue.png` (plus a `Purdue-Dark.png` dark-mode variant) and will need to be copied over when this work happens. Tied to the resume redesign decision above.
 - [ ] Make the skill pill text a little bigger
 - [ ] Consider rounding the corners a bit more of the skill pills
 - [ ] Remove the dedicated Projects/Portfolio page since all projects fit on the home page
   - Decision: keep individual project detail pages (`/portfolio/[project]`), since homepage cards link to them. Remove the `/portfolio` index/listing page and tag pages. Individual project pages currently have no back-navigation link at all, so one will need to be added (pointing back to the homepage Projects section) once the listing page is gone.
+- [ ] Check work experience tense - present vs. past. It should match the resume.
 - [ ] Review AI-written summary text in each section of the homepage
   - Decision: this is a personal reminder for Joel/Alyssa to review themselves, not a coding task.
 - [ ] Deepen individual project pages beyond the current condensed summaries

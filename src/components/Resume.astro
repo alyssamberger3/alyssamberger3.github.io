@@ -68,16 +68,36 @@ const {
         {
           experience.map((entry, index) => (
             <li class="timeline-item">
-              <span class:list={['timeline-dot', index % 2 === 0 ? 'timeline-dot--primary' : 'timeline-dot--secondary']} aria-hidden="true" />
-              <div class:list={['timeline-card', index % 2 === 0 ? 'timeline-card--primary' : 'timeline-card--secondary']}>
-                <Heading level="h4" size="h5">
-                  {entry.title}
-                </Heading>
-                <p class="timeline-meta">
-                  {entry.organization}{entry.location && ` | ${entry.location}`}
-                </p>
-                <p class="timeline-period">{entry.period}</p>
-                {entry.description && <p class="mt-2">{entry.description}</p>}
+              <span
+                class:list={['timeline-dot', index % 2 === 0 ? 'timeline-dot--primary' : 'timeline-dot--secondary']}
+                aria-hidden="true"
+              />
+              <div
+                class:list={['timeline-card', index % 2 === 0 ? 'timeline-card--primary' : 'timeline-card--secondary']}
+              >
+                {entry.logo && (
+                  <div class="timeline-logo" aria-hidden="true">
+                    <img
+                      src={entry.logo.light}
+                      alt=""
+                      class:list={['timeline-logo-img', entry.logo.dark && 'timeline-logo-img--light']}
+                    />
+                    {entry.logo.dark && (
+                      <img src={entry.logo.dark} alt="" class="timeline-logo-img timeline-logo-img--dark" />
+                    )}
+                  </div>
+                )}
+                <div class="timeline-card-body">
+                  <Heading level="h4" size="h5">
+                    {entry.title}
+                  </Heading>
+                  <p class="timeline-meta">
+                    {entry.organization}
+                    {entry.location && ` | ${entry.location}`}
+                  </p>
+                  <p class="timeline-period">{entry.period}</p>
+                  {entry.description && <p class="mt-2">{entry.description}</p>}
+                </div>
               </div>
             </li>
           ))
@@ -93,16 +113,36 @@ const {
         {
           education.map((entry, index) => (
             <li class="timeline-item">
-              <span class:list={['timeline-dot', index % 2 === 0 ? 'timeline-dot--primary' : 'timeline-dot--secondary']} aria-hidden="true" />
-              <div class:list={['timeline-card', index % 2 === 0 ? 'timeline-card--primary' : 'timeline-card--secondary']}>
-                <Heading level="h4" size="h5">
-                  {entry.degree}
-                </Heading>
-                <p class="timeline-meta">
-                  {entry.institution}{entry.location && ` | ${entry.location}`}
-                </p>
-                <p class="timeline-period">{entry.period}</p>
-                {entry.description && <p class="mt-2">{entry.description}</p>}
+              <span
+                class:list={['timeline-dot', index % 2 === 0 ? 'timeline-dot--primary' : 'timeline-dot--secondary']}
+                aria-hidden="true"
+              />
+              <div
+                class:list={['timeline-card', index % 2 === 0 ? 'timeline-card--primary' : 'timeline-card--secondary']}
+              >
+                {entry.logo && (
+                  <div class="timeline-logo" aria-hidden="true">
+                    <img
+                      src={entry.logo.light}
+                      alt=""
+                      class:list={['timeline-logo-img', entry.logo.dark && 'timeline-logo-img--light']}
+                    />
+                    {entry.logo.dark && (
+                      <img src={entry.logo.dark} alt="" class="timeline-logo-img timeline-logo-img--dark" />
+                    )}
+                  </div>
+                )}
+                <div class="timeline-card-body">
+                  <Heading level="h4" size="h5">
+                    {entry.degree}
+                  </Heading>
+                  <p class="timeline-meta">
+                    {entry.institution}
+                    {entry.location && ` | ${entry.location}`}
+                  </p>
+                  <p class="timeline-period">{entry.period}</p>
+                  {entry.description && <p class="mt-2">{entry.description}</p>}
+                </div>
               </div>
             </li>
           ))
@@ -154,8 +194,8 @@ const {
 
 <style lang="scss">
   .timeline {
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: var(--space-m);
     margin: 0;
@@ -164,10 +204,10 @@ const {
 
     &::before {
       position: absolute;
-      inset-inline-start: 5px;
       inset-block: 0.4rem;
-      inline-size: 2px;
+      inset-inline-start: 5px;
       background-image: linear-gradient(to bottom, var(--color-primary-400), var(--color-secondary-400));
+      inline-size: 2px;
       content: '';
     }
   }
@@ -179,14 +219,14 @@ const {
 
   .timeline-dot {
     position: absolute;
-    inset-inline-start: 0;
     inset-block-start: var(--space-m);
-    inline-size: 12px;
-    block-size: 12px;
-    border-radius: 999px;
+    inset-inline-start: 0;
     box-shadow:
       0 0 0 4px var(--background-color),
       0 0 9px 1px var(--dot-glow);
+    border-radius: 999px;
+    inline-size: 12px;
+    block-size: 12px;
   }
 
   .timeline-dot--primary {
@@ -200,9 +240,12 @@ const {
   }
 
   .timeline-card {
-    padding: var(--space-m) var(--space-l);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-s);
     border: 1px solid var(--border-color-subtle);
     border-radius: var(--radius-l);
+    padding: var(--space-m) var(--space-l);
   }
 
   .timeline-card--primary {
@@ -213,6 +256,36 @@ const {
   .timeline-card--secondary {
     border-inline-start: 4px solid var(--color-secondary-400);
     background-color: color-mix(in oklch, var(--color-secondary-400) 8%, var(--background-color));
+  }
+
+  .timeline-card-body {
+    min-inline-size: 0;
+  }
+
+  .timeline-logo {
+    display: grid;
+    flex-shrink: 0;
+    place-items: center;
+    inline-size: 3rem;
+    block-size: 3rem;
+  }
+
+  .timeline-logo-img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+    object-fit: contain;
+  }
+
+  .timeline-logo-img--dark {
+    display: none;
+  }
+
+  :global(.darkmode) .timeline-logo-img--light {
+    display: none;
+  }
+
+  :global(.darkmode) .timeline-logo-img--dark {
+    display: block;
   }
 
   .timeline-meta {
