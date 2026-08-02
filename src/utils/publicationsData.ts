@@ -19,7 +19,7 @@ export const publications: PublicationEntry[] = [
   {
     title: "You Can't Stop the Beat: Exploring Bias, Power, and Perspective Through Hairspray",
     venue: 'Communication Teacher',
-    date: '4 June 2026',
+    date: 'June 4, 2026',
     type: 'Journal Article',
     icon: 'lucide:scissors',
     authors: ['Alyssa Berger', 'Seungyoon Lee'],
@@ -30,7 +30,7 @@ export const publications: PublicationEntry[] = [
   {
     title: 'Exploring the Old Naval Observatory',
     venue: "Purdue John Martinson Honors College Scholarly Project",
-    date: '15 May 2025',
+    date: 'May 15, 2025',
     type: 'StoryMap',
     icon: 'lucide:map',
     authors: ['Alyssa Berger', 'Marisa Crescent'],
@@ -41,7 +41,7 @@ export const publications: PublicationEntry[] = [
   {
     title: 'Palazzos, Perimeters, and Preserving Pasts',
     venue: "2024 U.S. Department of State's Spring Diplomacy Lab",
-    date: '15 April 2024',
+    date: 'April 15, 2024',
     type: 'StoryMap',
     icon: 'lucide:landmark',
     authors: [

@@ -22,7 +22,6 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 - [ ] Consider rounding the corners a bit more of the skill pills
 - [ ] Remove the dedicated Projects/Portfolio page since all projects fit on the home page
   - Decision: keep individual project detail pages (`/portfolio/[project]`), since homepage cards link to them. Remove the `/portfolio` index/listing page and tag pages. Individual project pages currently have no back-navigation link at all, so one will need to be added (pointing back to the homepage Projects section) once the listing page is gone.
-- [ ] Reformat Publication dates to better match US standards
 - [ ] Review AI-written summary text in each section of the homepage
   - Decision: this is a personal reminder for Joel/Alyssa to review themselves, not a coding task.
 - [ ] Deepen individual project pages beyond the current condensed summaries
