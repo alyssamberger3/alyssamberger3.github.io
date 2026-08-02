@@ -2,8 +2,6 @@
 
 Shared to-do list for this repo. Items are removed once complete, but only after confirming with Joel or Alyssa first.
 
-- [ ] Update footer to include Alyssa's contact info
-  - Decision: include email, LinkedIn, and phone number. LinkedIn: https://www.linkedin.com/in/alyssamberger
 - [ ] Do we need to make an OpenGraph card for sharing?
   - Decision: yes, build one. Exact image/copy details still to be worked out later.
 - [ ] Consider lessening the whitespace between sections

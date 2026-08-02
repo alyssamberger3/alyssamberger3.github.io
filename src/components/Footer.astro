@@ -1,5 +1,6 @@
 ---
-import { Heading } from 'accessible-astro-components'
+import { Heading, Link } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
 
 /**
  * Footer Component
@@ -13,7 +14,30 @@ const currentYear = new Date().getFullYear()
   <Heading level="h2" class="sr-only">Footer</Heading>
   <section class="py-8">
     <div class="container">
-      <p>&copy; {currentYear} Alyssa Berger</p>
+      <div class="footer-row">
+        <p>&copy; {currentYear} Alyssa Berger</p>
+        <ul class="contact-list">
+          <li>
+            <Link href="mailto:alyssamberger3@gmail.com" hideIcon>
+              <Icon aria-hidden="true" name="lucide:mail" size={20} />
+              alyssamberger3@gmail.com
+            </Link>
+          </li>
+          <li>
+            <Link href="tel:+16147387069" hideIcon>
+              <Icon aria-hidden="true" name="lucide:phone" size={20} />
+              (614) 738-7069
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.linkedin.com/in/alyssamberger" isExternal hideIcon>
+              <Icon aria-hidden="true" name="lucide:linkedin" size={20} />
+              LinkedIn
+              <span class="sr-only">, opens in a new tab</span>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 </footer>
@@ -21,5 +45,32 @@ const currentYear = new Date().getFullYear()
 <style>
   section {
     border-top: 1px solid var(--border-color-subtle);
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-s, 1rem) var(--space-m, 1.5rem);
+  }
+
+  .contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-s, 1rem) var(--space-m, 1.5rem);
+    padding-inline-start: 0;
+    list-style: none;
+  }
+
+  .contact-list :global(a) {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3xs, 0.375rem);
+  }
+
+  .contact-list :global(svg) {
+    flex-shrink: 0;
   }
 </style>
