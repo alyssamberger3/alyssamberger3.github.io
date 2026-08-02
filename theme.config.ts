@@ -5,10 +5,10 @@ export default defineThemeConfig({
   name: 'Alyssa Berger',
   id: 'accessible-astro-starter',
   seo: {
-    title: 'Accessible Astro Starter',
+    title: 'Alyssa Berger | UX Accessibility Designer',
     description:
-      'An Accessible Starter Theme for Astro including several accessibility features and tools to help you build faster.',
-    author: 'Incluud',
+      'Alyssa Berger\'s Portfolio',
+    author: 'Alyssa Berger',
     image: previewImage, // Can also be a string e.g. '/social-preview-image.png',
   },
   colors: {

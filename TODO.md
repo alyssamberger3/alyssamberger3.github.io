@@ -4,8 +4,6 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 
 - [ ] Update footer to include Alyssa's contact info
   - Decision: include email, LinkedIn, and phone number. LinkedIn: https://www.linkedin.com/in/alyssamberger
-- [ ] Update the title of the website that shows in browser tab
-  - Decision: "Alyssa Berger | UX Accessibility Designer"
 - [ ] Do we need to make an OpenGraph card for sharing?
   - Decision: yes, build one. Exact image/copy details still to be worked out later.
 - [ ] Consider lessening the whitespace between sections
