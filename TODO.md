@@ -4,7 +4,6 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 
 - [ ] Do we need to make an OpenGraph card for sharing?
   - Decision: yes, build one. Exact image/copy details still to be worked out later.
-- [ ] Consider lessening the whitespace between sections
 - [ ] Consider making the text and icon match the color of the border for both projects and publications. Right now, they are all green, regardless of border color.
 - [ ] Create a little extra space in the current job box between Currently and her job title.
 - [ ] Consider redesigning resume section to have a similar "roadmap" feel as is found on the main branch of the repo

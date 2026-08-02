@@ -59,16 +59,17 @@ const {
 <section id="resume" class:list={[className, 'my-64']}>
   <div class="container">
     <Heading level="h2" class="mb-8">{title}</Heading>
-    <div class="grid grid-cols-1 gap-16 lg:grid-cols-2">
-      <div>
-        <div class="mb-6 flex items-center gap-3">
-          <Icon aria-hidden="true" name="lucide:briefcase" size="1.75rem" />
-          <Heading level="h3" size="h4">Experience</Heading>
-        </div>
-        <ol class="timeline">
-          {
-            experience.map((entry) => (
-              <li class="timeline-item">
+    <div>
+      <div class="mb-6 flex items-center gap-3">
+        <Icon aria-hidden="true" name="lucide:briefcase" size="1.75rem" />
+        <Heading level="h3" size="h4">Experience</Heading>
+      </div>
+      <ol class="timeline">
+        {
+          experience.map((entry, index) => (
+            <li class="timeline-item">
+              <span class:list={['timeline-dot', index % 2 === 0 ? 'timeline-dot--primary' : 'timeline-dot--secondary']} aria-hidden="true" />
+              <div class:list={['timeline-card', index % 2 === 0 ? 'timeline-card--primary' : 'timeline-card--secondary']}>
                 <Heading level="h4" size="h5">
                   {entry.title}
                 </Heading>
@@ -77,20 +78,23 @@ const {
                 </p>
                 <p class="timeline-period">{entry.period}</p>
                 {entry.description && <p class="mt-2">{entry.description}</p>}
-              </li>
-            ))
-          }
-        </ol>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+    <div class="mt-16">
+      <div class="mb-6 flex items-center gap-3">
+        <Icon aria-hidden="true" name="lucide:graduation-cap" size="1.75rem" />
+        <Heading level="h3" size="h4">Education</Heading>
       </div>
-      <div>
-        <div class="mb-6 flex items-center gap-3">
-          <Icon aria-hidden="true" name="lucide:graduation-cap" size="1.75rem" />
-          <Heading level="h3" size="h4">Education</Heading>
-        </div>
-        <ol class="timeline">
-          {
-            education.map((entry) => (
-              <li class="timeline-item">
+      <ol class="timeline">
+        {
+          education.map((entry, index) => (
+            <li class="timeline-item">
+              <span class:list={['timeline-dot', index % 2 === 0 ? 'timeline-dot--primary' : 'timeline-dot--secondary']} aria-hidden="true" />
+              <div class:list={['timeline-card', index % 2 === 0 ? 'timeline-card--primary' : 'timeline-card--secondary']}>
                 <Heading level="h4" size="h5">
                   {entry.degree}
                 </Heading>
@@ -99,11 +103,11 @@ const {
                 </p>
                 <p class="timeline-period">{entry.period}</p>
                 {entry.description && <p class="mt-2">{entry.description}</p>}
-              </li>
-            ))
-          }
-        </ol>
-      </div>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
     </div>
     <div class="mt-16 grid grid-cols-1 gap-16 lg:grid-cols-2">
       <div>
@@ -150,28 +154,65 @@ const {
 
 <style lang="scss">
   .timeline {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: var(--space-l);
+    gap: var(--space-m);
     margin: 0;
-    border-inline-start: 2px solid var(--border-color-subtle);
     padding: 0;
+    list-style: none;
+
+    &::before {
+      position: absolute;
+      inset-inline-start: 5px;
+      inset-block: 0.4rem;
+      inline-size: 2px;
+      background-image: linear-gradient(to bottom, var(--color-primary-400), var(--color-secondary-400));
+      content: '';
+    }
   }
 
   .timeline-item {
     position: relative;
-    padding-inline-start: var(--space-m);
+    padding-inline-start: var(--space-l);
+  }
 
-    &::before {
-      position: absolute;
-      inset-block-start: 0.5rem;
-      inset-inline-start: -7px;
-      border-radius: 50%;
-      background-color: var(--link-color);
-      inline-size: 12px;
-      block-size: 12px;
-      content: '';
-    }
+  .timeline-dot {
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-start: var(--space-m);
+    inline-size: 12px;
+    block-size: 12px;
+    border-radius: 999px;
+    box-shadow:
+      0 0 0 4px var(--background-color),
+      0 0 9px 1px var(--dot-glow);
+  }
+
+  .timeline-dot--primary {
+    --dot-glow: color-mix(in oklch, var(--color-primary-400) 55%, transparent);
+    background-color: var(--color-primary-400);
+  }
+
+  .timeline-dot--secondary {
+    --dot-glow: color-mix(in oklch, var(--color-secondary-400) 55%, transparent);
+    background-color: var(--color-secondary-400);
+  }
+
+  .timeline-card {
+    padding: var(--space-m) var(--space-l);
+    border: 1px solid var(--border-color-subtle);
+    border-radius: var(--radius-l);
+  }
+
+  .timeline-card--primary {
+    border-inline-start: 4px solid var(--color-primary-400);
+    background-color: color-mix(in oklch, var(--color-primary-400) 8%, var(--background-color));
+  }
+
+  .timeline-card--secondary {
+    border-inline-start: 4px solid var(--color-secondary-400);
+    background-color: color-mix(in oklch, var(--color-secondary-400) 8%, var(--background-color));
   }
 
   .timeline-meta {
