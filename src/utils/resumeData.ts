@@ -28,6 +28,7 @@ export const experience: ExperienceEntry[] = [
   {
     title: 'UX Accessibility Intern',
     organization: 'OCLC',
+    location: 'Columbus, OH',
     period: 'May 2025 – Present',
     description:
       'Assess accessibility compliance of OCLC products against WCAG 2.2, with a focus on landmark EU (2025) and US (2027) digital accessibility regulations. Generate VPAT reports, manage Jira tickets, and re-evaluate products post-remediation, and lead UX design and research on a capstone project introducing AI applications.',
