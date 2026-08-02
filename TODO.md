@@ -3,7 +3,6 @@
 Shared to-do list for this repo. Items are removed once complete, but only after confirming with Joel or Alyssa first.
 
 - [ ] Consider making the text and icon match the color of the border for both projects and publications. Right now, they are all green, regardless of border color.
-- [ ] Create a little extra space in the current job box between Currently and her job title.
 - [ ] Make the skill pill text a little bigger
 - [ ] Consider rounding the corners a bit more of the skill pills
 - [ ] Remove the dedicated Projects/Portfolio page since all projects fit on the home page
