@@ -50,7 +50,7 @@ export const experience: ExperienceEntry[] = [
     location: 'Columbus, OH',
     period: 'May 2025 – Present',
     description:
-      'Assess accessibility compliance of OCLC products against WCAG 2.2, with a focus on landmark EU (2025) and US (2027) digital accessibility regulations. Generate VPAT reports, manage Jira tickets, and re-evaluate products post-remediation, and lead UX design and research on a capstone project introducing AI applications.',
+      'Assessed accessibility compliance of OCLC products against WCAG 2.2, with a focus on landmark EU (2025) and US (2027) digital accessibility regulations. Generated VPAT reports, managed Jira tickets, and re-evaluated products post-remediation, and led UX design and research on a capstone project introducing AI applications.',
     logo: oclcLogo,
   },
   {
@@ -59,7 +59,7 @@ export const experience: ExperienceEntry[] = [
     location: 'West Lafayette, IN',
     period: 'May 2026 – Present',
     description:
-      'Remediate protocol manuals, onboarding materials, and staff documentation to meet WCAG 2.2 and Section 508 standards. Audit the Purdue University Residences website and serve as an accessibility subject-matter expert for housing staff.',
+      'Remediated protocol manuals, onboarding materials, and staff documentation to meet WCAG 2.2 and Section 508 standards. Audited the Purdue University Residences website and served as an accessibility subject-matter expert for housing staff.',
     logo: purdueLogo,
   },
   {
@@ -68,7 +68,7 @@ export const experience: ExperienceEntry[] = [
     location: 'West Lafayette, IN',
     period: 'Oct 2025 – Present',
     description:
-      "Support the Student Accessibility Support Team in meeting the Department of Justice's updated ADA Title II digital accessibility requirements campus-wide. Audit student-facing instructional materials for WCAG 2.2 and Section 508 compliance and guide faculty on accessible course design.",
+      "Supported the Student Accessibility Support Team in meeting the Department of Justice's updated ADA Title II digital accessibility requirements campus-wide. Audited student-facing instructional materials for WCAG 2.2 and Section 508 compliance and guided faculty on accessible course design.",
     logo: purdueLogo,
   },
   {
@@ -77,7 +77,7 @@ export const experience: ExperienceEntry[] = [
     location: 'West Lafayette, IN',
     period: 'Aug 2025 – Present',
     description:
-      'Build community among 40+ residents through daily engagement and 32 annual programs, managing budgets and supporting resident wellbeing.',
+      'Built community among 40+ residents through daily engagement and 32 annual programs, managing budgets and supporting resident wellbeing.',
     logo: purdueLogo,
   },
 ]

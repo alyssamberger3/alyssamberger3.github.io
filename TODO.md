@@ -2,7 +2,6 @@
 
 Shared to-do list for this repo. Items are removed once complete, but only after confirming with Joel or Alyssa first.
 
-- [ ] Check work experience tense - present vs. past. It should match the resume.
 - [ ] Review AI-written summary text in each section of the homepage
   - Decision: this is a personal reminder for Joel/Alyssa to review themselves, not a coding task.
 - [ ] Deepen individual project pages beyond the current condensed summaries
