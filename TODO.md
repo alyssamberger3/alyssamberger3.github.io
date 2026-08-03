@@ -3,8 +3,6 @@
 Shared to-do list for this repo. Items are removed once complete, but only after confirming with Joel or Alyssa first.
 
 - [ ] Consider making the text and icon match the color of the border for both projects and publications. Right now, they are all green, regardless of border color.
-- [ ] Make the skill pill text a little bigger
-- [ ] Consider rounding the corners a bit more of the skill pills
 - [ ] Remove the dedicated Projects/Portfolio page since all projects fit on the home page
   - Decision: keep individual project detail pages (`/portfolio/[project]`), since homepage cards link to them. Remove the `/portfolio` index/listing page and tag pages. Individual project pages currently have no back-navigation link at all, so one will need to be added (pointing back to the homepage Projects section) once the listing page is gone.
 - [ ] Check work experience tense - present vs. past. It should match the resume.
@@ -19,6 +17,7 @@ Shared to-do list for this repo. Items are removed once complete, but only after
 - [ ] Do we need to make an OpenGraph card for sharing?
   - Decision: yes, build one. Exact image/copy details still to be worked out later.
 - [ ] Add support for GoatCounter analytics
+- [ ] Update the LinkedIn icon, choosing from https://icon-sets.iconify.design/?query=Linkedin
 
 ## Final Cleanup
 - [ ] Once the site is complete, delete the gh-pages branch
