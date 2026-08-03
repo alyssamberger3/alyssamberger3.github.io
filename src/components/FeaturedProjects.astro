@@ -1,6 +1,5 @@
 ---
-import { Heading, Link } from 'accessible-astro-components'
-import { Icon } from 'astro-icon/components'
+import { Heading } from 'accessible-astro-components'
 import ProjectCard from '@components/ProjectCard.astro'
 import { getCollection } from 'astro:content'
 import { sortProjectsByEndDate } from '@utils/projects'
@@ -51,12 +50,6 @@ const featuredProjects = projects.slice(0, limit)
           />
         ))
       }
-    </div>
-    <div class="mt-12">
-      <Link href="/portfolio/" isButton animateOnHover animationType="nudge">
-        View all projects
-        <Icon aria-hidden="true" name="lucide:arrow-right" size="1.5rem" />
-      </Link>
     </div>
   </div>
 </section>

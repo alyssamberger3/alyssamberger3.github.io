@@ -2,9 +2,6 @@
 
 Shared to-do list for this repo. Items are removed once complete, but only after confirming with Joel or Alyssa first.
 
-- [ ] Consider making the text and icon match the color of the border for both projects and publications. Right now, they are all green, regardless of border color.
-- [ ] Remove the dedicated Projects/Portfolio page since all projects fit on the home page
-  - Decision: keep individual project detail pages (`/portfolio/[project]`), since homepage cards link to them. Remove the `/portfolio` index/listing page and tag pages. Individual project pages currently have no back-navigation link at all, so one will need to be added (pointing back to the homepage Projects section) once the listing page is gone.
 - [ ] Check work experience tense - present vs. past. It should match the resume.
 - [ ] Review AI-written summary text in each section of the homepage
   - Decision: this is a personal reminder for Joel/Alyssa to review themselves, not a coding task.
