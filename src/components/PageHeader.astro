@@ -147,7 +147,7 @@ const sanitizedSubtitle: string = subtitle
         )
       }
       <Heading level="h1">{title}</Heading>
-      {sanitizedSubtitle && <p class="text-2xl" set:html={sanitizedSubtitle} />}
+      {sanitizedSubtitle && <p class="page-subtitle" set:html={sanitizedSubtitle} />}
       {
         author && (
           <div class="mt-6 flex items-center">
@@ -190,6 +190,15 @@ const sanitizedSubtitle: string = subtitle
     .featured-image-container {
       max-height: 500px;
       overflow: hidden;
+    }
+
+    .page-subtitle {
+      display: inline-block;
+      border-radius: 999px;
+      border: 2px solid light-dark(var(--color-secondary-400), var(--color-secondary-300));
+      padding: var(--space-4xs) var(--space-s);
+      font-size: var(--font-size-1);
+      font-weight: 600;
     }
   }
 </style>
