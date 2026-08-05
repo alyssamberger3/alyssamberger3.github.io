@@ -51,6 +51,12 @@ export type ThemeConfig = {
     items: NavigationItem[]
   }
   socials?: SocialItem[]
+  analytics?: {
+    /**
+     * GoatCounter site code, e.g. 'alyssabergerorg' for alyssabergerorg.goatcounter.com
+     */
+    goatcounter?: string
+  }
 }
 
 const defaultConfig: Omit<ThemeConfig, 'name' | 'id'> = {

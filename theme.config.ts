@@ -66,4 +66,7 @@ export default defineThemeConfig({
       icon: 'lucide:hand-heart',
     },
   ],
+  analytics: {
+    goatcounter: 'alyssabergerorg',
+  },
 })

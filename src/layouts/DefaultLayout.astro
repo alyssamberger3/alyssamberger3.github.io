@@ -117,6 +117,27 @@ const imageUrl = new URL(imagePath, Astro.site).href
 
     <!-- Enable Astro View Transitions for all browsers -->
     <ClientRouter />
+
+    {
+      themeConfig.analytics?.goatcounter && import.meta.env.PROD && (
+        <Fragment>
+          <script
+            is:inline
+            data-goatcounter={`https://${themeConfig.analytics.goatcounter}.goatcounter.com/count`}
+            data-goatcounter-settings={JSON.stringify({ no_onload: true })}
+            async
+            src="//gc.zgo.at/count.js"
+          />
+          <script is:inline>
+            document.addEventListener('astro:page-load', () => {
+              window.goatcounter?.count({
+                path: location.pathname + location.search,
+              })
+            })
+          </script>
+        </Fragment>
+      )
+    }
   </head>
   <body>
     <Header />
