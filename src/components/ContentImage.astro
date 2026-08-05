@@ -1,0 +1,60 @@
+---
+import { Image } from 'astro:assets'
+
+/**
+ * ContentImage Component
+ *
+ * @description An inline supporting image sized to sit within the article's text column
+ */
+type Props = {
+  /**
+   * The image source
+   */
+  src: string
+  /**
+   * The natural width of the image, in pixels
+   */
+  width: number
+  /**
+   * The natural height of the image, in pixels
+   */
+  height: number
+} &
+  /**
+   * Alt text describing the image for screen readers.
+   * Required if the image is not decorative.
+   *
+   * If the image is decorative and conveys no meaning,
+   * set decorative: true and omit alt.
+   *
+   * Accessibility guidelines:
+   * - Set `alt` when the image conveys important information.
+   * - Set `decorative: true` if the image is purely visual and adds no value
+   *   (sets empty alt text and hides from assistive tech).
+   *
+   * @example
+   * // Meaningful image
+   * <ContentImage src="/some-img.png" width={800} height={450} alt="Persona profile for Joel" />
+   *
+   * // Decorative image
+   * <ContentImage src="/some-img.png" width={800} height={450} decorative />
+   */
+  ({ alt: string; decorative?: never } | { alt?: never; decorative: true })
+
+const { src, width, height, decorative = false, alt = '' } = Astro.props
+
+const altText = decorative ? '' : alt
+---
+
+<Image src={src} alt={altText} width={width} height={height} class="content-image" loading="lazy" />
+
+<style>
+  .content-image {
+    display: block;
+    margin-block: var(--space-m);
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color-subtle);
+  }
+</style>

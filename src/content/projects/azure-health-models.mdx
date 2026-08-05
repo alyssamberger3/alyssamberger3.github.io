@@ -9,6 +9,7 @@ tags: ['UX']
 ---
 
 import BreakoutImage from '@components/BreakoutImage.astro'
+import ContentImage from '@components/ContentImage.astro'
 
 <BreakoutImage src="/projects/azure-health-models-banner.png" alt="Azure Health Models × PUXD project header" />
 
@@ -28,10 +29,46 @@ A team of 7 UX Design students at varying stages of the program collaborated on 
 
 Azure Health Models lets users visualize the health of their application ecosystem through three color-coded statuses, helping them quickly understand node relationships and identify struggling platforms. Day-to-day tasks such as adding entities, configuring signals, and editing elements often felt fragmented and time-consuming, for both new users learning the system and experienced users trying to move efficiently through it.
 
+<ContentImage
+  src="/projects/azure-health-models-about.png"
+  width={1042}
+  height={574}
+  alt="The three color-coded health statuses used to visualize an application ecosystem in Azure Health Models"
+/>
+
+We were really designing for two different audiences at once. Experienced users wanted depth, control, and efficient workflows they could customize, while new users needed a simple, discoverable path into the system with clear, guided onboarding. Meeting both meant reducing friction for newcomers without stripping away the power and customization experienced users relied on.
+
 ## What We Designed
 
-We interviewed users, walked through existing workflows, and gathered sponsor feedback to identify and prioritize the pain points worth solving. From there, we built a persona to ground our recommendations, mapped the existing user flow to highlight where users got stuck, and iterated on prototypes across two rounds of usability testing before delivering a final design to Microsoft. Accessibility was a consideration throughout, and we confirmed each design component met baseline WCAG criteria.
+We interviewed users, walked through existing workflows, and gathered sponsor feedback to identify and prioritize the pain points worth solving. To ground our recommendations, we built a persona named Joel, an experienced Azure user managing a large application ecosystem, and mapped his existing flow to pinpoint where he got stuck.
+
+<ContentImage
+  src="/projects/azure-health-models-persona.png"
+  width={1244}
+  height={698}
+  alt="Persona profile for Joel, an experienced Azure Health Models user, used to ground design recommendations"
+/>
+
+From there, we iterated on prototypes across two rounds of usability testing before delivering a final, validated design to Microsoft.
+
+<ContentImage
+  src="/projects/azure-health-models-final-solution.png"
+  width={1238}
+  height={694}
+  alt="Final Azure Health Models design after the second round of usability testing"
+/>
+
+Accessibility was a consideration throughout, and we confirmed each design component met baseline WCAG criteria before handoff.
+
+<ContentImage
+  src="/projects/azure-health-models-accessibility.png"
+  width={1240}
+  height={696}
+  alt="Accessibility review confirming Azure Health Models design components met baseline WCAG criteria"
+/>
 
 ## Looking Back
 
 Partway through the semester, our original sponsor stepped away from the project, and I had to help the team adjust to new stakeholders and shifting priorities without losing sight of our core goals. It was also the first time I carried full responsibility for leading a team for an entire semester. Looking back, I learned that effective leadership isn't about having all the answers, it's about providing the support that helps a team keep moving forward together.
+
+This project also closed a loop for me. Almost two years after my first Experience Studio, I ended my time at Purdue the way I started it, on a Microsoft-sponsored project, this time leading rather than learning the ropes.
