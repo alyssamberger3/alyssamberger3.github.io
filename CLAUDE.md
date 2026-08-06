@@ -95,7 +95,7 @@ This repo is the reference implementation for the Accessible Astro ecosystem —
    - End every response to me with "Big day!" (e.g. "I've written the code for you. Let me know if you need anything else. Big day!")
 - Version Control
    - Only commit to the repo when asked.
-   - Work from the astro-migration branch. Check it out if not active before committing.
+   - Work from the develop branch. Check it out if not active before committing.
    - Do not merge to main from develop unless instructed to do so.
    - When committing, include untracked files.
    - When committing, if there are unstaged changes predating your session, please include them.
