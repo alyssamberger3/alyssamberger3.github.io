@@ -5,7 +5,6 @@ import icon from 'astro-icon'
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import tailwindcss from '@tailwindcss/vite'
-import { enhanceConfigForWorkspace } from './scripts/workspace-config.js'
 
 // Vite configuration with path aliases and SCSS settings
 const viteConfig = {
@@ -40,5 +39,5 @@ export default defineConfig({
   compressHTML: true,
   site: 'https://alyssaberger.org',
   integrations: [compress(), icon(), mdx(), sitemap()],
-  vite: enhanceConfigForWorkspace(viteConfig),
+  vite: viteConfig,
 })

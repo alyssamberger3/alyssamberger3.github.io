@@ -58,13 +58,9 @@ The starter's demo blog (JSONPlaceholder-backed, not a content collection) and o
 
 Defined in both `astro.config.mjs` (Vite `resolve.alias`, for runtime) and `tsconfig.json` (for the TS language server) — keep them in sync if adding one. Available: `@components`, `@layouts`, `@assets`, `@content`, `@pages`, `@public`, `@post-images` (→ `public/posts`), `@project-images` (→ `public/projects`), `@utils`, `@theme-config`.
 
-### Workspace/symlink dev mode
-
-`scripts/workspace-config.js` (`enhanceConfigForWorkspace`, called from `astro.config.mjs`) auto-detects if `accessible-astro-components` or `accessible-astro-launcher` are `npm link`-ed into `node_modules` and, if so, patches the Vite config (`preserveSymlinks`, `server.fs.allow`, `ssr.noExternal`) and adds a watcher that triggers a full reload when the linked package's `.astro`/`.css` files change. This only matters when developing those component libraries alongside this starter — irrelevant for normal consumers, and stripped out entirely from CLI-generated projects.
-
 ### The scaffolding CLI (`packages/create-accessible-astro-starter`)
 
-Invoked as `npm create accessible-astro-starter@latest`. Prompts (via `@clack/prompts`) for project directory, site name, and a **preset** (`full`, `blog`, `portfolio`, `minimal`, `barebones`), then uses `giget` to fetch/scaffold. Generated projects always strip contributor-only tooling (`scripts/workspace-config.js`) and simplify `astro.config.mjs` accordingly — when editing that script or `astro.config.mjs`, consider whether the change needs to be mirrored in the CLI's generation logic.
+Invoked as `npm create accessible-astro-starter@latest`. Prompts (via `@clack/prompts`) for project directory, site name, and a **preset** (`full`, `blog`, `portfolio`, `minimal`, `barebones`), then uses `giget` to fetch/scaffold from `gh:incluud/accessible-astro-starter` directly (not from this fork) — when editing `astro.config.mjs`, consider whether the change needs to be mirrored in the CLI's generation logic (`packages/create-accessible-astro-starter/src/presets.ts`).
 
 ## Styling
 
