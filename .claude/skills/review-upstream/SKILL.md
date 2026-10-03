@@ -103,7 +103,7 @@ State from the last run lives in `.claude/skills/review-upstream/state.json`
    don't push to origin until told to. If/when committing, use a Conventional
    Commits message (e.g. `feat(a11y): ...` or `fix(...): ...`, following the
    style of the earlier manual upstream port in `4241f38`), ending with
-   `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`, no em dashes.
+   the `Co-Authored-By:` trailer naming the Claude model actually running this session (e.g. `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`; use the exact line from the session's attribution guidance if one is given, never a hardcoded model name), no em dashes.
    Commit the updated `state.json` alongside the ported changes.
 
 ## Notes
